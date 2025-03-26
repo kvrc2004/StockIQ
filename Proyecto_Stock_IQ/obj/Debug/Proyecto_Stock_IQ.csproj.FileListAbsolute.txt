@@ -1,0 +1,12 @@
+C:\Users\Usuario\Downloads\Proyecto_Stock_IQ\Proyecto_Stock_IQ\bin\Debug\Proyecto_Stock_IQ.exe.config
+C:\Users\Usuario\Downloads\Proyecto_Stock_IQ\Proyecto_Stock_IQ\bin\Debug\Proyecto_Stock_IQ.exe
+C:\Users\Usuario\Downloads\Proyecto_Stock_IQ\Proyecto_Stock_IQ\bin\Debug\Proyecto_Stock_IQ.pdb
+C:\Users\Usuario\Downloads\Proyecto_Stock_IQ\Proyecto_Stock_IQ\bin\Debug\Guna.UI2.dll
+C:\Users\Usuario\Downloads\Proyecto_Stock_IQ\Proyecto_Stock_IQ\obj\Debug\Proyecto_Stock_IQ.csproj.AssemblyReference.cache
+C:\Users\Usuario\Downloads\Proyecto_Stock_IQ\Proyecto_Stock_IQ\obj\Debug\Proyecto_Stock_IQ.Form1.resources
+C:\Users\Usuario\Downloads\Proyecto_Stock_IQ\Proyecto_Stock_IQ\obj\Debug\Proyecto_Stock_IQ.Properties.Resources.resources
+C:\Users\Usuario\Downloads\Proyecto_Stock_IQ\Proyecto_Stock_IQ\obj\Debug\Proyecto_Stock_IQ.csproj.GenerateResource.cache
+C:\Users\Usuario\Downloads\Proyecto_Stock_IQ\Proyecto_Stock_IQ\obj\Debug\Proyecto_Stock_IQ.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Downloads\Proyecto_Stock_IQ\Proyecto_Stock_IQ\obj\Debug\Proyecto.1B25CFF1.Up2Date
+C:\Users\Usuario\Downloads\Proyecto_Stock_IQ\Proyecto_Stock_IQ\obj\Debug\Proyecto_Stock_IQ.exe
+C:\Users\Usuario\Downloads\Proyecto_Stock_IQ\Proyecto_Stock_IQ\obj\Debug\Proyecto_Stock_IQ.pdb
