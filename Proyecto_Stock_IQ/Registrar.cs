@@ -34,5 +34,19 @@ namespace Proyecto_Stock_IQ
                 gtxt_Password.ForeColor = Color.Black; // Cambia el color del texto a negro 
             }
         }
+
+        private void glbl_Registrar_Click(object sender, EventArgs e)
+        {
+            IniciarSesion ingresar = new IniciarSesion();
+            ingresar.Show();
+            this.Hide();
+        }
+
+        private void glbl_IniciarSesion_Click(object sender, EventArgs e)
+        {
+            IniciarSesion ingresar = new IniciarSesion();
+            ingresar.Show();
+            this.Hide();
+        }
     }
 }
