@@ -1,26 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\usuario\\source\\repos\\StockIQ\\",
+  "WorkspaceRootPath": "C:\\Users\\Luz\\source\\repos\\StockIQ-master\\StockIQ\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{97A46BDD-BFE1-4BD0-BD2D-EFEB8217BFD9}|Proyecto_Stock_IQ\\Proyecto_Stock_IQ.csproj|c:\\users\\usuario\\source\\repos\\stockiq\\proyecto_stock_iq\\iniciarsesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{97A46BDD-BFE1-4BD0-BD2D-EFEB8217BFD9}|Proyecto_Stock_IQ\\Proyecto_Stock_IQ.csproj|solutionrelative:proyecto_stock_iq\\iniciarsesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{97A46BDD-BFE1-4BD0-BD2D-EFEB8217BFD9}|Proyecto_Stock_IQ\\Proyecto_Stock_IQ.csproj|c:\\users\\usuario\\source\\repos\\stockiq\\proyecto_stock_iq\\registrar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{97A46BDD-BFE1-4BD0-BD2D-EFEB8217BFD9}|Proyecto_Stock_IQ\\Proyecto_Stock_IQ.csproj|C:\\Users\\Luz\\source\\repos\\StockIQ-master\\StockIQ\\proyecto_stock_iq\\registrar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{97A46BDD-BFE1-4BD0-BD2D-EFEB8217BFD9}|Proyecto_Stock_IQ\\Proyecto_Stock_IQ.csproj|solutionrelative:proyecto_stock_iq\\registrar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{97A46BDD-BFE1-4BD0-BD2D-EFEB8217BFD9}|Proyecto_Stock_IQ\\Proyecto_Stock_IQ.csproj|c:\\users\\usuario\\source\\repos\\stockiq\\proyecto_stock_iq\\iniciarsesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{97A46BDD-BFE1-4BD0-BD2D-EFEB8217BFD9}|Proyecto_Stock_IQ\\Proyecto_Stock_IQ.csproj|C:\\Users\\Luz\\source\\repos\\StockIQ-master\\StockIQ\\proyecto_stock_iq\\registrar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97A46BDD-BFE1-4BD0-BD2D-EFEB8217BFD9}|Proyecto_Stock_IQ\\Proyecto_Stock_IQ.csproj|solutionrelative:proyecto_stock_iq\\registrar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97A46BDD-BFE1-4BD0-BD2D-EFEB8217BFD9}|Proyecto_Stock_IQ\\Proyecto_Stock_IQ.csproj|C:\\Users\\Luz\\source\\repos\\StockIQ-master\\StockIQ\\proyecto_stock_iq\\iniciarsesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{97A46BDD-BFE1-4BD0-BD2D-EFEB8217BFD9}|Proyecto_Stock_IQ\\Proyecto_Stock_IQ.csproj|solutionrelative:proyecto_stock_iq\\iniciarsesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{97A46BDD-BFE1-4BD0-BD2D-EFEB8217BFD9}|Proyecto_Stock_IQ\\Proyecto_Stock_IQ.csproj|c:\\users\\usuario\\source\\repos\\stockiq\\proyecto_stock_iq\\iniciarsesion.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{97A46BDD-BFE1-4BD0-BD2D-EFEB8217BFD9}|Proyecto_Stock_IQ\\Proyecto_Stock_IQ.csproj|solutionrelative:proyecto_stock_iq\\iniciarsesion.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{97A46BDD-BFE1-4BD0-BD2D-EFEB8217BFD9}|Proyecto_Stock_IQ\\Proyecto_Stock_IQ.csproj|c:\\users\\luz\\source\\repos\\stockiq-master\\stockiq\\proyecto_stock_iq\\iniciarsesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97A46BDD-BFE1-4BD0-BD2D-EFEB8217BFD9}|Proyecto_Stock_IQ\\Proyecto_Stock_IQ.csproj|solutionrelative:proyecto_stock_iq\\iniciarsesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{97A46BDD-BFE1-4BD0-BD2D-EFEB8217BFD9}|Proyecto_Stock_IQ\\Proyecto_Stock_IQ.csproj|c:\\users\\usuario\\source\\repos\\stockiq\\proyecto_stock_iq\\registrar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{97A46BDD-BFE1-4BD0-BD2D-EFEB8217BFD9}|Proyecto_Stock_IQ\\Proyecto_Stock_IQ.csproj|solutionrelative:proyecto_stock_iq\\registrar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{97A46BDD-BFE1-4BD0-BD2D-EFEB8217BFD9}|Proyecto_Stock_IQ\\Proyecto_Stock_IQ.csproj|C:\\Users\\Luz\\source\\repos\\StockIQ-master\\StockIQ\\proyecto_stock_iq\\iniciarsesion.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97A46BDD-BFE1-4BD0-BD2D-EFEB8217BFD9}|Proyecto_Stock_IQ\\Proyecto_Stock_IQ.csproj|solutionrelative:proyecto_stock_iq\\iniciarsesion.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,15 +30,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 170,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "IniciarSesion.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\StockIQ\\Proyecto_Stock_IQ\\IniciarSesion.cs",
+              "DocumentMoniker": "C:\\Users\\Luz\\source\\repos\\StockIQ-master\\StockIQ\\Proyecto_Stock_IQ\\IniciarSesion.cs",
               "RelativeDocumentMoniker": "Proyecto_Stock_IQ\\IniciarSesion.cs",
-              "ToolTip": "C:\\Users\\usuario\\source\\repos\\StockIQ\\Proyecto_Stock_IQ\\IniciarSesion.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\Luz\\source\\repos\\StockIQ-master\\StockIQ\\Proyecto_Stock_IQ\\IniciarSesion.cs [Dise\u00F1o]",
               "RelativeToolTip": "Proyecto_Stock_IQ\\IniciarSesion.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-18T23:59:45.987Z",
@@ -46,11 +46,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "IniciarSesion.cs",
-              "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\StockIQ\\Proyecto_Stock_IQ\\IniciarSesion.cs",
+              "DocumentMoniker": "C:\\Users\\Luz\\source\\repos\\StockIQ-master\\StockIQ\\Proyecto_Stock_IQ\\IniciarSesion.cs",
               "RelativeDocumentMoniker": "Proyecto_Stock_IQ\\IniciarSesion.cs",
-              "ToolTip": "C:\\Users\\usuario\\source\\repos\\StockIQ\\Proyecto_Stock_IQ\\IniciarSesion.cs",
+              "ToolTip": "C:\\Users\\Luz\\source\\repos\\StockIQ-master\\StockIQ\\Proyecto_Stock_IQ\\IniciarSesion.cs",
               "RelativeToolTip": "Proyecto_Stock_IQ\\IniciarSesion.cs",
               "ViewState": "AgIAACQAAAAAAAAAAAArwDcAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -59,11 +59,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "IniciarSesion.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\StockIQ\\Proyecto_Stock_IQ\\IniciarSesion.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Luz\\source\\repos\\StockIQ-master\\StockIQ\\Proyecto_Stock_IQ\\IniciarSesion.Designer.cs",
               "RelativeDocumentMoniker": "Proyecto_Stock_IQ\\IniciarSesion.Designer.cs",
-              "ToolTip": "C:\\Users\\usuario\\source\\repos\\StockIQ\\Proyecto_Stock_IQ\\IniciarSesion.Designer.cs",
+              "ToolTip": "C:\\Users\\Luz\\source\\repos\\StockIQ-master\\StockIQ\\Proyecto_Stock_IQ\\IniciarSesion.Designer.cs",
               "RelativeToolTip": "Proyecto_Stock_IQ\\IniciarSesion.Designer.cs",
               "ViewState": "AgIAADcAAAAAAAAAAAASwFAAAABcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -72,11 +72,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Registrar.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\StockIQ\\Proyecto_Stock_IQ\\Registrar.cs",
+              "DocumentMoniker": "C:\\Users\\Luz\\source\\repos\\StockIQ-master\\StockIQ\\Proyecto_Stock_IQ\\Registrar.cs",
               "RelativeDocumentMoniker": "Proyecto_Stock_IQ\\Registrar.cs",
-              "ToolTip": "C:\\Users\\usuario\\source\\repos\\StockIQ\\Proyecto_Stock_IQ\\Registrar.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\Luz\\source\\repos\\StockIQ-master\\StockIQ\\Proyecto_Stock_IQ\\Registrar.cs [Dise\u00F1o]",
               "RelativeToolTip": "Proyecto_Stock_IQ\\Registrar.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-26T18:14:03.119Z",
@@ -84,11 +84,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "Registrar.cs",
-              "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\StockIQ\\Proyecto_Stock_IQ\\Registrar.cs",
+              "DocumentMoniker": "C:\\Users\\Luz\\source\\repos\\StockIQ-master\\StockIQ\\Proyecto_Stock_IQ\\Registrar.cs",
               "RelativeDocumentMoniker": "Proyecto_Stock_IQ\\Registrar.cs",
-              "ToolTip": "C:\\Users\\usuario\\source\\repos\\StockIQ\\Proyecto_Stock_IQ\\Registrar.cs",
+              "ToolTip": "C:\\Users\\Luz\\source\\repos\\StockIQ-master\\StockIQ\\Proyecto_Stock_IQ\\Registrar.cs",
               "RelativeToolTip": "Proyecto_Stock_IQ\\Registrar.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAArwCIAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
