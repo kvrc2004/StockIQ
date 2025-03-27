@@ -48,7 +48,7 @@
             this.guna2PictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox1.Image")));
             this.guna2PictureBox1.ImageRotate = 0F;
             this.guna2PictureBox1.Location = new System.Drawing.Point(35, 39);
-            this.guna2PictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.guna2PictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.guna2PictureBox1.Name = "guna2PictureBox1";
             this.guna2PictureBox1.Size = new System.Drawing.Size(290, 324);
             this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -69,8 +69,8 @@
             this.gbtn_Ingresar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(20)))), ((int)(((byte)(18)))));
             this.gbtn_Ingresar.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(179)))), ((int)(((byte)(21)))));
             this.gbtn_Ingresar.HoverState.ForeColor = System.Drawing.Color.LemonChiffon;
-            this.gbtn_Ingresar.Location = new System.Drawing.Point(62, 257);
-            this.gbtn_Ingresar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.gbtn_Ingresar.Location = new System.Drawing.Point(64, 270);
+            this.gbtn_Ingresar.Margin = new System.Windows.Forms.Padding(2);
             this.gbtn_Ingresar.Name = "gbtn_Ingresar";
             this.gbtn_Ingresar.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(179)))), ((int)(((byte)(156)))));
             this.gbtn_Ingresar.PressedDepth = 45;
@@ -84,7 +84,6 @@
             // 
             this.gtxt_Password.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(89)))), ((int)(((byte)(22)))));
             this.gtxt_Password.BorderRadius = 22;
-            this.gtxt_Password.BorderThickness = 2;
             this.gtxt_Password.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.gtxt_Password.DefaultText = "";
             this.gtxt_Password.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
@@ -96,7 +95,7 @@
             this.gtxt_Password.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.gtxt_Password.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(194)))), ((int)(((byte)(174)))), ((int)(((byte)(147)))));
             this.gtxt_Password.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(121)))), ((int)(((byte)(85)))), ((int)(((byte)(33)))));
-            this.gtxt_Password.Location = new System.Drawing.Point(23, 197);
+            this.gtxt_Password.Location = new System.Drawing.Point(23, 179);
             this.gtxt_Password.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.gtxt_Password.Name = "gtxt_Password";
             this.gtxt_Password.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(194)))), ((int)(((byte)(174)))), ((int)(((byte)(147)))));
@@ -105,13 +104,13 @@
             this.gtxt_Password.Size = new System.Drawing.Size(237, 39);
             this.gtxt_Password.TabIndex = 3;
             this.gtxt_Password.Enter += new System.EventHandler(this.gtxt_Password_Enter);
+            this.gtxt_Password.Leave += new System.EventHandler(this.gtxt_Password_Leave);
             // 
             // gtxt_Documento
             // 
             this.gtxt_Documento.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.gtxt_Documento.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(89)))), ((int)(((byte)(22)))));
             this.gtxt_Documento.BorderRadius = 22;
-            this.gtxt_Documento.BorderThickness = 2;
             this.gtxt_Documento.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.gtxt_Documento.DefaultText = "";
             this.gtxt_Documento.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
@@ -123,7 +122,7 @@
             this.gtxt_Documento.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.gtxt_Documento.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(194)))), ((int)(((byte)(174)))), ((int)(((byte)(147)))));
             this.gtxt_Documento.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(121)))), ((int)(((byte)(85)))), ((int)(((byte)(33)))));
-            this.gtxt_Documento.Location = new System.Drawing.Point(23, 137);
+            this.gtxt_Documento.Location = new System.Drawing.Point(23, 132);
             this.gtxt_Documento.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.gtxt_Documento.Name = "gtxt_Documento";
             this.gtxt_Documento.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(194)))), ((int)(((byte)(174)))), ((int)(((byte)(147)))));
@@ -132,6 +131,7 @@
             this.gtxt_Documento.Size = new System.Drawing.Size(237, 39);
             this.gtxt_Documento.TabIndex = 4;
             this.gtxt_Documento.Enter += new System.EventHandler(this.gtxt_Documento_Enter);
+            this.gtxt_Documento.Leave += new System.EventHandler(this.gtxt_Documento_Leave);
             // 
             // guna2Panel1
             // 
@@ -159,13 +159,13 @@
             // glbl_Registrar
             // 
             this.glbl_Registrar.BackColor = System.Drawing.Color.Transparent;
-            this.glbl_Registrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.glbl_Registrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Italic | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.glbl_Registrar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(137)))), ((int)(((byte)(113)))));
-            this.glbl_Registrar.Location = new System.Drawing.Point(37, 311);
+            this.glbl_Registrar.Location = new System.Drawing.Point(46, 312);
             this.glbl_Registrar.Name = "glbl_Registrar";
             this.glbl_Registrar.Size = new System.Drawing.Size(199, 18);
             this.glbl_Registrar.TabIndex = 7;
-            this.glbl_Registrar.Text = "O de click aqui para crear cuenta";
+            this.glbl_Registrar.Text = "O da click aqui para crear cuenta";
             this.glbl_Registrar.Click += new System.EventHandler(this.glbl_Registrar_Click);
             // 
             // gpb_StockIQ
@@ -183,11 +183,11 @@
             // glbl_IniciarSesion
             // 
             this.glbl_IniciarSesion.BackColor = System.Drawing.Color.Transparent;
-            this.glbl_IniciarSesion.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.glbl_IniciarSesion.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(20)))), ((int)(((byte)(18)))));
-            this.glbl_IniciarSesion.Location = new System.Drawing.Point(85, 95);
+            this.glbl_IniciarSesion.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.glbl_IniciarSesion.ForeColor = System.Drawing.Color.Black;
+            this.glbl_IniciarSesion.Location = new System.Drawing.Point(82, 85);
             this.glbl_IniciarSesion.Name = "glbl_IniciarSesion";
-            this.glbl_IniciarSesion.Size = new System.Drawing.Size(121, 24);
+            this.glbl_IniciarSesion.Size = new System.Drawing.Size(126, 26);
             this.glbl_IniciarSesion.TabIndex = 5;
             this.glbl_IniciarSesion.Text = "Iniciar sesión";
             // 
@@ -196,11 +196,11 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(19)))), ((int)(((byte)(26)))));
-            this.ClientSize = new System.Drawing.Size(711, 397);
+            this.ClientSize = new System.Drawing.Size(716, 402);
             this.Controls.Add(this.guna2PictureBox1);
             this.Controls.Add(this.guna2Panel1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "IniciarSesion";
             this.Text = "StockIQ";
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();

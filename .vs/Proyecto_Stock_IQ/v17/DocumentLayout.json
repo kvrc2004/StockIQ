@@ -1,30 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\kevin\\source\\repos\\StockIQ\\",
+  "WorkspaceRootPath": "C:\\Users\\Usuario\\Documents\\GitHub\\StockIQ\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{97A46BDD-BFE1-4BD0-BD2D-EFEB8217BFD9}|Proyecto_Stock_IQ\\Proyecto_Stock_IQ.csproj|c:\\users\\kevin\\source\\repos\\stockiq\\proyecto_stock_iq\\registrar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{97A46BDD-BFE1-4BD0-BD2D-EFEB8217BFD9}|Proyecto_Stock_IQ\\Proyecto_Stock_IQ.csproj|c:\\users\\usuario\\documents\\github\\stockiq\\proyecto_stock_iq\\registrar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{97A46BDD-BFE1-4BD0-BD2D-EFEB8217BFD9}|Proyecto_Stock_IQ\\Proyecto_Stock_IQ.csproj|solutionrelative:proyecto_stock_iq\\registrar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{97A46BDD-BFE1-4BD0-BD2D-EFEB8217BFD9}|Proyecto_Stock_IQ\\Proyecto_Stock_IQ.csproj|C:\\Users\\kevin\\source\\repos\\StockIQ\\proyecto_stock_iq\\registrar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{97A46BDD-BFE1-4BD0-BD2D-EFEB8217BFD9}|Proyecto_Stock_IQ\\Proyecto_Stock_IQ.csproj|solutionrelative:proyecto_stock_iq\\registrar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{97A46BDD-BFE1-4BD0-BD2D-EFEB8217BFD9}|Proyecto_Stock_IQ\\Proyecto_Stock_IQ.csproj|C:\\Users\\Usuario\\Documents\\GitHub\\StockIQ\\proyecto_stock_iq\\iniciarsesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97A46BDD-BFE1-4BD0-BD2D-EFEB8217BFD9}|Proyecto_Stock_IQ\\Proyecto_Stock_IQ.csproj|solutionrelative:proyecto_stock_iq\\iniciarsesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{97A46BDD-BFE1-4BD0-BD2D-EFEB8217BFD9}|Proyecto_Stock_IQ\\Proyecto_Stock_IQ.csproj|C:\\Users\\kevin\\source\\repos\\StockIQ\\proyecto_stock_iq\\iniciarsesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{97A46BDD-BFE1-4BD0-BD2D-EFEB8217BFD9}|Proyecto_Stock_IQ\\Proyecto_Stock_IQ.csproj|C:\\Users\\Usuario\\Documents\\GitHub\\StockIQ\\proyecto_stock_iq\\iniciarsesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{97A46BDD-BFE1-4BD0-BD2D-EFEB8217BFD9}|Proyecto_Stock_IQ\\Proyecto_Stock_IQ.csproj|solutionrelative:proyecto_stock_iq\\iniciarsesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{97A46BDD-BFE1-4BD0-BD2D-EFEB8217BFD9}|Proyecto_Stock_IQ\\Proyecto_Stock_IQ.csproj|C:\\Users\\kevin\\source\\repos\\StockIQ\\proyecto_stock_iq\\iniciarsesion.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{97A46BDD-BFE1-4BD0-BD2D-EFEB8217BFD9}|Proyecto_Stock_IQ\\Proyecto_Stock_IQ.csproj|solutionrelative:proyecto_stock_iq\\iniciarsesion.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{97A46BDD-BFE1-4BD0-BD2D-EFEB8217BFD9}|Proyecto_Stock_IQ\\Proyecto_Stock_IQ.csproj|c:\\users\\kevin\\source\\repos\\stockiq\\proyecto_stock_iq\\registrar.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{97A46BDD-BFE1-4BD0-BD2D-EFEB8217BFD9}|Proyecto_Stock_IQ\\Proyecto_Stock_IQ.csproj|solutionrelative:proyecto_stock_iq\\registrar.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{97A46BDD-BFE1-4BD0-BD2D-EFEB8217BFD9}|Proyecto_Stock_IQ\\Proyecto_Stock_IQ.csproj|C:\\Users\\kevin\\source\\repos\\StockIQ\\proyecto_stock_iq\\iniciarsesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{97A46BDD-BFE1-4BD0-BD2D-EFEB8217BFD9}|Proyecto_Stock_IQ\\Proyecto_Stock_IQ.csproj|solutionrelative:proyecto_stock_iq\\iniciarsesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{97A46BDD-BFE1-4BD0-BD2D-EFEB8217BFD9}|Proyecto_Stock_IQ\\Proyecto_Stock_IQ.csproj|C:\\Users\\Usuario\\Documents\\GitHub\\StockIQ\\proyecto_stock_iq\\registrar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{97A46BDD-BFE1-4BD0-BD2D-EFEB8217BFD9}|Proyecto_Stock_IQ\\Proyecto_Stock_IQ.csproj|solutionrelative:proyecto_stock_iq\\registrar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 170,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,49 +34,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Registrar.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\kevin\\source\\repos\\StockIQ\\Proyecto_Stock_IQ\\Registrar.Designer.cs",
-              "RelativeDocumentMoniker": "Proyecto_Stock_IQ\\Registrar.Designer.cs",
-              "ToolTip": "C:\\Users\\kevin\\source\\repos\\StockIQ\\Proyecto_Stock_IQ\\Registrar.Designer.cs",
-              "RelativeToolTip": "Proyecto_Stock_IQ\\Registrar.Designer.cs",
-              "ViewState": "AgIAAEQAAAAAAAAAAAAAAFMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-26T22:27:15.404Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IniciarSesion.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\kevin\\source\\repos\\StockIQ\\Proyecto_Stock_IQ\\IniciarSesion.cs",
-              "RelativeDocumentMoniker": "Proyecto_Stock_IQ\\IniciarSesion.cs",
-              "ToolTip": "C:\\Users\\kevin\\source\\repos\\StockIQ\\Proyecto_Stock_IQ\\IniciarSesion.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Proyecto_Stock_IQ\\IniciarSesion.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T23:59:45.987Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "IniciarSesion.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\kevin\\source\\repos\\StockIQ\\Proyecto_Stock_IQ\\IniciarSesion.Designer.cs",
-              "RelativeDocumentMoniker": "Proyecto_Stock_IQ\\IniciarSesion.Designer.cs",
-              "ToolTip": "C:\\Users\\kevin\\source\\repos\\StockIQ\\Proyecto_Stock_IQ\\IniciarSesion.Designer.cs",
-              "RelativeToolTip": "Proyecto_Stock_IQ\\IniciarSesion.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-26T18:35:58.012Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "Registrar.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\kevin\\source\\repos\\StockIQ\\Proyecto_Stock_IQ\\Registrar.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\GitHub\\StockIQ\\Proyecto_Stock_IQ\\Registrar.cs",
               "RelativeDocumentMoniker": "Proyecto_Stock_IQ\\Registrar.cs",
-              "ToolTip": "C:\\Users\\kevin\\source\\repos\\StockIQ\\Proyecto_Stock_IQ\\Registrar.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\GitHub\\StockIQ\\Proyecto_Stock_IQ\\Registrar.cs [Dise\u00F1o]",
               "RelativeToolTip": "Proyecto_Stock_IQ\\Registrar.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-26T18:14:03.119Z",
@@ -92,28 +46,40 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Registrar.cs",
-              "DocumentMoniker": "C:\\Users\\kevin\\source\\repos\\StockIQ\\Proyecto_Stock_IQ\\Registrar.cs",
-              "RelativeDocumentMoniker": "Proyecto_Stock_IQ\\Registrar.cs",
-              "ToolTip": "C:\\Users\\kevin\\source\\repos\\StockIQ\\Proyecto_Stock_IQ\\Registrar.cs",
-              "RelativeToolTip": "Proyecto_Stock_IQ\\Registrar.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAAnwDAAAAAYAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "IniciarSesion.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\GitHub\\StockIQ\\Proyecto_Stock_IQ\\IniciarSesion.cs",
+              "RelativeDocumentMoniker": "Proyecto_Stock_IQ\\IniciarSesion.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\GitHub\\StockIQ\\Proyecto_Stock_IQ\\IniciarSesion.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Proyecto_Stock_IQ\\IniciarSesion.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-26T18:19:59.591Z",
+              "WhenOpened": "2025-03-18T23:59:45.987Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IniciarSesion.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\GitHub\\StockIQ\\Proyecto_Stock_IQ\\IniciarSesion.cs",
+              "RelativeDocumentMoniker": "Proyecto_Stock_IQ\\IniciarSesion.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\GitHub\\StockIQ\\Proyecto_Stock_IQ\\IniciarSesion.cs",
+              "RelativeToolTip": "Proyecto_Stock_IQ\\IniciarSesion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T01:30:08.5Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IniciarSesion.cs",
-              "DocumentMoniker": "C:\\Users\\kevin\\source\\repos\\StockIQ\\Proyecto_Stock_IQ\\IniciarSesion.cs",
-              "RelativeDocumentMoniker": "Proyecto_Stock_IQ\\IniciarSesion.cs",
-              "ToolTip": "C:\\Users\\kevin\\source\\repos\\StockIQ\\Proyecto_Stock_IQ\\IniciarSesion.cs",
-              "RelativeToolTip": "Proyecto_Stock_IQ\\IniciarSesion.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAArwDcAAAAMAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Registrar.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\GitHub\\StockIQ\\Proyecto_Stock_IQ\\Registrar.cs",
+              "RelativeDocumentMoniker": "Proyecto_Stock_IQ\\Registrar.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\GitHub\\StockIQ\\Proyecto_Stock_IQ\\Registrar.cs",
+              "RelativeToolTip": "Proyecto_Stock_IQ\\Registrar.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAcwBoAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T01:30:08.5Z",
+              "WhenOpened": "2025-03-26T18:19:59.591Z",
               "EditorCaption": ""
             }
           ]
