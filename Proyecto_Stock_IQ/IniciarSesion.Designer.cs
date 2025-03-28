@@ -93,7 +93,7 @@
             this.gtxt_Password.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(214)))), ((int)(((byte)(202)))));
             this.gtxt_Password.FocusedState.BorderColor = System.Drawing.Color.DarkGoldenrod;
             this.gtxt_Password.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.gtxt_Password.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(194)))), ((int)(((byte)(174)))), ((int)(((byte)(147)))));
+            this.gtxt_Password.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(20)))), ((int)(((byte)(18)))));
             this.gtxt_Password.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(121)))), ((int)(((byte)(85)))), ((int)(((byte)(33)))));
             this.gtxt_Password.Location = new System.Drawing.Point(23, 179);
             this.gtxt_Password.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
@@ -103,8 +103,6 @@
             this.gtxt_Password.SelectedText = "";
             this.gtxt_Password.Size = new System.Drawing.Size(237, 39);
             this.gtxt_Password.TabIndex = 3;
-            this.gtxt_Password.Enter += new System.EventHandler(this.gtxt_Password_Enter);
-            this.gtxt_Password.Leave += new System.EventHandler(this.gtxt_Password_Leave);
             // 
             // gtxt_Documento
             // 
@@ -120,7 +118,7 @@
             this.gtxt_Documento.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(214)))), ((int)(((byte)(202)))));
             this.gtxt_Documento.FocusedState.BorderColor = System.Drawing.Color.DarkGoldenrod;
             this.gtxt_Documento.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.gtxt_Documento.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(194)))), ((int)(((byte)(174)))), ((int)(((byte)(147)))));
+            this.gtxt_Documento.ForeColor = System.Drawing.Color.Black;
             this.gtxt_Documento.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(121)))), ((int)(((byte)(85)))), ((int)(((byte)(33)))));
             this.gtxt_Documento.Location = new System.Drawing.Point(23, 132);
             this.gtxt_Documento.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
@@ -130,8 +128,6 @@
             this.gtxt_Documento.SelectedText = "";
             this.gtxt_Documento.Size = new System.Drawing.Size(237, 39);
             this.gtxt_Documento.TabIndex = 4;
-            this.gtxt_Documento.Enter += new System.EventHandler(this.gtxt_Documento_Enter);
-            this.gtxt_Documento.Leave += new System.EventHandler(this.gtxt_Documento_Leave);
             // 
             // guna2Panel1
             // 
@@ -202,6 +198,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "IniciarSesion";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "StockIQ";
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
             this.guna2Panel1.ResumeLayout(false);

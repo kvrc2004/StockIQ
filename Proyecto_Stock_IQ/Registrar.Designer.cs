@@ -84,7 +84,7 @@
             this.gtxt_Nombre.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(214)))), ((int)(((byte)(202)))));
             this.gtxt_Nombre.FocusedState.BorderColor = System.Drawing.Color.DarkGoldenrod;
             this.gtxt_Nombre.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.gtxt_Nombre.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(194)))), ((int)(((byte)(174)))), ((int)(((byte)(147)))));
+            this.gtxt_Nombre.ForeColor = System.Drawing.Color.Black;
             this.gtxt_Nombre.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(121)))), ((int)(((byte)(85)))), ((int)(((byte)(33)))));
             this.gtxt_Nombre.Location = new System.Drawing.Point(23, 119);
             this.gtxt_Nombre.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
@@ -94,7 +94,6 @@
             this.gtxt_Nombre.SelectedText = "";
             this.gtxt_Nombre.Size = new System.Drawing.Size(245, 39);
             this.gtxt_Nombre.TabIndex = 9;
-            this.gtxt_Nombre.Enter += new System.EventHandler(this.gtxt_Nombre_Enter);
             // 
             // lbl_Registrar
             // 
@@ -142,6 +141,7 @@
             this.gbtn_Ingresar.Size = new System.Drawing.Size(162, 37);
             this.gbtn_Ingresar.TabIndex = 2;
             this.gbtn_Ingresar.Text = "Crear cuenta";
+            this.gbtn_Ingresar.Click += new System.EventHandler(this.gbtn_Ingresar_Click);
             // 
             // gtxt_Documento
             // 
@@ -157,7 +157,7 @@
             this.gtxt_Documento.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(214)))), ((int)(((byte)(202)))));
             this.gtxt_Documento.FocusedState.BorderColor = System.Drawing.Color.DarkGoldenrod;
             this.gtxt_Documento.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.gtxt_Documento.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(194)))), ((int)(((byte)(174)))), ((int)(((byte)(147)))));
+            this.gtxt_Documento.ForeColor = System.Drawing.Color.Black;
             this.gtxt_Documento.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(121)))), ((int)(((byte)(85)))), ((int)(((byte)(33)))));
             this.gtxt_Documento.Location = new System.Drawing.Point(23, 171);
             this.gtxt_Documento.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
@@ -167,8 +167,6 @@
             this.gtxt_Documento.SelectedText = "";
             this.gtxt_Documento.Size = new System.Drawing.Size(245, 39);
             this.gtxt_Documento.TabIndex = 4;
-            this.gtxt_Documento.Enter += new System.EventHandler(this.gtxt_Documento_Enter);
-            this.gtxt_Documento.Leave += new System.EventHandler(this.gtxt_Documento_Leave);
             // 
             // gtxt_Password
             // 
@@ -183,7 +181,7 @@
             this.gtxt_Password.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(214)))), ((int)(((byte)(202)))));
             this.gtxt_Password.FocusedState.BorderColor = System.Drawing.Color.DarkGoldenrod;
             this.gtxt_Password.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.gtxt_Password.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(194)))), ((int)(((byte)(174)))), ((int)(((byte)(147)))));
+            this.gtxt_Password.ForeColor = System.Drawing.Color.Black;
             this.gtxt_Password.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(121)))), ((int)(((byte)(85)))), ((int)(((byte)(33)))));
             this.gtxt_Password.Location = new System.Drawing.Point(23, 221);
             this.gtxt_Password.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
@@ -193,8 +191,6 @@
             this.gtxt_Password.SelectedText = "";
             this.gtxt_Password.Size = new System.Drawing.Size(245, 39);
             this.gtxt_Password.TabIndex = 3;
-            this.gtxt_Password.Enter += new System.EventHandler(this.gtxt_Password_Enter);
-            this.gtxt_Password.Leave += new System.EventHandler(this.gtxt_Password_Leave);
             // 
             // guna2PictureBox1
             // 
@@ -218,6 +214,7 @@
             this.Controls.Add(this.guna2Panel1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Registrar";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Registrar";
             this.guna2Panel1.ResumeLayout(false);
             this.guna2Panel1.PerformLayout();

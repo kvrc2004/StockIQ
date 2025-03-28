@@ -10,11 +10,17 @@ using System.Windows.Forms;
 
 namespace Proyecto_Stock_IQ
 {
-    public partial class paginaPrincipal : Form
+    public partial class HomePage : Form
     {
-        public paginaPrincipal()
+        private void CierreVentana(object sender, FormClosedEventArgs e)
+        {
+            Environment.Exit(0); //Cierra toda la ventana
+        }
+        public HomePage()
         {
             InitializeComponent();
         }
+
+        
     }
 }
