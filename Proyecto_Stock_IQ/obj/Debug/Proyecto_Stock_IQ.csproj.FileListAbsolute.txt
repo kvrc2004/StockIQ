@@ -64,3 +64,4 @@ C:\Users\kevin\source\repos\StockIQ\StockIQ\Proyecto_Stock_IQ\obj\Debug\Proyecto
 C:\Users\kevin\source\repos\StockIQ\StockIQ\Proyecto_Stock_IQ\obj\Debug\Proyecto_Stock_IQ.pdb
 C:\Users\kevin\source\repos\StockIQ\StockIQ\Proyecto_Stock_IQ\obj\Debug\Proyecto_Stock_IQ.paginaPrincipal.resources
 C:\Users\kevin\source\repos\StockIQ\StockIQ\Proyecto_Stock_IQ\obj\Debug\Proyecto_Stock_IQ.HomePage.resources
+C:\Users\Usuario\Documents\GitHub\StockIQ\Proyecto_Stock_IQ\obj\Debug\Proyecto_Stock_IQ.HomePage.resources

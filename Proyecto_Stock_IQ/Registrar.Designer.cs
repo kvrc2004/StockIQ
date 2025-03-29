@@ -216,6 +216,7 @@
             this.Name = "Registrar";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Registrar";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.registrar_Cierre_Ventana);
             this.guna2Panel1.ResumeLayout(false);
             this.guna2Panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.gpb_StockIQ)).EndInit();

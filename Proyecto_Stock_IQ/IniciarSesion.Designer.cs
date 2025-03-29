@@ -200,6 +200,7 @@
             this.Name = "IniciarSesion";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "StockIQ";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.iniciarSesion_Cierre_Ventana);
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
             this.guna2Panel1.ResumeLayout(false);
             this.guna2Panel1.PerformLayout();
