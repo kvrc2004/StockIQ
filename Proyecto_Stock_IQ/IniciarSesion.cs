@@ -15,7 +15,7 @@ namespace Proyecto_Stock_IQ
     public partial class IniciarSesion: Form
     {
         private List<Usuario> usuarios = new List<Usuario>(); //Inicializa la lista
-        public IniciarSesion(List<Usuario>usuarios) //Sigue dando error al momento de recibir la lista
+        public IniciarSesion() //Sigue dando error al momento de recibir la lista
         {
             InitializeComponent();
         }
@@ -30,6 +30,7 @@ namespace Proyecto_Stock_IQ
                     this.Hide();
                 }
                 else{
+                    MessageBox.Show("TEST");
                     // TODO: Agregar panel Admin
                 }
             }

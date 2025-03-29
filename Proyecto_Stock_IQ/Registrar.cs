@@ -36,7 +36,7 @@ namespace Proyecto_Stock_IQ
 
         private void glbl_IniciarSesion_Click(object sender, EventArgs e) // ENVIA AL USUARIO A VENTANA DE INICIO DE SESION
         {
-            IniciarSesion ingresar = new IniciarSesion(usuarios);
+            IniciarSesion ingresar = new IniciarSesion();
             ingresar.Show();
             this.Hide();
         }
@@ -44,7 +44,7 @@ namespace Proyecto_Stock_IQ
         private void gbtn_Ingresar_Click(object sender, EventArgs e)
         {
             if (!usuarios.Any(u => u.Documento == gtxt_Documento.Text)){ //El Any recorre la lista pero solo devuelve verdadero o falso
-                usuarios.Add(new Usuario(gtxt_Nombre.Text, gtxt_Documento.Text, gtxt_Password.Text, "Usuario comun"));
+                usuarios.Add(new Usuario(gtxt_Nombre.Text, gtxt_Documento.Text, gtxt_Password.Text, "usuario"));
                 MessageBox.Show("Usuario fue creado exitosamente");
             }
             else{
@@ -53,7 +53,7 @@ namespace Proyecto_Stock_IQ
         }
         private void registrar_Cierre_Ventana(object sender, FormClosingEventArgs e)
         {
-            Application.Exit(); //Cierra toda la ventana
+            //Application.Exit(); //Cierra toda la ventana
         }
     }
 }
