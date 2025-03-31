@@ -44,7 +44,7 @@ namespace Proyecto_Stock_IQ
         private void gbtn_Ingresar_Click(object sender, EventArgs e)
         {
             if (!usuarios.Any(u => u.Documento == gtxt_Documento.Text)){ //El Any recorre la lista pero solo devuelve verdadero o falso
-                usuarios.Add(new Usuario(gtxt_Nombre.Text, gtxt_Documento.Text, gtxt_Password.Text, "usuario"));
+                usuarios.Add(new Usuario(gtxt_Password.Text, gtxt_Documento.Text, gtxt_Nombre.Text, "usuario"));
                 MessageBox.Show("Usuario fue creado exitosamente");
             }
             else{
@@ -54,6 +54,11 @@ namespace Proyecto_Stock_IQ
         private void registrar_Cierre_Ventana(object sender, FormClosingEventArgs e)
         {
             //Application.Exit(); //Cierra toda la ventana
+        }
+
+        private void gtxt_Nombre_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

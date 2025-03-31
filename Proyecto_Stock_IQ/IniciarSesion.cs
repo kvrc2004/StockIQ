@@ -21,7 +21,7 @@ namespace Proyecto_Stock_IQ
         }
         private void gbtn_Ingresar_Click_1(object sender, EventArgs e) //Compara si el elemento existe en la lista y lo deja ingresar
         {
-            Usuario usuario = usuarios.FirstOrDefault(u => u.Documento == gtxt_Documento.Text && u.Password == gtxt_Password.Text);
+            Usuario usuario = usuarios.FirstOrDefault(u => u.Documento == gtxt_Documento.Text && u.Password == gtxt_Documento.Text);
             if (usuario != null) {
                 MessageBox.Show($"Bienvenido {usuario.Nombre} ");
                 if (usuario.Rol != "admin"){
@@ -30,7 +30,7 @@ namespace Proyecto_Stock_IQ
                     this.Hide();
                 }
                 else{
-                    MessageBox.Show("TEST");
+                    MessageBox.Show("TEST ");
                     // TODO: Agregar panel Admin
                 }
             }
@@ -45,6 +45,11 @@ namespace Proyecto_Stock_IQ
         private void iniciarSesion_Cierre_Ventana(object sender, FormClosingEventArgs e)
         {
             Application.Exit(); //Cierra toda la ventana
+        }
+
+        private void guna2Panel1_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

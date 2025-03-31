@@ -20,7 +20,14 @@ namespace Proyecto_Stock_IQ
         {
             InitializeComponent();
         }
+        private void guna2PictureBox1_Click(object sender, EventArgs e)
+        {
 
-        
+        }
+
+        private void HomePage_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
