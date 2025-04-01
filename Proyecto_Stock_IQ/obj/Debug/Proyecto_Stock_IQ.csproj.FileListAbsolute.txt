@@ -79,3 +79,17 @@ C:\Users\Luz\source\repos\StockIQ\Proyecto_Stock_IQ\obj\Debug\Proyecto_Stock_IQ.
 C:\Users\Luz\source\repos\StockIQ\Proyecto_Stock_IQ\obj\Debug\Proyecto.1B25CFF1.Up2Date
 C:\Users\Luz\source\repos\StockIQ\Proyecto_Stock_IQ\obj\Debug\Proyecto_Stock_IQ.exe
 C:\Users\Luz\source\repos\StockIQ\Proyecto_Stock_IQ\obj\Debug\Proyecto_Stock_IQ.pdb
+C:\Users\samue\OneDrive\Documentos\StockIQ\StockIQ\Proyecto_Stock_IQ\obj\Debug\Proyecto_Stock_IQ.csproj.AssemblyReference.cache
+C:\Users\samue\OneDrive\Documentos\StockIQ\StockIQ\Proyecto_Stock_IQ\obj\Debug\Proyecto_Stock_IQ.IniciarSesion.resources
+C:\Users\samue\OneDrive\Documentos\StockIQ\StockIQ\Proyecto_Stock_IQ\obj\Debug\Proyecto_Stock_IQ.HomePage.resources
+C:\Users\samue\OneDrive\Documentos\StockIQ\StockIQ\Proyecto_Stock_IQ\obj\Debug\Proyecto_Stock_IQ.Properties.Resources.resources
+C:\Users\samue\OneDrive\Documentos\StockIQ\StockIQ\Proyecto_Stock_IQ\obj\Debug\Proyecto_Stock_IQ.Registrar.resources
+C:\Users\samue\OneDrive\Documentos\StockIQ\StockIQ\Proyecto_Stock_IQ\obj\Debug\Proyecto_Stock_IQ.csproj.GenerateResource.cache
+C:\Users\samue\OneDrive\Documentos\StockIQ\StockIQ\Proyecto_Stock_IQ\obj\Debug\Proyecto_Stock_IQ.csproj.CoreCompileInputs.cache
+C:\Users\samue\OneDrive\Documentos\StockIQ\StockIQ\Proyecto_Stock_IQ\obj\Debug\Proyecto_Stock_IQ.exe
+C:\Users\samue\OneDrive\Documentos\StockIQ\StockIQ\Proyecto_Stock_IQ\obj\Debug\Proyecto_Stock_IQ.pdb
+C:\Users\samue\OneDrive\Documentos\StockIQ\StockIQ\Proyecto_Stock_IQ\bin\Debug\Proyecto_Stock_IQ.exe.config
+C:\Users\samue\OneDrive\Documentos\StockIQ\StockIQ\Proyecto_Stock_IQ\bin\Debug\Proyecto_Stock_IQ.exe
+C:\Users\samue\OneDrive\Documentos\StockIQ\StockIQ\Proyecto_Stock_IQ\bin\Debug\Proyecto_Stock_IQ.pdb
+C:\Users\samue\OneDrive\Documentos\StockIQ\StockIQ\Proyecto_Stock_IQ\bin\Debug\Guna.UI2.dll
+C:\Users\samue\OneDrive\Documentos\StockIQ\StockIQ\Proyecto_Stock_IQ\obj\Debug\Proyecto.1B25CFF1.Up2Date

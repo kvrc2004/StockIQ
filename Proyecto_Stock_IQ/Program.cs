@@ -8,6 +8,7 @@ namespace Proyecto_Stock_IQ
 {
     static class Program
     {
+        private static List<Registrar.Usuario> user;
         /// <summary>
         /// Punto de entrada principal para la aplicación.
         /// </summary>
@@ -16,7 +17,7 @@ namespace Proyecto_Stock_IQ
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new IniciarSesion());
+            Application.Run(new IniciarSesion(user));
         }
     }
 }

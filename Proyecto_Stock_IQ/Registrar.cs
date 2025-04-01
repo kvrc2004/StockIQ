@@ -36,7 +36,7 @@ namespace Proyecto_Stock_IQ
 
         private void glbl_IniciarSesion_Click(object sender, EventArgs e) // ENVIA AL USUARIO A VENTANA DE INICIO DE SESION
         {
-            IniciarSesion ingresar = new IniciarSesion();
+            IniciarSesion ingresar = new IniciarSesion(usuarios);
             ingresar.Show();
             this.Hide();
         }

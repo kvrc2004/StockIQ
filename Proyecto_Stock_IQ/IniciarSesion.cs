@@ -15,9 +15,11 @@ namespace Proyecto_Stock_IQ
     public partial class IniciarSesion: Form
     {
         private List<Usuario> usuarios = new List<Usuario>(); //Inicializa la lista
-        public IniciarSesion() //Sigue dando error al momento de recibir la lista
+        public IniciarSesion(List<Usuario> user) //Sigue dando error al momento de recibir la lista
         {
             InitializeComponent();
+            this.usuarios = user;
+            usuarios = new List<Usuario>();
         }
         private void gbtn_Ingresar_Click_1(object sender, EventArgs e) //Compara si el elemento existe en la lista y lo deja ingresar
         {
