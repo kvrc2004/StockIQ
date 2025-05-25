@@ -35,5 +35,19 @@ namespace Proyecto_Stock_IQ
         {
             listView_stock.BackColor = Color.FromArgb(246, 241, 236);
         }
+
+        private void btn_configuracion_Click(object sender, EventArgs e)
+        {
+            Configuracion configuracion = new Configuracion();
+            configuracion.Show();
+            this.Hide();
+        }
+
+        private void btn_clientes_Click(object sender, EventArgs e)
+        {
+            Clientes clientes = new Clientes();
+            clientes.Show();
+            this.Hide();
+        }
     }
 }
