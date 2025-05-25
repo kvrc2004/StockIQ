@@ -32,12 +32,12 @@
             this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.gbtn_Ingresar = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
+            this.gtxt_Password = new Guna.UI2.WinForms.Guna2TextBox();
+            this.gtxt_Documento = new Guna.UI2.WinForms.Guna2TextBox();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.glbl_Registrar = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.gpb_StockIQ = new Guna.UI2.WinForms.Guna2PictureBox();
             this.glbl_IniciarSesion = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.gtxt_Documento = new Guna.UI2.WinForms.Guna2TextBox();
-            this.gtxt_Password = new Guna.UI2.WinForms.Guna2TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             this.guna2Panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.gpb_StockIQ)).BeginInit();
@@ -91,63 +91,43 @@
             this.guna2Panel1.Controls.Add(this.glbl_IniciarSesion);
             this.guna2Panel1.Controls.Add(this.gbtn_Ingresar);
             this.guna2Panel1.Location = new System.Drawing.Point(525, 27);
-            this.guna2Panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2Panel1.Margin = new System.Windows.Forms.Padding(4);
             this.guna2Panel1.Name = "guna2Panel1";
             this.guna2Panel1.Size = new System.Drawing.Size(392, 434);
             this.guna2Panel1.TabIndex = 5;
             this.guna2Panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2Panel1_Paint);
             // 
-            // linkLabel1
+            // gtxt_Password
             // 
-            this.linkLabel1.AutoSize = true;
-            this.linkLabel1.Location = new System.Drawing.Point(192, 300);
-            this.linkLabel1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(0, 16);
-            this.linkLabel1.TabIndex = 8;
-            // 
-            // glbl_Registrar
-            // 
-            this.glbl_Registrar.BackColor = System.Drawing.Color.Transparent;
-            this.glbl_Registrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Italic | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.glbl_Registrar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(137)))), ((int)(((byte)(113)))));
-            this.glbl_Registrar.Location = new System.Drawing.Point(61, 384);
-            this.glbl_Registrar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.glbl_Registrar.Name = "glbl_Registrar";
-            this.glbl_Registrar.Size = new System.Drawing.Size(234, 22);
-            this.glbl_Registrar.TabIndex = 7;
-            this.glbl_Registrar.Text = "O da click aqui para crear cuenta";
-            this.glbl_Registrar.Click += new System.EventHandler(this.glbl_Registrar_Click);
-            // 
-            // gpb_StockIQ
-            // 
-            this.gpb_StockIQ.BackColor = System.Drawing.Color.Transparent;
-            this.gpb_StockIQ.Image = ((System.Drawing.Image)(resources.GetObject("gpb_StockIQ.Image")));
-            this.gpb_StockIQ.ImageRotate = 0F;
-            this.gpb_StockIQ.Location = new System.Drawing.Point(31, 21);
-            this.gpb_StockIQ.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.gpb_StockIQ.Name = "gpb_StockIQ";
-            this.gpb_StockIQ.Size = new System.Drawing.Size(296, 57);
-            this.gpb_StockIQ.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.gpb_StockIQ.TabIndex = 6;
-            this.gpb_StockIQ.TabStop = false;
-            // 
-            // glbl_IniciarSesion
-            // 
-            this.glbl_IniciarSesion.BackColor = System.Drawing.Color.Transparent;
-            this.glbl_IniciarSesion.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.glbl_IniciarSesion.ForeColor = System.Drawing.Color.Black;
-            this.glbl_IniciarSesion.Location = new System.Drawing.Point(109, 105);
-            this.glbl_IniciarSesion.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.glbl_IniciarSesion.Name = "glbl_IniciarSesion";
-            this.glbl_IniciarSesion.Size = new System.Drawing.Size(158, 31);
-            this.glbl_IniciarSesion.TabIndex = 5;
-            this.glbl_IniciarSesion.Text = "Iniciar sesión";
+            this.gtxt_Password.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.gtxt_Password.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(89)))), ((int)(((byte)(22)))));
+            this.gtxt_Password.BorderRadius = 15;
+            this.gtxt_Password.BorderThickness = 2;
+            this.gtxt_Password.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.gtxt_Password.DefaultText = "";
+            this.gtxt_Password.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.gtxt_Password.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.gtxt_Password.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.gtxt_Password.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.gtxt_Password.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(214)))), ((int)(((byte)(202)))));
+            this.gtxt_Password.FocusedState.BorderColor = System.Drawing.Color.DarkGoldenrod;
+            this.gtxt_Password.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.gtxt_Password.ForeColor = System.Drawing.Color.Black;
+            this.gtxt_Password.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(121)))), ((int)(((byte)(85)))), ((int)(((byte)(33)))));
+            this.gtxt_Password.Location = new System.Drawing.Point(31, 247);
+            this.gtxt_Password.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.gtxt_Password.Name = "gtxt_Password";
+            this.gtxt_Password.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(194)))), ((int)(((byte)(174)))), ((int)(((byte)(147)))));
+            this.gtxt_Password.PlaceholderText = "Contraseña";
+            this.gtxt_Password.SelectedText = "";
+            this.gtxt_Password.Size = new System.Drawing.Size(316, 48);
+            this.gtxt_Password.TabIndex = 10;
             // 
             // gtxt_Documento
             // 
             this.gtxt_Documento.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(89)))), ((int)(((byte)(22)))));
-            this.gtxt_Documento.BorderRadius = 22;
+            this.gtxt_Documento.BorderRadius = 15;
+            this.gtxt_Documento.BorderThickness = 2;
             this.gtxt_Documento.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.gtxt_Documento.DefaultText = "";
             this.gtxt_Documento.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
@@ -168,30 +148,54 @@
             this.gtxt_Documento.Size = new System.Drawing.Size(316, 48);
             this.gtxt_Documento.TabIndex = 9;
             // 
-            // gtxt_Password
+            // linkLabel1
             // 
-            this.gtxt_Password.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.gtxt_Password.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(89)))), ((int)(((byte)(22)))));
-            this.gtxt_Password.BorderRadius = 22;
-            this.gtxt_Password.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.gtxt_Password.DefaultText = "";
-            this.gtxt_Password.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.gtxt_Password.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.gtxt_Password.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.gtxt_Password.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.gtxt_Password.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(214)))), ((int)(((byte)(202)))));
-            this.gtxt_Password.FocusedState.BorderColor = System.Drawing.Color.DarkGoldenrod;
-            this.gtxt_Password.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.gtxt_Password.ForeColor = System.Drawing.Color.Black;
-            this.gtxt_Password.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(121)))), ((int)(((byte)(85)))), ((int)(((byte)(33)))));
-            this.gtxt_Password.Location = new System.Drawing.Point(31, 247);
-            this.gtxt_Password.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.gtxt_Password.Name = "gtxt_Password";
-            this.gtxt_Password.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(194)))), ((int)(((byte)(174)))), ((int)(((byte)(147)))));
-            this.gtxt_Password.PlaceholderText = "Contraseña";
-            this.gtxt_Password.SelectedText = "";
-            this.gtxt_Password.Size = new System.Drawing.Size(316, 48);
-            this.gtxt_Password.TabIndex = 10;
+            this.linkLabel1.AutoSize = true;
+            this.linkLabel1.Location = new System.Drawing.Point(192, 300);
+            this.linkLabel1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.linkLabel1.Name = "linkLabel1";
+            this.linkLabel1.Size = new System.Drawing.Size(0, 16);
+            this.linkLabel1.TabIndex = 8;
+            // 
+            // glbl_Registrar
+            // 
+            this.glbl_Registrar.AutoSize = false;
+            this.glbl_Registrar.BackColor = System.Drawing.Color.Transparent;
+            this.glbl_Registrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Italic | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.glbl_Registrar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(137)))), ((int)(((byte)(113)))));
+            this.glbl_Registrar.Location = new System.Drawing.Point(85, 384);
+            this.glbl_Registrar.Margin = new System.Windows.Forms.Padding(4);
+            this.glbl_Registrar.Name = "glbl_Registrar";
+            this.glbl_Registrar.Size = new System.Drawing.Size(404, 153);
+            this.glbl_Registrar.TabIndex = 7;
+            this.glbl_Registrar.Text = "O da click aqui para crear cuenta";
+            this.glbl_Registrar.Click += new System.EventHandler(this.glbl_Registrar_Click);
+            // 
+            // gpb_StockIQ
+            // 
+            this.gpb_StockIQ.BackColor = System.Drawing.Color.Transparent;
+            this.gpb_StockIQ.Image = ((System.Drawing.Image)(resources.GetObject("gpb_StockIQ.Image")));
+            this.gpb_StockIQ.ImageRotate = 0F;
+            this.gpb_StockIQ.Location = new System.Drawing.Point(31, 21);
+            this.gpb_StockIQ.Margin = new System.Windows.Forms.Padding(4);
+            this.gpb_StockIQ.Name = "gpb_StockIQ";
+            this.gpb_StockIQ.Size = new System.Drawing.Size(296, 57);
+            this.gpb_StockIQ.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.gpb_StockIQ.TabIndex = 6;
+            this.gpb_StockIQ.TabStop = false;
+            // 
+            // glbl_IniciarSesion
+            // 
+            this.glbl_IniciarSesion.AutoSize = false;
+            this.glbl_IniciarSesion.BackColor = System.Drawing.Color.Transparent;
+            this.glbl_IniciarSesion.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.glbl_IniciarSesion.ForeColor = System.Drawing.Color.Black;
+            this.glbl_IniciarSesion.Location = new System.Drawing.Point(110, 109);
+            this.glbl_IniciarSesion.Margin = new System.Windows.Forms.Padding(4);
+            this.glbl_IniciarSesion.Name = "glbl_IniciarSesion";
+            this.glbl_IniciarSesion.Size = new System.Drawing.Size(356, 110);
+            this.glbl_IniciarSesion.TabIndex = 5;
+            this.glbl_IniciarSesion.Text = "Iniciar sesión";
             // 
             // IniciarSesion
             // 

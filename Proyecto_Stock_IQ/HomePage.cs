@@ -12,6 +12,7 @@ namespace Proyecto_Stock_IQ
 {
     public partial class HomePage : Form
     {
+
         private void CierreVentana(object sender, FormClosedEventArgs e)
         {
             Environment.Exit(0); //Cierra toda la ventana
@@ -28,6 +29,11 @@ namespace Proyecto_Stock_IQ
         private void HomePage_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void listView_stock_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            listView_stock.BackColor = Color.FromArgb(246, 241, 236);
         }
     }
 }
