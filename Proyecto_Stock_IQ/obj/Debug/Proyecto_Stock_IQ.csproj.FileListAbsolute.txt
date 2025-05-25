@@ -93,3 +93,5 @@ C:\Users\samue\OneDrive\Documentos\StockIQ\StockIQ\Proyecto_Stock_IQ\bin\Debug\P
 C:\Users\samue\OneDrive\Documentos\StockIQ\StockIQ\Proyecto_Stock_IQ\bin\Debug\Proyecto_Stock_IQ.pdb
 C:\Users\samue\OneDrive\Documentos\StockIQ\StockIQ\Proyecto_Stock_IQ\bin\Debug\Guna.UI2.dll
 C:\Users\samue\OneDrive\Documentos\StockIQ\StockIQ\Proyecto_Stock_IQ\obj\Debug\Proyecto.1B25CFF1.Up2Date
+C:\Users\Luz\source\repos\StockIQ\Proyecto_Stock_IQ\obj\Debug\Proyecto_Stock_IQ.Clientes.resources
+C:\Users\Luz\source\repos\StockIQ\Proyecto_Stock_IQ\obj\Debug\Proyecto_Stock_IQ.Configuracion.resources
