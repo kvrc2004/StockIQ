@@ -63,7 +63,7 @@
             this.btn_configuracion = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2PictureBox4 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2HtmlLabel6 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2PictureBox7 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.btn_proveedor = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2HtmlLabel4 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2PictureBox5 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2Panel1.SuspendLayout();
@@ -75,7 +75,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btn_configuracion)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btn_proveedor)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox5)).BeginInit();
             this.SuspendLayout();
             // 
@@ -366,45 +366,49 @@
             // 
             // guna2HtmlLabel1
             // 
+            this.guna2HtmlLabel1.AutoSize = false;
             this.guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(229)))), ((int)(((byte)(223)))));
             this.guna2HtmlLabel1.Location = new System.Drawing.Point(70, 174);
             this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
-            this.guna2HtmlLabel1.Size = new System.Drawing.Size(164, 24);
+            this.guna2HtmlLabel1.Size = new System.Drawing.Size(433, 47);
             this.guna2HtmlLabel1.TabIndex = 9;
             this.guna2HtmlLabel1.Text = "Trabajos mecánicos";
             // 
             // guna2HtmlLabel2
             // 
+            this.guna2HtmlLabel2.AutoSize = false;
             this.guna2HtmlLabel2.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(229)))), ((int)(((byte)(223)))));
             this.guna2HtmlLabel2.Location = new System.Drawing.Point(70, 227);
             this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
-            this.guna2HtmlLabel2.Size = new System.Drawing.Size(190, 24);
+            this.guna2HtmlLabel2.Size = new System.Drawing.Size(528, 49);
             this.guna2HtmlLabel2.TabIndex = 10;
             this.guna2HtmlLabel2.Text = "Inventario de repuestos";
             // 
             // clientes
             // 
+            this.clientes.AutoSize = false;
             this.clientes.BackColor = System.Drawing.Color.Transparent;
             this.clientes.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.clientes.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(229)))), ((int)(((byte)(223)))));
             this.clientes.Location = new System.Drawing.Point(70, 282);
             this.clientes.Name = "clientes";
-            this.clientes.Size = new System.Drawing.Size(68, 24);
+            this.clientes.Size = new System.Drawing.Size(360, 46);
             this.clientes.TabIndex = 11;
             this.clientes.Text = "Clientes";
             // 
             // configuracion
             // 
+            this.configuracion.AutoSize = false;
             this.configuracion.BackColor = System.Drawing.Color.Transparent;
             this.configuracion.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.configuracion.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(229)))), ((int)(((byte)(223)))));
             this.configuracion.Location = new System.Drawing.Point(70, 481);
             this.configuracion.Name = "configuracion";
-            this.configuracion.Size = new System.Drawing.Size(114, 24);
+            this.configuracion.Size = new System.Drawing.Size(203, 61);
             this.configuracion.TabIndex = 13;
             this.configuracion.Text = "Configuración";
             // 
@@ -474,35 +478,38 @@
             // 
             // guna2HtmlLabel6
             // 
+            this.guna2HtmlLabel6.AutoSize = false;
             this.guna2HtmlLabel6.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(229)))), ((int)(((byte)(223)))));
             this.guna2HtmlLabel6.Location = new System.Drawing.Point(70, 334);
             this.guna2HtmlLabel6.Name = "guna2HtmlLabel6";
-            this.guna2HtmlLabel6.Size = new System.Drawing.Size(105, 24);
+            this.guna2HtmlLabel6.Size = new System.Drawing.Size(259, 121);
             this.guna2HtmlLabel6.TabIndex = 23;
             this.guna2HtmlLabel6.Text = "Proveedores";
             // 
-            // guna2PictureBox7
+            // btn_proveedor
             // 
-            this.guna2PictureBox7.FillColor = System.Drawing.Color.Transparent;
-            this.guna2PictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox7.Image")));
-            this.guna2PictureBox7.ImageRotate = 0F;
-            this.guna2PictureBox7.Location = new System.Drawing.Point(37, 331);
-            this.guna2PictureBox7.Name = "guna2PictureBox7";
-            this.guna2PictureBox7.Size = new System.Drawing.Size(26, 24);
-            this.guna2PictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.guna2PictureBox7.TabIndex = 24;
-            this.guna2PictureBox7.TabStop = false;
+            this.btn_proveedor.FillColor = System.Drawing.Color.Transparent;
+            this.btn_proveedor.Image = ((System.Drawing.Image)(resources.GetObject("btn_proveedor.Image")));
+            this.btn_proveedor.ImageRotate = 0F;
+            this.btn_proveedor.Location = new System.Drawing.Point(37, 331);
+            this.btn_proveedor.Name = "btn_proveedor";
+            this.btn_proveedor.Size = new System.Drawing.Size(26, 24);
+            this.btn_proveedor.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.btn_proveedor.TabIndex = 24;
+            this.btn_proveedor.TabStop = false;
+            this.btn_proveedor.Click += new System.EventHandler(this.btn_proveedor_Click);
             // 
             // guna2HtmlLabel4
             // 
+            this.guna2HtmlLabel4.AutoSize = false;
             this.guna2HtmlLabel4.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(229)))), ((int)(((byte)(223)))));
             this.guna2HtmlLabel4.Location = new System.Drawing.Point(70, 129);
             this.guna2HtmlLabel4.Name = "guna2HtmlLabel4";
-            this.guna2HtmlLabel4.Size = new System.Drawing.Size(44, 24);
+            this.guna2HtmlLabel4.Size = new System.Drawing.Size(203, 39);
             this.guna2HtmlLabel4.TabIndex = 25;
             this.guna2HtmlLabel4.Text = "Inicio";
             // 
@@ -526,20 +533,20 @@
             this.ClientSize = new System.Drawing.Size(1067, 554);
             this.Controls.Add(this.guna2PictureBox5);
             this.Controls.Add(this.guna2HtmlLabel4);
-            this.Controls.Add(this.guna2PictureBox7);
-            this.Controls.Add(this.guna2HtmlLabel6);
+            this.Controls.Add(this.btn_proveedor);
             this.Controls.Add(this.guna2PictureBox4);
             this.Controls.Add(this.btn_configuracion);
             this.Controls.Add(this.guna2PictureBox3);
             this.Controls.Add(this.btn_clientes);
             this.Controls.Add(this.guna2PictureBox1);
             this.Controls.Add(this.configuracion);
-            this.Controls.Add(this.clientes);
-            this.Controls.Add(this.guna2HtmlLabel2);
-            this.Controls.Add(this.guna2HtmlLabel1);
             this.Controls.Add(this.guna2Panel2);
             this.Controls.Add(this.guna2Panel1);
             this.Controls.Add(this.gpb_StockIQ);
+            this.Controls.Add(this.guna2HtmlLabel6);
+            this.Controls.Add(this.clientes);
+            this.Controls.Add(this.guna2HtmlLabel2);
+            this.Controls.Add(this.guna2HtmlLabel1);
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "HomePage";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -556,10 +563,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btn_configuracion)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btn_proveedor)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox5)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -583,7 +589,7 @@
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel6;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox8;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel7;
-        private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox7;
+        private Guna.UI2.WinForms.Guna2PictureBox btn_proveedor;
         private Guna.UI2.WinForms.Guna2Shapes guna2Shapes2;
         private Guna.UI2.WinForms.Guna2Shapes guna2Shapes1;
         private System.Windows.Forms.ListView listView_stock;

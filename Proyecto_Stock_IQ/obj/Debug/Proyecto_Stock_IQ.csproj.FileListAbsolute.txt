@@ -95,3 +95,4 @@ C:\Users\samue\OneDrive\Documentos\StockIQ\StockIQ\Proyecto_Stock_IQ\bin\Debug\G
 C:\Users\samue\OneDrive\Documentos\StockIQ\StockIQ\Proyecto_Stock_IQ\obj\Debug\Proyecto.1B25CFF1.Up2Date
 C:\Users\Luz\source\repos\StockIQ\Proyecto_Stock_IQ\obj\Debug\Proyecto_Stock_IQ.Clientes.resources
 C:\Users\Luz\source\repos\StockIQ\Proyecto_Stock_IQ\obj\Debug\Proyecto_Stock_IQ.Configuracion.resources
+C:\Users\Luz\source\repos\StockIQ\Proyecto_Stock_IQ\obj\Debug\Proyecto_Stock_IQ.Proveedores.resources

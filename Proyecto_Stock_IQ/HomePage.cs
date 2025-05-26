@@ -49,5 +49,12 @@ namespace Proyecto_Stock_IQ
             clientes.Show();
             this.Hide();
         }
+
+        private void btn_proveedor_Click(object sender, EventArgs e)
+        {
+            Proveedores proveedores = new Proveedores();
+            proveedores.Show();
+            this.Hide();
+        }
     }
 }

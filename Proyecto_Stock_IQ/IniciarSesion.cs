@@ -27,6 +27,7 @@ namespace Proyecto_Stock_IQ
             if (usuario != null) {
                 MessageBox.Show($"Bienvenido {usuario.Nombre} ");
                 if (usuario.Rol != "admin"){
+
                     HomePage homePage = new HomePage();
                     homePage.Show();
                     this.Hide();
@@ -36,6 +37,7 @@ namespace Proyecto_Stock_IQ
                     // TODO: Agregar panel Admin
                 }
             }
+
         }
         private void glbl_Registrar_Click(object sender, EventArgs e) //Cambia a la ventana de Registrar
         {
