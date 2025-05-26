@@ -56,5 +56,20 @@ namespace Proyecto_Stock_IQ
             proveedores.Show();
             this.Hide();
         }
+
+        private void btn_agregarItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btn_agregarCliente_Click(object sender, EventArgs e)
+        {
+            panel_agregarcliente.Visible = true;
+            panel_agregarcliente.BringToFront();
+            int margenInferior = 20;
+            int x = (this.Width - panel_agregarcliente.Width) / 2;
+            int y = (this.Height - panel_agregarcliente.Height) / 2 - margenInferior;
+            panel_agregarcliente.Location = new Point(x, y);
+        }
     }
 }
