@@ -68,6 +68,12 @@
     <Compile Include="Configuracion.Designer.cs">
       <DependentUpon>Configuracion.cs</DependentUpon>
     </Compile>
+    <Compile Include="CrearFactura.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CrearFactura.Designer.cs">
+      <DependentUpon>CrearFactura.cs</DependentUpon>
+    </Compile>
     <Compile Include="IniciarSesion.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -99,6 +105,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Configuracion.resx">
       <DependentUpon>Configuracion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrearFactura.resx">
+      <DependentUpon>CrearFactura.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="IniciarSesion.resx">
       <DependentUpon>IniciarSesion.cs</DependentUpon>
