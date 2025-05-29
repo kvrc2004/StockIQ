@@ -12,14 +12,15 @@ namespace Proyecto_Stock_IQ
 {
     public partial class HomePage : Form
     {
-
+        string rolUsuario;
         private void CierreVentana(object sender, FormClosedEventArgs e)
         {
             Environment.Exit(0); //Cierra toda la ventana
         }
-        public HomePage()
+        public HomePage(string rolUsuario)
         {
             InitializeComponent();
+            this.rolUsuario = rolUsuario;
         }
         private void guna2PictureBox1_Click(object sender, EventArgs e)
         {

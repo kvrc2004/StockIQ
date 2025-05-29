@@ -1,50 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Daniela\\source\\repos\\StockIQ\\",
+  "WorkspaceRootPath": "C:\\Users\\Kevin Romero\\Desktop\\StockIQ\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{97A46BDD-BFE1-4BD0-BD2D-EFEB8217BFD9}|Proyecto_Stock_IQ\\Proyecto_Stock_IQ.csproj|c:\\users\\daniela\\source\\repos\\stockiq\\proyecto_stock_iq\\crearfactura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{97A46BDD-BFE1-4BD0-BD2D-EFEB8217BFD9}|Proyecto_Stock_IQ\\Proyecto_Stock_IQ.csproj|solutionrelative:proyecto_stock_iq\\crearfactura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{97A46BDD-BFE1-4BD0-BD2D-EFEB8217BFD9}|Proyecto_Stock_IQ\\Proyecto_Stock_IQ.csproj|C:\\Users\\Daniela\\source\\repos\\StockIQ\\proyecto_stock_iq\\homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{97A46BDD-BFE1-4BD0-BD2D-EFEB8217BFD9}|Proyecto_Stock_IQ\\Proyecto_Stock_IQ.csproj|C:\\Users\\Kevin Romero\\Desktop\\StockIQ\\proyecto_stock_iq\\homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{97A46BDD-BFE1-4BD0-BD2D-EFEB8217BFD9}|Proyecto_Stock_IQ\\Proyecto_Stock_IQ.csproj|solutionrelative:proyecto_stock_iq\\homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{97A46BDD-BFE1-4BD0-BD2D-EFEB8217BFD9}|Proyecto_Stock_IQ\\Proyecto_Stock_IQ.csproj|C:\\Users\\Daniela\\source\\repos\\StockIQ\\proyecto_stock_iq\\proveedores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{97A46BDD-BFE1-4BD0-BD2D-EFEB8217BFD9}|Proyecto_Stock_IQ\\Proyecto_Stock_IQ.csproj|solutionrelative:proyecto_stock_iq\\proveedores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{97A46BDD-BFE1-4BD0-BD2D-EFEB8217BFD9}|Proyecto_Stock_IQ\\Proyecto_Stock_IQ.csproj|C:\\Users\\Daniela\\source\\repos\\StockIQ\\proyecto_stock_iq\\configuracion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{97A46BDD-BFE1-4BD0-BD2D-EFEB8217BFD9}|Proyecto_Stock_IQ\\Proyecto_Stock_IQ.csproj|solutionrelative:proyecto_stock_iq\\configuracion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{97A46BDD-BFE1-4BD0-BD2D-EFEB8217BFD9}|Proyecto_Stock_IQ\\Proyecto_Stock_IQ.csproj|C:\\Users\\Daniela\\source\\repos\\StockIQ\\proyecto_stock_iq\\iniciarsesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{97A46BDD-BFE1-4BD0-BD2D-EFEB8217BFD9}|Proyecto_Stock_IQ\\Proyecto_Stock_IQ.csproj|solutionrelative:proyecto_stock_iq\\iniciarsesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{97A46BDD-BFE1-4BD0-BD2D-EFEB8217BFD9}|Proyecto_Stock_IQ\\Proyecto_Stock_IQ.csproj|C:\\Users\\Daniela\\source\\repos\\StockIQ\\proyecto_stock_iq\\clientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{97A46BDD-BFE1-4BD0-BD2D-EFEB8217BFD9}|Proyecto_Stock_IQ\\Proyecto_Stock_IQ.csproj|solutionrelative:proyecto_stock_iq\\clientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{97A46BDD-BFE1-4BD0-BD2D-EFEB8217BFD9}|Proyecto_Stock_IQ\\Proyecto_Stock_IQ.csproj|C:\\Users\\Daniela\\source\\repos\\StockIQ\\proyecto_stock_iq\\homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{97A46BDD-BFE1-4BD0-BD2D-EFEB8217BFD9}|Proyecto_Stock_IQ\\Proyecto_Stock_IQ.csproj|C:\\Users\\Kevin Romero\\Desktop\\StockIQ\\proyecto_stock_iq\\homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{97A46BDD-BFE1-4BD0-BD2D-EFEB8217BFD9}|Proyecto_Stock_IQ\\Proyecto_Stock_IQ.csproj|solutionrelative:proyecto_stock_iq\\homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{97A46BDD-BFE1-4BD0-BD2D-EFEB8217BFD9}|Proyecto_Stock_IQ\\Proyecto_Stock_IQ.csproj|C:\\Users\\Daniela\\source\\repos\\StockIQ\\proyecto_stock_iq\\clientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{97A46BDD-BFE1-4BD0-BD2D-EFEB8217BFD9}|Proyecto_Stock_IQ\\Proyecto_Stock_IQ.csproj|solutionrelative:proyecto_stock_iq\\clientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{97A46BDD-BFE1-4BD0-BD2D-EFEB8217BFD9}|Proyecto_Stock_IQ\\Proyecto_Stock_IQ.csproj|C:\\Users\\Daniela\\source\\repos\\StockIQ\\proyecto_stock_iq\\registrar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{97A46BDD-BFE1-4BD0-BD2D-EFEB8217BFD9}|Proyecto_Stock_IQ\\Proyecto_Stock_IQ.csproj|solutionrelative:proyecto_stock_iq\\registrar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{97A46BDD-BFE1-4BD0-BD2D-EFEB8217BFD9}|Proyecto_Stock_IQ\\Proyecto_Stock_IQ.csproj|C:\\Users\\Daniela\\source\\repos\\StockIQ\\proyecto_stock_iq\\iniciarsesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{97A46BDD-BFE1-4BD0-BD2D-EFEB8217BFD9}|Proyecto_Stock_IQ\\Proyecto_Stock_IQ.csproj|C:\\Users\\Kevin Romero\\Desktop\\StockIQ\\proyecto_stock_iq\\iniciarsesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{97A46BDD-BFE1-4BD0-BD2D-EFEB8217BFD9}|Proyecto_Stock_IQ\\Proyecto_Stock_IQ.csproj|solutionrelative:proyecto_stock_iq\\iniciarsesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{97A46BDD-BFE1-4BD0-BD2D-EFEB8217BFD9}|Proyecto_Stock_IQ\\Proyecto_Stock_IQ.csproj|C:\\Users\\Daniela\\source\\repos\\StockIQ\\proyecto_stock_iq\\registrar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{97A46BDD-BFE1-4BD0-BD2D-EFEB8217BFD9}|Proyecto_Stock_IQ\\Proyecto_Stock_IQ.csproj|c:\\users\\kevin romero\\desktop\\stockiq\\proyecto_stock_iq\\registrar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{97A46BDD-BFE1-4BD0-BD2D-EFEB8217BFD9}|Proyecto_Stock_IQ\\Proyecto_Stock_IQ.csproj|solutionrelative:proyecto_stock_iq\\registrar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97A46BDD-BFE1-4BD0-BD2D-EFEB8217BFD9}|Proyecto_Stock_IQ\\Proyecto_Stock_IQ.csproj|C:\\Users\\Kevin Romero\\Desktop\\StockIQ\\proyecto_stock_iq\\iniciarsesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{97A46BDD-BFE1-4BD0-BD2D-EFEB8217BFD9}|Proyecto_Stock_IQ\\Proyecto_Stock_IQ.csproj|solutionrelative:proyecto_stock_iq\\iniciarsesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97A46BDD-BFE1-4BD0-BD2D-EFEB8217BFD9}|Proyecto_Stock_IQ\\Proyecto_Stock_IQ.csproj|C:\\Users\\Kevin Romero\\Desktop\\StockIQ\\proyecto_stock_iq\\registrar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{97A46BDD-BFE1-4BD0-BD2D-EFEB8217BFD9}|Proyecto_Stock_IQ\\Proyecto_Stock_IQ.csproj|solutionrelative:proyecto_stock_iq\\registrar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,146 +34,82 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "HomePage.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Daniela\\source\\repos\\StockIQ\\Proyecto_Stock_IQ\\HomePage.cs",
+              "Title": "HomePage.cs",
+              "DocumentMoniker": "C:\\Users\\Kevin Romero\\Desktop\\StockIQ\\Proyecto_Stock_IQ\\HomePage.cs",
               "RelativeDocumentMoniker": "Proyecto_Stock_IQ\\HomePage.cs",
-              "ToolTip": "C:\\Users\\Daniela\\source\\repos\\StockIQ\\Proyecto_Stock_IQ\\HomePage.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Proyecto_Stock_IQ\\HomePage.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\Kevin Romero\\Desktop\\StockIQ\\Proyecto_Stock_IQ\\HomePage.cs",
+              "RelativeToolTip": "Proyecto_Stock_IQ\\HomePage.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T19:56:07.7Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "WhenOpened": "2025-05-29T15:26:32.972Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CrearFactura.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Daniela\\source\\repos\\StockIQ\\Proyecto_Stock_IQ\\CrearFactura.cs",
-              "RelativeDocumentMoniker": "Proyecto_Stock_IQ\\CrearFactura.cs",
-              "ToolTip": "C:\\Users\\Daniela\\source\\repos\\StockIQ\\Proyecto_Stock_IQ\\CrearFactura.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Proyecto_Stock_IQ\\CrearFactura.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T12:26:19.705Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Clientes.cs",
-              "DocumentMoniker": "C:\\Users\\Daniela\\source\\repos\\StockIQ\\Proyecto_Stock_IQ\\Clientes.cs",
-              "RelativeDocumentMoniker": "Proyecto_Stock_IQ\\Clientes.cs",
-              "ToolTip": "C:\\Users\\Daniela\\source\\repos\\StockIQ\\Proyecto_Stock_IQ\\Clientes.cs",
-              "RelativeToolTip": "Proyecto_Stock_IQ\\Clientes.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAxwBUAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T00:09:31.57Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "HomePage.cs",
-              "DocumentMoniker": "C:\\Users\\Daniela\\source\\repos\\StockIQ\\Proyecto_Stock_IQ\\HomePage.cs",
+              "Title": "HomePage.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Kevin Romero\\Desktop\\StockIQ\\Proyecto_Stock_IQ\\HomePage.cs",
               "RelativeDocumentMoniker": "Proyecto_Stock_IQ\\HomePage.cs",
-              "ToolTip": "C:\\Users\\Daniela\\source\\repos\\StockIQ\\Proyecto_Stock_IQ\\HomePage.cs",
-              "RelativeToolTip": "Proyecto_Stock_IQ\\HomePage.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEsAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Kevin Romero\\Desktop\\StockIQ\\Proyecto_Stock_IQ\\HomePage.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Proyecto_Stock_IQ\\HomePage.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T00:09:10.576Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Proveedores.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Daniela\\source\\repos\\StockIQ\\Proyecto_Stock_IQ\\Proveedores.cs",
-              "RelativeDocumentMoniker": "Proyecto_Stock_IQ\\Proveedores.cs",
-              "ToolTip": "C:\\Users\\Daniela\\source\\repos\\StockIQ\\Proyecto_Stock_IQ\\Proveedores.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Proyecto_Stock_IQ\\Proveedores.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T23:41:19.819Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Configuracion.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Daniela\\source\\repos\\StockIQ\\Proyecto_Stock_IQ\\Configuracion.cs",
-              "RelativeDocumentMoniker": "Proyecto_Stock_IQ\\Configuracion.cs",
-              "ToolTip": "C:\\Users\\Daniela\\source\\repos\\StockIQ\\Proyecto_Stock_IQ\\Configuracion.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Proyecto_Stock_IQ\\Configuracion.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T21:42:24.403Z"
+              "WhenOpened": "2025-05-29T15:26:24.957Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "IniciarSesion.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Daniela\\source\\repos\\StockIQ\\Proyecto_Stock_IQ\\IniciarSesion.cs",
+              "DocumentMoniker": "C:\\Users\\Kevin Romero\\Desktop\\StockIQ\\Proyecto_Stock_IQ\\IniciarSesion.cs",
               "RelativeDocumentMoniker": "Proyecto_Stock_IQ\\IniciarSesion.cs",
-              "ToolTip": "C:\\Users\\Daniela\\source\\repos\\StockIQ\\Proyecto_Stock_IQ\\IniciarSesion.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\Kevin Romero\\Desktop\\StockIQ\\Proyecto_Stock_IQ\\IniciarSesion.cs [Dise\u00F1o]",
               "RelativeToolTip": "Proyecto_Stock_IQ\\IniciarSesion.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T23:59:45.987Z"
+              "WhenOpened": "2025-03-18T23:59:45.987Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Registrar.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Daniela\\source\\repos\\StockIQ\\Proyecto_Stock_IQ\\Registrar.cs",
-              "RelativeDocumentMoniker": "Proyecto_Stock_IQ\\Registrar.cs",
-              "ToolTip": "C:\\Users\\Luz\\source\\repos\\StockIQ\\Proyecto_Stock_IQ\\Registrar.cs [Dise\u00F1o]",
-              "RelativeToolTip": "..\\..\\..\\..\\Luz\\source\\repos\\StockIQ\\Proyecto_Stock_IQ\\Registrar.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-26T18:14:03.119Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Clientes.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Daniela\\source\\repos\\StockIQ\\Proyecto_Stock_IQ\\Clientes.cs",
-              "RelativeDocumentMoniker": "Proyecto_Stock_IQ\\Clientes.cs",
-              "ToolTip": "C:\\Users\\Daniela\\source\\repos\\StockIQ\\Proyecto_Stock_IQ\\Clientes.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Proyecto_Stock_IQ\\Clientes.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T22:28:37.332Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 2,
               "Title": "IniciarSesion.cs",
-              "DocumentMoniker": "C:\\Users\\Daniela\\source\\repos\\StockIQ\\Proyecto_Stock_IQ\\IniciarSesion.cs",
+              "DocumentMoniker": "C:\\Users\\Kevin Romero\\Desktop\\StockIQ\\Proyecto_Stock_IQ\\IniciarSesion.cs",
               "RelativeDocumentMoniker": "Proyecto_Stock_IQ\\IniciarSesion.cs",
-              "ToolTip": "C:\\Users\\Daniela\\source\\repos\\StockIQ\\Proyecto_Stock_IQ\\IniciarSesion.cs",
+              "ToolTip": "C:\\Users\\Kevin Romero\\Desktop\\StockIQ\\Proyecto_Stock_IQ\\IniciarSesion.cs",
               "RelativeToolTip": "Proyecto_Stock_IQ\\IniciarSesion.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAYwB4AAAA3AAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAqwCUAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T01:30:08.5Z"
+              "WhenOpened": "2025-03-19T01:30:08.5Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Registrar.cs",
-              "DocumentMoniker": "C:\\Users\\Daniela\\source\\repos\\StockIQ\\Proyecto_Stock_IQ\\Registrar.cs",
+              "DocumentIndex": 5,
+              "Title": "Registrar.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Kevin Romero\\Desktop\\StockIQ\\Proyecto_Stock_IQ\\Registrar.cs",
               "RelativeDocumentMoniker": "Proyecto_Stock_IQ\\Registrar.cs",
-              "ToolTip": "C:\\Users\\Daniela\\source\\repos\\StockIQ\\Proyecto_Stock_IQ\\Registrar.cs",
-              "RelativeToolTip": "Proyecto_Stock_IQ\\Registrar.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAAAjwD4AAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Kevin Romero\\Desktop\\StockIQ\\Proyecto_Stock_IQ\\Registrar.cs [Design]",
+              "RelativeToolTip": "Proyecto_Stock_IQ\\Registrar.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-26T18:19:59.591Z"
+              "WhenOpened": "2025-03-26T18:14:03.119Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Registrar.cs",
+              "DocumentMoniker": "C:\\Users\\Kevin Romero\\Desktop\\StockIQ\\Proyecto_Stock_IQ\\Registrar.cs",
+              "RelativeDocumentMoniker": "Proyecto_Stock_IQ\\Registrar.cs",
+              "ToolTip": "C:\\Users\\Kevin Romero\\Desktop\\StockIQ\\Proyecto_Stock_IQ\\Registrar.cs",
+              "RelativeToolTip": "Proyecto_Stock_IQ\\Registrar.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAqwDcAAABzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T18:19:59.591Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -96,3 +96,39 @@ C:\Users\samue\OneDrive\Documentos\StockIQ\StockIQ\Proyecto_Stock_IQ\obj\Debug\P
 C:\Users\Luz\source\repos\StockIQ\Proyecto_Stock_IQ\obj\Debug\Proyecto_Stock_IQ.Clientes.resources
 C:\Users\Luz\source\repos\StockIQ\Proyecto_Stock_IQ\obj\Debug\Proyecto_Stock_IQ.Configuracion.resources
 C:\Users\Luz\source\repos\StockIQ\Proyecto_Stock_IQ\obj\Debug\Proyecto_Stock_IQ.Proveedores.resources
+C:\Users\Kevin Romero\Desktop\Universidad\Repos\Herramientas1\StockIQ\Proyecto_Stock_IQ\bin\Debug\Proyecto_Stock_IQ.exe.config
+C:\Users\Kevin Romero\Desktop\Universidad\Repos\Herramientas1\StockIQ\Proyecto_Stock_IQ\bin\Debug\Proyecto_Stock_IQ.exe
+C:\Users\Kevin Romero\Desktop\Universidad\Repos\Herramientas1\StockIQ\Proyecto_Stock_IQ\bin\Debug\Proyecto_Stock_IQ.pdb
+C:\Users\Kevin Romero\Desktop\Universidad\Repos\Herramientas1\StockIQ\Proyecto_Stock_IQ\bin\Debug\Guna.UI2.dll
+C:\Users\Kevin Romero\Desktop\Universidad\Repos\Herramientas1\StockIQ\Proyecto_Stock_IQ\obj\Debug\Proyecto_Stock_IQ.csproj.AssemblyReference.cache
+C:\Users\Kevin Romero\Desktop\Universidad\Repos\Herramientas1\StockIQ\Proyecto_Stock_IQ\obj\Debug\Proyecto_Stock_IQ.Clientes.resources
+C:\Users\Kevin Romero\Desktop\Universidad\Repos\Herramientas1\StockIQ\Proyecto_Stock_IQ\obj\Debug\Proyecto_Stock_IQ.Configuracion.resources
+C:\Users\Kevin Romero\Desktop\Universidad\Repos\Herramientas1\StockIQ\Proyecto_Stock_IQ\obj\Debug\Proyecto_Stock_IQ.CrearFactura.resources
+C:\Users\Kevin Romero\Desktop\Universidad\Repos\Herramientas1\StockIQ\Proyecto_Stock_IQ\obj\Debug\Proyecto_Stock_IQ.IniciarSesion.resources
+C:\Users\Kevin Romero\Desktop\Universidad\Repos\Herramientas1\StockIQ\Proyecto_Stock_IQ\obj\Debug\Proyecto_Stock_IQ.HomePage.resources
+C:\Users\Kevin Romero\Desktop\Universidad\Repos\Herramientas1\StockIQ\Proyecto_Stock_IQ\obj\Debug\Proyecto_Stock_IQ.Properties.Resources.resources
+C:\Users\Kevin Romero\Desktop\Universidad\Repos\Herramientas1\StockIQ\Proyecto_Stock_IQ\obj\Debug\Proyecto_Stock_IQ.Proveedores.resources
+C:\Users\Kevin Romero\Desktop\Universidad\Repos\Herramientas1\StockIQ\Proyecto_Stock_IQ\obj\Debug\Proyecto_Stock_IQ.Registrar.resources
+C:\Users\Kevin Romero\Desktop\Universidad\Repos\Herramientas1\StockIQ\Proyecto_Stock_IQ\obj\Debug\Proyecto_Stock_IQ.csproj.GenerateResource.cache
+C:\Users\Kevin Romero\Desktop\Universidad\Repos\Herramientas1\StockIQ\Proyecto_Stock_IQ\obj\Debug\Proyecto_Stock_IQ.csproj.CoreCompileInputs.cache
+C:\Users\Kevin Romero\Desktop\Universidad\Repos\Herramientas1\StockIQ\Proyecto_Stock_IQ\obj\Debug\Proyecto.1B25CFF1.Up2Date
+C:\Users\Kevin Romero\Desktop\Universidad\Repos\Herramientas1\StockIQ\Proyecto_Stock_IQ\obj\Debug\Proyecto_Stock_IQ.exe
+C:\Users\Kevin Romero\Desktop\Universidad\Repos\Herramientas1\StockIQ\Proyecto_Stock_IQ\obj\Debug\Proyecto_Stock_IQ.pdb
+C:\Users\Kevin Romero\Desktop\StockIQ\Proyecto_Stock_IQ\obj\Debug\Proyecto_Stock_IQ.csproj.AssemblyReference.cache
+C:\Users\Kevin Romero\Desktop\StockIQ\Proyecto_Stock_IQ\obj\Debug\Proyecto_Stock_IQ.Clientes.resources
+C:\Users\Kevin Romero\Desktop\StockIQ\Proyecto_Stock_IQ\obj\Debug\Proyecto_Stock_IQ.Configuracion.resources
+C:\Users\Kevin Romero\Desktop\StockIQ\Proyecto_Stock_IQ\obj\Debug\Proyecto_Stock_IQ.CrearFactura.resources
+C:\Users\Kevin Romero\Desktop\StockIQ\Proyecto_Stock_IQ\obj\Debug\Proyecto_Stock_IQ.IniciarSesion.resources
+C:\Users\Kevin Romero\Desktop\StockIQ\Proyecto_Stock_IQ\obj\Debug\Proyecto_Stock_IQ.HomePage.resources
+C:\Users\Kevin Romero\Desktop\StockIQ\Proyecto_Stock_IQ\obj\Debug\Proyecto_Stock_IQ.Properties.Resources.resources
+C:\Users\Kevin Romero\Desktop\StockIQ\Proyecto_Stock_IQ\obj\Debug\Proyecto_Stock_IQ.Proveedores.resources
+C:\Users\Kevin Romero\Desktop\StockIQ\Proyecto_Stock_IQ\obj\Debug\Proyecto_Stock_IQ.Registrar.resources
+C:\Users\Kevin Romero\Desktop\StockIQ\Proyecto_Stock_IQ\obj\Debug\Proyecto_Stock_IQ.csproj.GenerateResource.cache
+C:\Users\Kevin Romero\Desktop\StockIQ\Proyecto_Stock_IQ\obj\Debug\Proyecto_Stock_IQ.csproj.CoreCompileInputs.cache
+C:\Users\Kevin Romero\Desktop\StockIQ\Proyecto_Stock_IQ\obj\Debug\Proyecto_Stock_IQ.exe
+C:\Users\Kevin Romero\Desktop\StockIQ\Proyecto_Stock_IQ\obj\Debug\Proyecto_Stock_IQ.pdb
+C:\Users\Kevin Romero\Desktop\StockIQ\Proyecto_Stock_IQ\bin\Debug\Proyecto_Stock_IQ.exe.config
+C:\Users\Kevin Romero\Desktop\StockIQ\Proyecto_Stock_IQ\bin\Debug\Proyecto_Stock_IQ.exe
+C:\Users\Kevin Romero\Desktop\StockIQ\Proyecto_Stock_IQ\bin\Debug\Proyecto_Stock_IQ.pdb
+C:\Users\Kevin Romero\Desktop\StockIQ\Proyecto_Stock_IQ\bin\Debug\Guna.UI2.dll
+C:\Users\Kevin Romero\Desktop\StockIQ\Proyecto_Stock_IQ\obj\Debug\Proyecto.1B25CFF1.Up2Date
