@@ -44,6 +44,16 @@
             this.guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
+            this.btn_eliminar = new Guna.UI2.WinForms.Guna2Button();
+            this.btn_editarproveedor = new Guna.UI2.WinForms.Guna2Button();
+            this.btn_agregarproveedor = new Guna.UI2.WinForms.Guna2Button();
+            this.listView_stock = new System.Windows.Forms.ListView();
+            this.Empresa = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.Contacto = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.lbl_Registrar = new System.Windows.Forms.Label();
+            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.panel_editarproveedor = new Guna.UI2.WinForms.Guna2Panel();
             this.btn_cerrareditar = new Guna.UI2.WinForms.Guna2Button();
             this.guna2TextBox5 = new Guna.UI2.WinForms.Guna2TextBox();
@@ -56,16 +66,6 @@
             this.guna2HtmlLabel13 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.btn_guardareditar = new Guna.UI2.WinForms.Guna2Button();
             this.label2 = new System.Windows.Forms.Label();
-            this.btn_eliminar = new Guna.UI2.WinForms.Guna2Button();
-            this.btn_editarproveedor = new Guna.UI2.WinForms.Guna2Button();
-            this.btn_agregarproveedor = new Guna.UI2.WinForms.Guna2Button();
-            this.listView_stock = new System.Windows.Forms.ListView();
-            this.Empresa = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.Contacto = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.lbl_Registrar = new System.Windows.Forms.Label();
-            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.panel_agregarproveedor = new Guna.UI2.WinForms.Guna2Panel();
             this.btn_cerraragregar = new Guna.UI2.WinForms.Guna2Button();
             this.guna2TextBox4 = new Guna.UI2.WinForms.Guna2TextBox();
@@ -276,6 +276,118 @@
             this.guna2Panel1.Size = new System.Drawing.Size(758, 496);
             this.guna2Panel1.TabIndex = 42;
             // 
+            // btn_eliminar
+            // 
+            this.btn_eliminar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(239)))), ((int)(((byte)(230)))));
+            this.btn_eliminar.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(104)))), ((int)(((byte)(73)))));
+            this.btn_eliminar.BorderThickness = 2;
+            this.btn_eliminar.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btn_eliminar.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btn_eliminar.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btn_eliminar.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btn_eliminar.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(68)))), ((int)(((byte)(14)))));
+            this.btn_eliminar.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold);
+            this.btn_eliminar.ForeColor = System.Drawing.Color.Black;
+            this.btn_eliminar.Location = new System.Drawing.Point(512, 361);
+            this.btn_eliminar.Name = "btn_eliminar";
+            this.btn_eliminar.Size = new System.Drawing.Size(194, 45);
+            this.btn_eliminar.TabIndex = 46;
+            this.btn_eliminar.Text = "Eliminar proveedor";
+            // 
+            // btn_editarproveedor
+            // 
+            this.btn_editarproveedor.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(104)))), ((int)(((byte)(73)))));
+            this.btn_editarproveedor.BorderThickness = 2;
+            this.btn_editarproveedor.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btn_editarproveedor.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btn_editarproveedor.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btn_editarproveedor.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btn_editarproveedor.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(151)))), ((int)(((byte)(49)))));
+            this.btn_editarproveedor.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_editarproveedor.ForeColor = System.Drawing.Color.Black;
+            this.btn_editarproveedor.Location = new System.Drawing.Point(284, 361);
+            this.btn_editarproveedor.Name = "btn_editarproveedor";
+            this.btn_editarproveedor.Size = new System.Drawing.Size(197, 45);
+            this.btn_editarproveedor.TabIndex = 44;
+            this.btn_editarproveedor.Text = "Editar proveedor";
+            this.btn_editarproveedor.Click += new System.EventHandler(this.btn_editarproveedor_Click);
+            // 
+            // btn_agregarproveedor
+            // 
+            this.btn_agregarproveedor.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(239)))), ((int)(((byte)(230)))));
+            this.btn_agregarproveedor.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(104)))), ((int)(((byte)(73)))));
+            this.btn_agregarproveedor.BorderThickness = 2;
+            this.btn_agregarproveedor.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btn_agregarproveedor.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btn_agregarproveedor.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btn_agregarproveedor.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btn_agregarproveedor.FillColor = System.Drawing.Color.Peru;
+            this.btn_agregarproveedor.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold);
+            this.btn_agregarproveedor.ForeColor = System.Drawing.Color.Black;
+            this.btn_agregarproveedor.Location = new System.Drawing.Point(53, 361);
+            this.btn_agregarproveedor.Name = "btn_agregarproveedor";
+            this.btn_agregarproveedor.Size = new System.Drawing.Size(190, 45);
+            this.btn_agregarproveedor.TabIndex = 43;
+            this.btn_agregarproveedor.Text = "Agregar proveedor";
+            this.btn_agregarproveedor.Click += new System.EventHandler(this.btn_agregarproveedor_Click);
+            // 
+            // listView_stock
+            // 
+            this.listView_stock.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(210)))), ((int)(((byte)(198)))));
+            this.listView_stock.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.Empresa,
+            this.Contacto,
+            this.columnHeader1,
+            this.columnHeader2});
+            this.listView_stock.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.listView_stock.HideSelection = false;
+            this.listView_stock.Location = new System.Drawing.Point(31, 87);
+            this.listView_stock.Name = "listView_stock";
+            this.listView_stock.Size = new System.Drawing.Size(701, 229);
+            this.listView_stock.TabIndex = 42;
+            this.listView_stock.UseCompatibleStateImageBehavior = false;
+            this.listView_stock.View = System.Windows.Forms.View.Details;
+            // 
+            // Empresa
+            // 
+            this.Empresa.Text = "Nombre empresa";
+            this.Empresa.Width = 200;
+            // 
+            // Contacto
+            // 
+            this.Contacto.Text = "Nombre contacto";
+            this.Contacto.Width = 180;
+            // 
+            // columnHeader1
+            // 
+            this.columnHeader1.Text = "Telefono";
+            this.columnHeader1.Width = 100;
+            // 
+            // columnHeader2
+            // 
+            this.columnHeader2.Text = "Correo electrónico";
+            this.columnHeader2.Width = 200;
+            // 
+            // lbl_Registrar
+            // 
+            this.lbl_Registrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_Registrar.ForeColor = System.Drawing.Color.Black;
+            this.lbl_Registrar.Location = new System.Drawing.Point(35, 29);
+            this.lbl_Registrar.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbl_Registrar.Name = "lbl_Registrar";
+            this.lbl_Registrar.Size = new System.Drawing.Size(243, 158);
+            this.lbl_Registrar.TabIndex = 9;
+            this.lbl_Registrar.Text = "Proveedores";
+            // 
+            // linkLabel1
+            // 
+            this.linkLabel1.AutoSize = true;
+            this.linkLabel1.Location = new System.Drawing.Point(192, 300);
+            this.linkLabel1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.linkLabel1.Name = "linkLabel1";
+            this.linkLabel1.Size = new System.Drawing.Size(0, 16);
+            this.linkLabel1.TabIndex = 8;
+            // 
             // panel_editarproveedor
             // 
             this.panel_editarproveedor.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(55)))), ((int)(((byte)(56)))));
@@ -469,118 +581,6 @@
             this.label2.Size = new System.Drawing.Size(409, 158);
             this.label2.TabIndex = 47;
             this.label2.Text = "Editar proveedor";
-            // 
-            // btn_eliminar
-            // 
-            this.btn_eliminar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(239)))), ((int)(((byte)(230)))));
-            this.btn_eliminar.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(104)))), ((int)(((byte)(73)))));
-            this.btn_eliminar.BorderThickness = 2;
-            this.btn_eliminar.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btn_eliminar.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btn_eliminar.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btn_eliminar.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btn_eliminar.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(68)))), ((int)(((byte)(14)))));
-            this.btn_eliminar.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold);
-            this.btn_eliminar.ForeColor = System.Drawing.Color.Black;
-            this.btn_eliminar.Location = new System.Drawing.Point(512, 361);
-            this.btn_eliminar.Name = "btn_eliminar";
-            this.btn_eliminar.Size = new System.Drawing.Size(194, 45);
-            this.btn_eliminar.TabIndex = 46;
-            this.btn_eliminar.Text = "Eliminar proveedor";
-            // 
-            // btn_editarproveedor
-            // 
-            this.btn_editarproveedor.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(104)))), ((int)(((byte)(73)))));
-            this.btn_editarproveedor.BorderThickness = 2;
-            this.btn_editarproveedor.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btn_editarproveedor.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btn_editarproveedor.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btn_editarproveedor.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btn_editarproveedor.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(151)))), ((int)(((byte)(49)))));
-            this.btn_editarproveedor.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_editarproveedor.ForeColor = System.Drawing.Color.Black;
-            this.btn_editarproveedor.Location = new System.Drawing.Point(284, 361);
-            this.btn_editarproveedor.Name = "btn_editarproveedor";
-            this.btn_editarproveedor.Size = new System.Drawing.Size(197, 45);
-            this.btn_editarproveedor.TabIndex = 44;
-            this.btn_editarproveedor.Text = "Editar proveedor";
-            this.btn_editarproveedor.Click += new System.EventHandler(this.btn_editarproveedor_Click);
-            // 
-            // btn_agregarproveedor
-            // 
-            this.btn_agregarproveedor.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(239)))), ((int)(((byte)(230)))));
-            this.btn_agregarproveedor.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(104)))), ((int)(((byte)(73)))));
-            this.btn_agregarproveedor.BorderThickness = 2;
-            this.btn_agregarproveedor.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btn_agregarproveedor.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btn_agregarproveedor.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btn_agregarproveedor.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btn_agregarproveedor.FillColor = System.Drawing.Color.Peru;
-            this.btn_agregarproveedor.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold);
-            this.btn_agregarproveedor.ForeColor = System.Drawing.Color.Black;
-            this.btn_agregarproveedor.Location = new System.Drawing.Point(53, 361);
-            this.btn_agregarproveedor.Name = "btn_agregarproveedor";
-            this.btn_agregarproveedor.Size = new System.Drawing.Size(190, 45);
-            this.btn_agregarproveedor.TabIndex = 43;
-            this.btn_agregarproveedor.Text = "Agregar proveedor";
-            this.btn_agregarproveedor.Click += new System.EventHandler(this.btn_agregarproveedor_Click);
-            // 
-            // listView_stock
-            // 
-            this.listView_stock.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(210)))), ((int)(((byte)(198)))));
-            this.listView_stock.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
-            this.Empresa,
-            this.Contacto,
-            this.columnHeader1,
-            this.columnHeader2});
-            this.listView_stock.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.listView_stock.HideSelection = false;
-            this.listView_stock.Location = new System.Drawing.Point(31, 87);
-            this.listView_stock.Name = "listView_stock";
-            this.listView_stock.Size = new System.Drawing.Size(701, 229);
-            this.listView_stock.TabIndex = 42;
-            this.listView_stock.UseCompatibleStateImageBehavior = false;
-            this.listView_stock.View = System.Windows.Forms.View.Details;
-            // 
-            // Empresa
-            // 
-            this.Empresa.Text = "Nombre empresa";
-            this.Empresa.Width = 200;
-            // 
-            // Contacto
-            // 
-            this.Contacto.Text = "Nombre contacto";
-            this.Contacto.Width = 180;
-            // 
-            // columnHeader1
-            // 
-            this.columnHeader1.Text = "Telefono";
-            this.columnHeader1.Width = 100;
-            // 
-            // columnHeader2
-            // 
-            this.columnHeader2.Text = "Correo electrónico";
-            this.columnHeader2.Width = 200;
-            // 
-            // lbl_Registrar
-            // 
-            this.lbl_Registrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_Registrar.ForeColor = System.Drawing.Color.Black;
-            this.lbl_Registrar.Location = new System.Drawing.Point(35, 29);
-            this.lbl_Registrar.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.lbl_Registrar.Name = "lbl_Registrar";
-            this.lbl_Registrar.Size = new System.Drawing.Size(243, 158);
-            this.lbl_Registrar.TabIndex = 9;
-            this.lbl_Registrar.Text = "Proveedores";
-            // 
-            // linkLabel1
-            // 
-            this.linkLabel1.AutoSize = true;
-            this.linkLabel1.Location = new System.Drawing.Point(192, 300);
-            this.linkLabel1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(0, 16);
-            this.linkLabel1.TabIndex = 8;
             // 
             // panel_agregarproveedor
             // 
@@ -799,6 +799,7 @@
             this.Controls.Add(this.clientes);
             this.Controls.Add(this.guna2HtmlLabel2);
             this.Controls.Add(this.guna2HtmlLabel1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Proveedores";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Proveedores";

@@ -12,6 +12,10 @@ namespace Proyecto_Stock_IQ
 {
     public partial class Clientes : Form
     {
+        private void CierreVentana(object sender, FormClosedEventArgs e)
+        {
+            Environment.Exit(0); //Cierra toda la ventana
+        }
         public Clientes()
         {
             InitializeComponent();

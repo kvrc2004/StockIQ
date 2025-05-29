@@ -100,6 +100,7 @@
             // 
             // btn_agregarItem
             // 
+            this.btn_agregarItem.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_agregarItem.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btn_agregarItem.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btn_agregarItem.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
@@ -160,6 +161,7 @@
             // 
             // btn_agregarCliente
             // 
+            this.btn_agregarCliente.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_agregarCliente.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btn_agregarCliente.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btn_agregarCliente.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));

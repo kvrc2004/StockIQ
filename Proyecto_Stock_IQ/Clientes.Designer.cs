@@ -55,6 +55,7 @@
             this.lbl_Registrar = new System.Windows.Forms.Label();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.panel_agregarcliente = new Guna.UI2.WinForms.Guna2Panel();
+            this.btn_cerraragregar = new Guna.UI2.WinForms.Guna2Button();
             this.guna2TextBox4 = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2HtmlLabel9 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2TextBox3 = new Guna.UI2.WinForms.Guna2TextBox();
@@ -66,6 +67,7 @@
             this.btn_guardarCliente = new Guna.UI2.WinForms.Guna2Button();
             this.label1 = new System.Windows.Forms.Label();
             this.panel_editarcliente = new Guna.UI2.WinForms.Guna2Panel();
+            this.btn_cerrareditar = new Guna.UI2.WinForms.Guna2Button();
             this.guna2TextBox5 = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2HtmlLabel10 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2TextBox6 = new Guna.UI2.WinForms.Guna2TextBox();
@@ -76,8 +78,6 @@
             this.guna2HtmlLabel13 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.btn_guardareditar = new Guna.UI2.WinForms.Guna2Button();
             this.label2 = new System.Windows.Forms.Label();
-            this.btn_cerrareditar = new Guna.UI2.WinForms.Guna2Button();
-            this.btn_cerraragregar = new Guna.UI2.WinForms.Guna2Button();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox4)).BeginInit();
@@ -407,6 +407,24 @@
             this.panel_agregarcliente.TabIndex = 42;
             this.panel_agregarcliente.Visible = false;
             // 
+            // btn_cerraragregar
+            // 
+            this.btn_cerraragregar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(239)))), ((int)(((byte)(230)))));
+            this.btn_cerraragregar.BorderThickness = 2;
+            this.btn_cerraragregar.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btn_cerraragregar.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btn_cerraragregar.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btn_cerraragregar.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btn_cerraragregar.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(68)))), ((int)(((byte)(14)))));
+            this.btn_cerraragregar.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold);
+            this.btn_cerraragregar.ForeColor = System.Drawing.Color.Black;
+            this.btn_cerraragregar.Location = new System.Drawing.Point(388, 0);
+            this.btn_cerraragregar.Name = "btn_cerraragregar";
+            this.btn_cerraragregar.Size = new System.Drawing.Size(46, 32);
+            this.btn_cerraragregar.TabIndex = 56;
+            this.btn_cerraragregar.Text = "X";
+            this.btn_cerraragregar.Click += new System.EventHandler(this.btn_cerraragregar_Click);
+            // 
             // guna2TextBox4
             // 
             this.guna2TextBox4.Cursor = System.Windows.Forms.Cursors.IBeam;
@@ -583,6 +601,24 @@
             this.panel_editarcliente.TabIndex = 56;
             this.panel_editarcliente.Visible = false;
             // 
+            // btn_cerrareditar
+            // 
+            this.btn_cerrareditar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(239)))), ((int)(((byte)(230)))));
+            this.btn_cerrareditar.BorderThickness = 2;
+            this.btn_cerrareditar.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btn_cerrareditar.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btn_cerrareditar.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btn_cerrareditar.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btn_cerrareditar.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(68)))), ((int)(((byte)(14)))));
+            this.btn_cerrareditar.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold);
+            this.btn_cerrareditar.ForeColor = System.Drawing.Color.Black;
+            this.btn_cerrareditar.Location = new System.Drawing.Point(388, 0);
+            this.btn_cerrareditar.Name = "btn_cerrareditar";
+            this.btn_cerrareditar.Size = new System.Drawing.Size(46, 32);
+            this.btn_cerrareditar.TabIndex = 47;
+            this.btn_cerrareditar.Text = "X";
+            this.btn_cerrareditar.Click += new System.EventHandler(this.btn_cerrareditar_Click);
+            // 
             // guna2TextBox5
             // 
             this.guna2TextBox5.Cursor = System.Windows.Forms.Cursors.IBeam;
@@ -739,42 +775,6 @@
             this.label2.TabIndex = 47;
             this.label2.Text = "Editar cliente";
             // 
-            // btn_cerrareditar
-            // 
-            this.btn_cerrareditar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(239)))), ((int)(((byte)(230)))));
-            this.btn_cerrareditar.BorderThickness = 2;
-            this.btn_cerrareditar.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btn_cerrareditar.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btn_cerrareditar.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btn_cerrareditar.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btn_cerrareditar.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(68)))), ((int)(((byte)(14)))));
-            this.btn_cerrareditar.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold);
-            this.btn_cerrareditar.ForeColor = System.Drawing.Color.Black;
-            this.btn_cerrareditar.Location = new System.Drawing.Point(388, 0);
-            this.btn_cerrareditar.Name = "btn_cerrareditar";
-            this.btn_cerrareditar.Size = new System.Drawing.Size(46, 32);
-            this.btn_cerrareditar.TabIndex = 47;
-            this.btn_cerrareditar.Text = "X";
-            this.btn_cerrareditar.Click += new System.EventHandler(this.btn_cerrareditar_Click);
-            // 
-            // btn_cerraragregar
-            // 
-            this.btn_cerraragregar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(239)))), ((int)(((byte)(230)))));
-            this.btn_cerraragregar.BorderThickness = 2;
-            this.btn_cerraragregar.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btn_cerraragregar.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btn_cerraragregar.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btn_cerraragregar.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btn_cerraragregar.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(68)))), ((int)(((byte)(14)))));
-            this.btn_cerraragregar.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold);
-            this.btn_cerraragregar.ForeColor = System.Drawing.Color.Black;
-            this.btn_cerraragregar.Location = new System.Drawing.Point(388, 0);
-            this.btn_cerraragregar.Name = "btn_cerraragregar";
-            this.btn_cerraragregar.Size = new System.Drawing.Size(46, 32);
-            this.btn_cerraragregar.TabIndex = 56;
-            this.btn_cerraragregar.Text = "X";
-            this.btn_cerraragregar.Click += new System.EventHandler(this.btn_cerraragregar_Click);
-            // 
             // Clientes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -798,6 +798,7 @@
             this.Controls.Add(this.guna2HtmlLabel2);
             this.Controls.Add(this.guna2HtmlLabel1);
             this.Controls.Add(this.gpb_StockIQ);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Clientes";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Clientes";
