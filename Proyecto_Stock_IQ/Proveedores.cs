@@ -12,10 +12,7 @@ namespace Proyecto_Stock_IQ
 {
     public partial class Proveedores : Form
     {
-        private void CierreVentana(object sender, FormClosedEventArgs e)
-        {
-            Environment.Exit(0); //Cierra toda la ventana
-        }
+        
         public Proveedores()
         {
             InitializeComponent();
@@ -51,6 +48,26 @@ namespace Proyecto_Stock_IQ
         {
             panel_editarproveedor.Visible = false;
             panel_editarproveedor.SendToBack();
+        }
+
+        private void Proveedores_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit(); //Cierra toda la ventana
+        }
+
+        private void guna2PictureBox5_Click(object sender, EventArgs e)
+        {
+            HomePage homePage = new HomePage();
+            homePage.Show();
+            this.Hide(); // Oculta la ventana actual
+
+        }
+
+        private void btn_clientes_Click(object sender, EventArgs e)
+        {
+            Clientes clientes = new Clientes();
+            clientes.Show();
+            this.Hide(); // Oculta la ventana actual
         }
     }
 }

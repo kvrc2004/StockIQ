@@ -15,9 +15,13 @@ namespace Proyecto_Stock_IQ
 {
     public partial class IniciarSesion: Form
     {
+        public static class Globales
+        {
+            // CAMBIEN LA RUTA DEL ARCHIVO A LA QUE CORRESPONDA EN EL PROYECTO
+            public static string ArchivoUsuarios = "C:\\Users\\Kevin Romero\\Desktop\\StockIQ\\Datos\\Usuarios.txt";
+            public static string ArchivoClientes = "C:\\Users\\Kevin Romero\\Desktop\\StockIQ\\Datos\\Clientes.txt";
+        }
         
-        // CAMBIEN LA RUTA DEL ARCHIVO A LA QUE CORRESPONDA EN EL PROYECTO
-        string rutaArchivo = "C:\\Users\\Usuario\\Documents\\GitHub\\StockIQ\\Datos\\Usuarios.txt";
         public IniciarSesion() 
         {
             InitializeComponent();
@@ -29,7 +33,7 @@ namespace Proyecto_Stock_IQ
                 MessageBox.Show("Por favor, completa ambos campos.", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
-            if (!File.Exists(rutaArchivo))
+            if (!File.Exists(Globales.ArchivoUsuarios))
             {
                 MessageBox.Show("El archivo de usuarios no existe.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
@@ -37,7 +41,7 @@ namespace Proyecto_Stock_IQ
             bool loginExitoso = false;
             string rolUsuario = "";
 
-            string[] lineas = File.ReadAllLines(rutaArchivo);
+            string[] lineas = File.ReadAllLines(Globales.ArchivoUsuarios);
             foreach (string linea in lineas)
             {
                 string[] partes = linea.Split(',');

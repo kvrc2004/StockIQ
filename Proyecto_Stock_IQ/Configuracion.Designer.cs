@@ -64,6 +64,7 @@
             // 
             // guna2PictureBox5
             // 
+            this.guna2PictureBox5.Cursor = System.Windows.Forms.Cursors.Hand;
             this.guna2PictureBox5.FillColor = System.Drawing.Color.Transparent;
             this.guna2PictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox5.Image")));
             this.guna2PictureBox5.ImageRotate = 0F;
@@ -73,6 +74,7 @@
             this.guna2PictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.guna2PictureBox5.TabIndex = 39;
             this.guna2PictureBox5.TabStop = false;
+            this.guna2PictureBox5.Click += new System.EventHandler(this.guna2PictureBox5_Click);
             // 
             // guna2HtmlLabel4
             // 
@@ -88,6 +90,7 @@
             // 
             // guna2PictureBox7
             // 
+            this.guna2PictureBox7.Cursor = System.Windows.Forms.Cursors.Hand;
             this.guna2PictureBox7.FillColor = System.Drawing.Color.Transparent;
             this.guna2PictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox7.Image")));
             this.guna2PictureBox7.ImageRotate = 0F;
@@ -97,6 +100,7 @@
             this.guna2PictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.guna2PictureBox7.TabIndex = 37;
             this.guna2PictureBox7.TabStop = false;
+            this.guna2PictureBox7.Click += new System.EventHandler(this.guna2PictureBox7_Click);
             // 
             // guna2HtmlLabel6
             // 
@@ -112,6 +116,7 @@
             // 
             // guna2PictureBox4
             // 
+            this.guna2PictureBox4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.guna2PictureBox4.FillColor = System.Drawing.Color.Transparent;
             this.guna2PictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox4.Image")));
             this.guna2PictureBox4.ImageRotate = 0F;
@@ -124,6 +129,7 @@
             // 
             // btn_configuracion
             // 
+            this.btn_configuracion.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_configuracion.FillColor = System.Drawing.Color.Transparent;
             this.btn_configuracion.Image = ((System.Drawing.Image)(resources.GetObject("btn_configuracion.Image")));
             this.btn_configuracion.ImageRotate = 0F;
@@ -136,6 +142,7 @@
             // 
             // guna2PictureBox3
             // 
+            this.guna2PictureBox3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.guna2PictureBox3.FillColor = System.Drawing.Color.Transparent;
             this.guna2PictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox3.Image")));
             this.guna2PictureBox3.ImageRotate = 0F;
@@ -148,6 +155,7 @@
             // 
             // guna2PictureBox2
             // 
+            this.guna2PictureBox2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.guna2PictureBox2.FillColor = System.Drawing.Color.Transparent;
             this.guna2PictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox2.Image")));
             this.guna2PictureBox2.ImageRotate = 0F;
@@ -157,6 +165,7 @@
             this.guna2PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.guna2PictureBox2.TabIndex = 28;
             this.guna2PictureBox2.TabStop = false;
+            this.guna2PictureBox2.Click += new System.EventHandler(this.guna2PictureBox2_Click);
             // 
             // guna2HtmlLabel1
             // 
@@ -377,6 +386,7 @@
             this.Name = "Configuracion";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Configuracion";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Configuracion_FormClosing);
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox4)).EndInit();

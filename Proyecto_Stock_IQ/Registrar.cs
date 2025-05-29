@@ -15,8 +15,7 @@ namespace Proyecto_Stock_IQ
 {
     public partial class Registrar : Form
     {
-        // CAMBIEN LA RUTA DEL ARCHIVO A LA QUE CORRESPONDA EN EL PROYECTO
-        string rutaArchivo = "C:\\Users\\Usuario\\Documents\\GitHub\\StockIQ\\Datos\\Usuarios.txt";
+        
 
         private List<Usuario> usuarios = new List<Usuario>(); //Lista que almacena a los objetos usuarios
         public class Usuario //Constructor
@@ -54,27 +53,31 @@ namespace Proyecto_Stock_IQ
                 return; // Evita que se agregue un usuario sin datos
             }
             // Verifica si el usuario ya existe
-            if (File.Exists(rutaArchivo))
+            if (File.Exists(Globales.ArchivoUsuarios))
             {
-                string[] lineas = File.ReadAllLines(rutaArchivo);
+                string[] lineas = File.ReadAllLines(Globales.ArchivoUsuarios);
                 foreach (string linea in lineas)
                 {
                     string[] partes = linea.Split(',');
-                    if (partes.Length >= 1 )
+                    if (partes.Length >= 2)
                     {
-                        MessageBox.Show("El usuario ya existe.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                        return;
+                        string documentoArchivo = partes[1]; 
+                        if (documentoArchivo == gtxt_Documento.Text)
+                        {
+                            MessageBox.Show("El usuario ya existe.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            return;
+                        }
                     }
                 }
             }
             usuarios.Add(new Usuario(gtxt_Nombre.Text, gtxt_Documento.Text, gtxt_Password.Text, "Usuario")); //Agrega el usuario a la lista}
-            MessageBox.Show("Usuario registrado exitosamente.", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            //MessageBox.Show("Usuario registrado exitosamente.", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
             
             try
             {
                 if (usuarios.Count != 0)
                 {
-                    StreamWriter sw = new StreamWriter(rutaArchivo);
+                    StreamWriter sw = new StreamWriter(Globales.ArchivoUsuarios, true);
                     for(int i = 0; i < usuarios.Count; i++)
                     {
                         sw.WriteLine($"{usuarios[i].Nombre},{usuarios[i].Documento},{usuarios[i].Password},{usuarios[i].Rol}");
@@ -95,7 +98,7 @@ namespace Proyecto_Stock_IQ
         }
         private void registrar_Cierre_Ventana(object sender, FormClosingEventArgs e)
         {
-            //Application.Exit(); //Cierra toda la ventana
+            Application.Exit(); //Cierra toda la ventana
         }
 
         private void gtxt_Nombre_TextChanged(object sender, EventArgs e)

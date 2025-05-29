@@ -13,14 +13,16 @@ namespace Proyecto_Stock_IQ
     public partial class HomePage : Form
     {
         string rolUsuario;
-        private void CierreVentana(object sender, FormClosedEventArgs e)
-        {
-            Environment.Exit(0); //Cierra toda la ventana
-        }
-        public HomePage(string rolUsuario)
+       
+        public HomePage(string rolUsuario) //constructor para el login
         {
             InitializeComponent();
             this.rolUsuario = rolUsuario;
+        }
+        public HomePage() //constructor por defecto
+        {
+            InitializeComponent();
+            
         }
         private void guna2PictureBox1_Click(object sender, EventArgs e)
         {
@@ -90,12 +92,19 @@ namespace Proyecto_Stock_IQ
 
         private void guna2PictureBox6_Click(object sender, EventArgs e)
         {
-
+            CrearFactura crearFactura = new CrearFactura();
+            crearFactura.Show();
+            this.Hide(); // Oculta la ventana actual
         }
 
         private void guna2PictureBox2_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void HomePage_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit(); //Cierra toda la ventana
         }
     }
 }

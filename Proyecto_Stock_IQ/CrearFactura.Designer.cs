@@ -89,6 +89,7 @@
             // 
             // btn_configuracion
             // 
+            this.btn_configuracion.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_configuracion.FillColor = System.Drawing.Color.Transparent;
             this.btn_configuracion.Image = ((System.Drawing.Image)(resources.GetObject("btn_configuracion.Image")));
             this.btn_configuracion.ImageRotate = 0F;
@@ -98,6 +99,7 @@
             this.btn_configuracion.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.btn_configuracion.TabIndex = 35;
             this.btn_configuracion.TabStop = false;
+            this.btn_configuracion.Click += new System.EventHandler(this.btn_configuracion_Click);
             // 
             // configuracion
             // 
@@ -122,7 +124,7 @@
             this.panel_factura.Controls.Add(this.cmb_proveedor);
             this.panel_factura.Controls.Add(this.cmb_cliente);
             this.panel_factura.Location = new System.Drawing.Point(288, 26);
-            this.panel_factura.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel_factura.Margin = new System.Windows.Forms.Padding(4);
             this.panel_factura.Name = "panel_factura";
             this.panel_factura.Size = new System.Drawing.Size(759, 499);
             this.panel_factura.TabIndex = 27;
@@ -217,7 +219,7 @@
             this.txt_producto.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txt_producto.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txt_producto.Location = new System.Drawing.Point(46, 158);
-            this.txt_producto.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txt_producto.Margin = new System.Windows.Forms.Padding(4);
             this.txt_producto.Name = "txt_producto";
             this.txt_producto.PlaceholderText = "";
             this.txt_producto.ReadOnly = true;
@@ -237,7 +239,7 @@
             this.txt_cantidadProducto.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txt_cantidadProducto.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txt_cantidadProducto.Location = new System.Drawing.Point(46, 246);
-            this.txt_cantidadProducto.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txt_cantidadProducto.Margin = new System.Windows.Forms.Padding(4);
             this.txt_cantidadProducto.Name = "txt_cantidadProducto";
             this.txt_cantidadProducto.PlaceholderText = "";
             this.txt_cantidadProducto.SelectedText = "";
@@ -349,7 +351,7 @@
             this.gpb_StockIQ.Image = ((System.Drawing.Image)(resources.GetObject("gpb_StockIQ.Image")));
             this.gpb_StockIQ.ImageRotate = 0F;
             this.gpb_StockIQ.Location = new System.Drawing.Point(-9, 25);
-            this.gpb_StockIQ.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.gpb_StockIQ.Margin = new System.Windows.Forms.Padding(4);
             this.gpb_StockIQ.Name = "gpb_StockIQ";
             this.gpb_StockIQ.Size = new System.Drawing.Size(282, 61);
             this.gpb_StockIQ.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -450,7 +452,7 @@
             this.cmb_proveedores.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.cmb_proveedores.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.cmb_proveedores.Location = new System.Drawing.Point(46, 194);
-            this.cmb_proveedores.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cmb_proveedores.Margin = new System.Windows.Forms.Padding(4);
             this.cmb_proveedores.Name = "cmb_proveedores";
             this.cmb_proveedores.PlaceholderText = "";
             this.cmb_proveedores.SelectedText = "";
@@ -490,7 +492,7 @@
             this.cmb_clientes.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.cmb_clientes.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.cmb_clientes.Location = new System.Drawing.Point(46, 119);
-            this.cmb_clientes.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cmb_clientes.Margin = new System.Windows.Forms.Padding(4);
             this.cmb_clientes.Name = "cmb_clientes";
             this.cmb_clientes.PlaceholderText = "";
             this.cmb_clientes.SelectedText = "";
@@ -511,6 +513,7 @@
             // 
             // guna2PictureBox2
             // 
+            this.guna2PictureBox2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.guna2PictureBox2.FillColor = System.Drawing.Color.Transparent;
             this.guna2PictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox2.Image")));
             this.guna2PictureBox2.ImageRotate = 0F;
@@ -535,6 +538,7 @@
             // 
             // guna2PictureBox6
             // 
+            this.guna2PictureBox6.Cursor = System.Windows.Forms.Cursors.Hand;
             this.guna2PictureBox6.FillColor = System.Drawing.Color.Transparent;
             this.guna2PictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox6.Image")));
             this.guna2PictureBox6.ImageRotate = 0F;
@@ -547,6 +551,7 @@
             // 
             // guna2PictureBox5
             // 
+            this.guna2PictureBox5.Cursor = System.Windows.Forms.Cursors.Hand;
             this.guna2PictureBox5.FillColor = System.Drawing.Color.Transparent;
             this.guna2PictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox5.Image")));
             this.guna2PictureBox5.ImageRotate = 0F;
@@ -556,6 +561,7 @@
             this.guna2PictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.guna2PictureBox5.TabIndex = 58;
             this.guna2PictureBox5.TabStop = false;
+            this.guna2PictureBox5.Click += new System.EventHandler(this.guna2PictureBox5_Click);
             // 
             // guna2HtmlLabel4
             // 
@@ -571,6 +577,7 @@
             // 
             // btn_proveedor
             // 
+            this.btn_proveedor.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_proveedor.FillColor = System.Drawing.Color.Transparent;
             this.btn_proveedor.Image = ((System.Drawing.Image)(resources.GetObject("btn_proveedor.Image")));
             this.btn_proveedor.ImageRotate = 0F;
@@ -580,9 +587,11 @@
             this.btn_proveedor.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.btn_proveedor.TabIndex = 56;
             this.btn_proveedor.TabStop = false;
+            this.btn_proveedor.Click += new System.EventHandler(this.btn_proveedor_Click);
             // 
             // guna2PictureBox4
             // 
+            this.guna2PictureBox4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.guna2PictureBox4.FillColor = System.Drawing.Color.Transparent;
             this.guna2PictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox4.Image")));
             this.guna2PictureBox4.ImageRotate = 0F;
@@ -595,6 +604,7 @@
             // 
             // guna2PictureBox3
             // 
+            this.guna2PictureBox3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.guna2PictureBox3.FillColor = System.Drawing.Color.Transparent;
             this.guna2PictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox3.Image")));
             this.guna2PictureBox3.ImageRotate = 0F;
@@ -607,6 +617,7 @@
             // 
             // btn_clientes
             // 
+            this.btn_clientes.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_clientes.FillColor = System.Drawing.Color.Transparent;
             this.btn_clientes.Image = ((System.Drawing.Image)(resources.GetObject("btn_clientes.Image")));
             this.btn_clientes.ImageRotate = 0F;
@@ -616,6 +627,7 @@
             this.btn_clientes.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.btn_clientes.TabIndex = 49;
             this.btn_clientes.TabStop = false;
+            this.btn_clientes.Click += new System.EventHandler(this.btn_clientes_Click);
             // 
             // guna2HtmlLabel6
             // 
@@ -695,6 +707,7 @@
             this.Name = "CrearFactura";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "CrearFactura";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.CrearFactura_FormClosing);
             ((System.ComponentModel.ISupportInitialize)(this.btn_configuracion)).EndInit();
             this.panel_factura.ResumeLayout(false);
             this.panel_factura.PerformLayout();

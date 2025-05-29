@@ -93,6 +93,7 @@
             // 
             // guna2PictureBox5
             // 
+            this.guna2PictureBox5.Cursor = System.Windows.Forms.Cursors.Hand;
             this.guna2PictureBox5.FillColor = System.Drawing.Color.Transparent;
             this.guna2PictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox5.Image")));
             this.guna2PictureBox5.ImageRotate = 0F;
@@ -102,6 +103,7 @@
             this.guna2PictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.guna2PictureBox5.TabIndex = 40;
             this.guna2PictureBox5.TabStop = false;
+            this.guna2PictureBox5.Click += new System.EventHandler(this.guna2PictureBox5_Click);
             // 
             // guna2HtmlLabel4
             // 
@@ -117,6 +119,7 @@
             // 
             // btn_proveedor
             // 
+            this.btn_proveedor.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_proveedor.FillColor = System.Drawing.Color.Transparent;
             this.btn_proveedor.Image = ((System.Drawing.Image)(resources.GetObject("btn_proveedor.Image")));
             this.btn_proveedor.ImageRotate = 0F;
@@ -129,6 +132,7 @@
             // 
             // guna2PictureBox4
             // 
+            this.guna2PictureBox4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.guna2PictureBox4.FillColor = System.Drawing.Color.Transparent;
             this.guna2PictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox4.Image")));
             this.guna2PictureBox4.ImageRotate = 0F;
@@ -141,6 +145,7 @@
             // 
             // btn_configuracion
             // 
+            this.btn_configuracion.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_configuracion.FillColor = System.Drawing.Color.Transparent;
             this.btn_configuracion.Image = ((System.Drawing.Image)(resources.GetObject("btn_configuracion.Image")));
             this.btn_configuracion.ImageRotate = 0F;
@@ -153,6 +158,7 @@
             // 
             // guna2PictureBox3
             // 
+            this.guna2PictureBox3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.guna2PictureBox3.FillColor = System.Drawing.Color.Transparent;
             this.guna2PictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox3.Image")));
             this.guna2PictureBox3.ImageRotate = 0F;
@@ -165,15 +171,17 @@
             // 
             // btn_clientes
             // 
+            this.btn_clientes.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_clientes.FillColor = System.Drawing.Color.Transparent;
             this.btn_clientes.Image = ((System.Drawing.Image)(resources.GetObject("btn_clientes.Image")));
             this.btn_clientes.ImageRotate = 0F;
-            this.btn_clientes.Location = new System.Drawing.Point(38, 282);
+            this.btn_clientes.Location = new System.Drawing.Point(38, 283);
             this.btn_clientes.Name = "btn_clientes";
             this.btn_clientes.Size = new System.Drawing.Size(26, 24);
             this.btn_clientes.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.btn_clientes.TabIndex = 28;
             this.btn_clientes.TabStop = false;
+            this.btn_clientes.Click += new System.EventHandler(this.btn_clientes_Click);
             // 
             // guna2PictureBox1
             // 
@@ -803,6 +811,7 @@
             this.Name = "Proveedores";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Proveedores";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Proveedores_FormClosing);
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btn_proveedor)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox4)).EndInit();
