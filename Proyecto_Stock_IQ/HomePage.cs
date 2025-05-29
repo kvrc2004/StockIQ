@@ -72,5 +72,30 @@ namespace Proyecto_Stock_IQ
             int y = (this.Height - panel_agregarcliente.Height) / 2 - margenInferior;
             panel_agregarcliente.Location = new Point(x, y);
         }
+
+        private void guna2PictureBox4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2PictureBox5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2PictureBox3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2PictureBox6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2PictureBox2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

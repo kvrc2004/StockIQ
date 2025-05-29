@@ -132,3 +132,7 @@ C:\Users\Kevin Romero\Desktop\StockIQ\Proyecto_Stock_IQ\bin\Debug\Proyecto_Stock
 C:\Users\Kevin Romero\Desktop\StockIQ\Proyecto_Stock_IQ\bin\Debug\Proyecto_Stock_IQ.pdb
 C:\Users\Kevin Romero\Desktop\StockIQ\Proyecto_Stock_IQ\bin\Debug\Guna.UI2.dll
 C:\Users\Kevin Romero\Desktop\StockIQ\Proyecto_Stock_IQ\obj\Debug\Proyecto.1B25CFF1.Up2Date
+C:\Users\Usuario\Documents\GitHub\StockIQ\Proyecto_Stock_IQ\obj\Debug\Proyecto_Stock_IQ.Clientes.resources
+C:\Users\Usuario\Documents\GitHub\StockIQ\Proyecto_Stock_IQ\obj\Debug\Proyecto_Stock_IQ.Configuracion.resources
+C:\Users\Usuario\Documents\GitHub\StockIQ\Proyecto_Stock_IQ\obj\Debug\Proyecto_Stock_IQ.CrearFactura.resources
+C:\Users\Usuario\Documents\GitHub\StockIQ\Proyecto_Stock_IQ\obj\Debug\Proyecto_Stock_IQ.Proveedores.resources

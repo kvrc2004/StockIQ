@@ -16,11 +16,11 @@ namespace Proyecto_Stock_IQ
     public partial class IniciarSesion: Form
     {
         
+        // CAMBIEN LA RUTA DEL ARCHIVO A LA QUE CORRESPONDA EN EL PROYECTO
+        string rutaArchivo = "C:\\Users\\Usuario\\Documents\\GitHub\\StockIQ\\Datos\\Usuarios.txt";
         public IniciarSesion() 
         {
             InitializeComponent();
-            
-            
         }
         private void gbtn_Ingresar_Click_1(object sender, EventArgs e) 
         {
@@ -29,7 +29,7 @@ namespace Proyecto_Stock_IQ
                 MessageBox.Show("Por favor, completa ambos campos.", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
-            if (!File.Exists("C:\\Users\\Kevin Romero\\Desktop\\StockIQ\\Datos\\Usuarios.txt"))
+            if (!File.Exists(rutaArchivo))
             {
                 MessageBox.Show("El archivo de usuarios no existe.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
@@ -37,7 +37,7 @@ namespace Proyecto_Stock_IQ
             bool loginExitoso = false;
             string rolUsuario = "";
 
-            string[] lineas = File.ReadAllLines("C:\\Users\\Kevin Romero\\Desktop\\StockIQ\\Datos\\Usuarios.txt");
+            string[] lineas = File.ReadAllLines(rutaArchivo);
             foreach (string linea in lineas)
             {
                 string[] partes = linea.Split(',');
@@ -85,7 +85,3 @@ namespace Proyecto_Stock_IQ
         }
     }
 }
-            /* 
-                REVISAR COMO FUNCIONARIA EL USO DE LAS LISTAS PARA MANEJAR LOS USUARIOS
-                YA QUE NO SE CREAN EN LA MISMA PESTAÑA Y NO PUEDEN SER PUBLICOS
-            */

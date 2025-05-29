@@ -15,6 +15,9 @@ namespace Proyecto_Stock_IQ
 {
     public partial class Registrar : Form
     {
+        // CAMBIEN LA RUTA DEL ARCHIVO A LA QUE CORRESPONDA EN EL PROYECTO
+        string rutaArchivo = "C:\\Users\\Usuario\\Documents\\GitHub\\StockIQ\\Datos\\Usuarios.txt";
+
         private List<Usuario> usuarios = new List<Usuario>(); //Lista que almacena a los objetos usuarios
         public class Usuario //Constructor
         {
@@ -51,9 +54,9 @@ namespace Proyecto_Stock_IQ
                 return; // Evita que se agregue un usuario sin datos
             }
             // Verifica si el usuario ya existe
-            if (File.Exists("C:\\Users\\Kevin Romero\\Desktop\\StockIQ\\Datos\\Usuarios.txt"))
+            if (File.Exists(rutaArchivo))
             {
-                string[] lineas = File.ReadAllLines("C:\\Users\\Kevin Romero\\Desktop\\StockIQ\\Datos\\Usuarios.txt");
+                string[] lineas = File.ReadAllLines(rutaArchivo);
                 foreach (string linea in lineas)
                 {
                     string[] partes = linea.Split(',');
@@ -71,7 +74,7 @@ namespace Proyecto_Stock_IQ
             {
                 if (usuarios.Count != 0)
                 {
-                    StreamWriter sw = new StreamWriter("C:\\Users\\Kevin Romero\\Desktop\\StockIQ\\Datos\\Usuarios.txt");
+                    StreamWriter sw = new StreamWriter(rutaArchivo);
                     for(int i = 0; i < usuarios.Count; i++)
                     {
                         sw.WriteLine($"{usuarios[i].Nombre},{usuarios[i].Documento},{usuarios[i].Password},{usuarios[i].Rol}");
