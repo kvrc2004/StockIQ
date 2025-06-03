@@ -106,6 +106,7 @@
             this.btn_configuracion.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.btn_configuracion.TabIndex = 35;
             this.btn_configuracion.TabStop = false;
+            this.btn_configuracion.Click += new System.EventHandler(this.btn_configuracion_Click);
             // 
             // guna2PictureBox1
             // 
@@ -131,6 +132,7 @@
             this.configuracion.Size = new System.Drawing.Size(203, 61);
             this.configuracion.TabIndex = 33;
             this.configuracion.Text = "Configuración";
+            this.configuracion.Click += new System.EventHandler(this.configuracion_Click);
             // 
             // gpb_StockIQ
             // 
@@ -675,6 +677,7 @@
             this.lbl_hacerPedido.Size = new System.Drawing.Size(139, 25);
             this.lbl_hacerPedido.TabIndex = 84;
             this.lbl_hacerPedido.Text = "Hacer Pedido";
+            this.lbl_hacerPedido.Click += new System.EventHandler(this.lbl_hacerPedido_Click);
             // 
             // guna2PictureBox6
             // 
@@ -702,6 +705,7 @@
             this.lbl_crearFractura.Size = new System.Drawing.Size(124, 20);
             this.lbl_crearFractura.TabIndex = 82;
             this.lbl_crearFractura.Text = "Crear factura";
+            this.lbl_crearFractura.Click += new System.EventHandler(this.lbl_crearFractura_Click);
             // 
             // guna2PictureBox8
             // 
@@ -716,6 +720,7 @@
             this.guna2PictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.guna2PictureBox8.TabIndex = 81;
             this.guna2PictureBox8.TabStop = false;
+            this.guna2PictureBox8.Click += new System.EventHandler(this.guna2PictureBox8_Click);
             // 
             // guna2PictureBox5
             // 
@@ -729,6 +734,7 @@
             this.guna2PictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.guna2PictureBox5.TabIndex = 80;
             this.guna2PictureBox5.TabStop = false;
+            this.guna2PictureBox5.Click += new System.EventHandler(this.guna2PictureBox5_Click_1);
             // 
             // guna2HtmlLabel4
             // 
@@ -740,6 +746,7 @@
             this.guna2HtmlLabel4.Size = new System.Drawing.Size(44, 24);
             this.guna2HtmlLabel4.TabIndex = 79;
             this.guna2HtmlLabel4.Text = "Inicio";
+            this.guna2HtmlLabel4.Click += new System.EventHandler(this.guna2HtmlLabel4_Click);
             // 
             // guna2PictureBox7
             // 
@@ -753,6 +760,7 @@
             this.guna2PictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.guna2PictureBox7.TabIndex = 78;
             this.guna2PictureBox7.TabStop = false;
+            this.guna2PictureBox7.Click += new System.EventHandler(this.guna2PictureBox7_Click);
             // 
             // guna2HtmlLabel6
             // 
@@ -765,6 +773,7 @@
             this.guna2HtmlLabel6.Size = new System.Drawing.Size(654, 46);
             this.guna2HtmlLabel6.TabIndex = 77;
             this.guna2HtmlLabel6.Text = "Proveedores";
+            this.guna2HtmlLabel6.Click += new System.EventHandler(this.guna2HtmlLabel6_Click);
             // 
             // guna2PictureBox3
             // 
@@ -778,6 +787,7 @@
             this.guna2PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.guna2PictureBox3.TabIndex = 75;
             this.guna2PictureBox3.TabStop = false;
+            this.guna2PictureBox3.Click += new System.EventHandler(this.guna2PictureBox3_Click);
             // 
             // guna2PictureBox2
             // 
@@ -791,6 +801,7 @@
             this.guna2PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.guna2PictureBox2.TabIndex = 71;
             this.guna2PictureBox2.TabStop = false;
+            this.guna2PictureBox2.Click += new System.EventHandler(this.guna2PictureBox2_Click);
             // 
             // guna2HtmlLabel3
             // 
@@ -803,6 +814,7 @@
             this.guna2HtmlLabel3.Size = new System.Drawing.Size(309, 46);
             this.guna2HtmlLabel3.TabIndex = 74;
             this.guna2HtmlLabel3.Text = "Clientes";
+            this.guna2HtmlLabel3.Click += new System.EventHandler(this.guna2HtmlLabel3_Click);
             // 
             // guna2HtmlLabel2
             // 
@@ -815,6 +827,7 @@
             this.guna2HtmlLabel2.Size = new System.Drawing.Size(403, 48);
             this.guna2HtmlLabel2.TabIndex = 73;
             this.guna2HtmlLabel2.Text = "Inventario de repuestos";
+            this.guna2HtmlLabel2.Click += new System.EventHandler(this.guna2HtmlLabel2_Click);
             // 
             // Proveedores
             // 
