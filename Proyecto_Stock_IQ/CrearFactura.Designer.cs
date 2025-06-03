@@ -32,33 +32,33 @@
             this.btn_configuracion = new Guna.UI2.WinForms.Guna2PictureBox();
             this.configuracion = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.panel_factura = new Guna.UI2.WinForms.Guna2Panel();
-            this.gpb_StockIQ = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.cmb_cliente = new Guna.UI2.WinForms.Guna2ComboBox();
-            this.cmb_proveedor = new Guna.UI2.WinForms.Guna2ComboBox();
-            this.listView_productos = new System.Windows.Forms.ListView();
-            this.guna2HtmlLabel7 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2HtmlLabel8 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2HtmlLabel9 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.panel_cantidadProducto = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2HtmlLabel11 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2HtmlLabel12 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.txt_cantidadProducto = new Guna.UI2.WinForms.Guna2TextBox();
-            this.txt_producto = new Guna.UI2.WinForms.Guna2TextBox();
+            this.btn_descargarFactura = new Guna.UI2.WinForms.Guna2Button();
+            this.btn_vistaPrevia = new Guna.UI2.WinForms.Guna2Button();
             this.btn_guardarCantidad = new Guna.UI2.WinForms.Guna2Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.btn_vistaPrevia = new Guna.UI2.WinForms.Guna2Button();
-            this.btn_descargarFactura = new Guna.UI2.WinForms.Guna2Button();
+            this.txt_producto = new Guna.UI2.WinForms.Guna2TextBox();
+            this.txt_cantidadProducto = new Guna.UI2.WinForms.Guna2TextBox();
+            this.guna2HtmlLabel12 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2HtmlLabel11 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2HtmlLabel9 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2HtmlLabel8 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2HtmlLabel7 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.listView_productos = new System.Windows.Forms.ListView();
+            this.cmb_proveedor = new Guna.UI2.WinForms.Guna2ComboBox();
+            this.cmb_cliente = new Guna.UI2.WinForms.Guna2ComboBox();
+            this.gpb_StockIQ = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
-            this.cmb_clientes = new Guna.UI2.WinForms.Guna2TextBox();
-            this.guna2HtmlLabel3 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.label2 = new System.Windows.Forms.Label();
-            this.guna2HtmlLabel5 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.cmb_proveedores = new Guna.UI2.WinForms.Guna2TextBox();
-            this.guna2HtmlLabel13 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             this.listView_cantidadProductos = new System.Windows.Forms.ListView();
             this.producto = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.cantidad = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2HtmlLabel13 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2HtmlLabel5 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.cmb_proveedores = new Guna.UI2.WinForms.Guna2TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.guna2HtmlLabel3 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.cmb_clientes = new Guna.UI2.WinForms.Guna2TextBox();
             this.lbl_hacerPedido = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2PictureBox2 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.lbl_crearFractura = new Guna.UI2.WinForms.Guna2HtmlLabel();
@@ -73,10 +73,13 @@
             this.clientes = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.id = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.poducto = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.existencias = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             ((System.ComponentModel.ISupportInitialize)(this.btn_configuracion)).BeginInit();
             this.panel_factura.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.gpb_StockIQ)).BeginInit();
             this.panel_cantidadProducto.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.gpb_StockIQ)).BeginInit();
             this.guna2Panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox6)).BeginInit();
@@ -129,88 +132,6 @@
             this.panel_factura.Size = new System.Drawing.Size(854, 624);
             this.panel_factura.TabIndex = 27;
             // 
-            // gpb_StockIQ
-            // 
-            this.gpb_StockIQ.BackColor = System.Drawing.Color.Transparent;
-            this.gpb_StockIQ.Image = ((System.Drawing.Image)(resources.GetObject("gpb_StockIQ.Image")));
-            this.gpb_StockIQ.ImageRotate = 0F;
-            this.gpb_StockIQ.Location = new System.Drawing.Point(-10, 31);
-            this.gpb_StockIQ.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.gpb_StockIQ.Name = "gpb_StockIQ";
-            this.gpb_StockIQ.Size = new System.Drawing.Size(317, 76);
-            this.gpb_StockIQ.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.gpb_StockIQ.TabIndex = 28;
-            this.gpb_StockIQ.TabStop = false;
-            // 
-            // cmb_cliente
-            // 
-            this.cmb_cliente.BackColor = System.Drawing.Color.Transparent;
-            this.cmb_cliente.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.cmb_cliente.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cmb_cliente.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.cmb_cliente.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.cmb_cliente.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.cmb_cliente.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
-            this.cmb_cliente.ItemHeight = 30;
-            this.cmb_cliente.Location = new System.Drawing.Point(72, 71);
-            this.cmb_cliente.Name = "cmb_cliente";
-            this.cmb_cliente.Size = new System.Drawing.Size(300, 36);
-            this.cmb_cliente.TabIndex = 0;
-            // 
-            // cmb_proveedor
-            // 
-            this.cmb_proveedor.BackColor = System.Drawing.Color.Transparent;
-            this.cmb_proveedor.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.cmb_proveedor.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cmb_proveedor.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.cmb_proveedor.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.cmb_proveedor.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.cmb_proveedor.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
-            this.cmb_proveedor.ItemHeight = 30;
-            this.cmb_proveedor.Location = new System.Drawing.Point(72, 190);
-            this.cmb_proveedor.Name = "cmb_proveedor";
-            this.cmb_proveedor.Size = new System.Drawing.Size(300, 36);
-            this.cmb_proveedor.TabIndex = 1;
-            // 
-            // listView_productos
-            // 
-            this.listView_productos.HideSelection = false;
-            this.listView_productos.Location = new System.Drawing.Point(59, 315);
-            this.listView_productos.Name = "listView_productos";
-            this.listView_productos.Size = new System.Drawing.Size(313, 267);
-            this.listView_productos.TabIndex = 2;
-            this.listView_productos.UseCompatibleStateImageBehavior = false;
-            // 
-            // guna2HtmlLabel7
-            // 
-            this.guna2HtmlLabel7.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel7.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel7.Location = new System.Drawing.Point(72, 25);
-            this.guna2HtmlLabel7.Name = "guna2HtmlLabel7";
-            this.guna2HtmlLabel7.Size = new System.Drawing.Size(82, 34);
-            this.guna2HtmlLabel7.TabIndex = 3;
-            this.guna2HtmlLabel7.Text = "Cliente";
-            // 
-            // guna2HtmlLabel8
-            // 
-            this.guna2HtmlLabel8.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel8.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel8.Location = new System.Drawing.Point(72, 147);
-            this.guna2HtmlLabel8.Name = "guna2HtmlLabel8";
-            this.guna2HtmlLabel8.Size = new System.Drawing.Size(122, 34);
-            this.guna2HtmlLabel8.TabIndex = 4;
-            this.guna2HtmlLabel8.Text = "Proveedor";
-            // 
-            // guna2HtmlLabel9
-            // 
-            this.guna2HtmlLabel9.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel9.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel9.Location = new System.Drawing.Point(72, 273);
-            this.guna2HtmlLabel9.Name = "guna2HtmlLabel9";
-            this.guna2HtmlLabel9.Size = new System.Drawing.Size(109, 34);
-            this.guna2HtmlLabel9.TabIndex = 5;
-            this.guna2HtmlLabel9.Text = "Producto";
-            // 
             // panel_cantidadProducto
             // 
             this.panel_cantidadProducto.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(210)))), ((int)(((byte)(198)))));
@@ -227,66 +148,37 @@
             this.panel_cantidadProducto.Size = new System.Drawing.Size(380, 541);
             this.panel_cantidadProducto.TabIndex = 45;
             // 
-            // guna2HtmlLabel11
+            // btn_descargarFactura
             // 
-            this.guna2HtmlLabel11.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel11.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel11.ForeColor = System.Drawing.Color.Black;
-            this.guna2HtmlLabel11.Location = new System.Drawing.Point(52, 150);
-            this.guna2HtmlLabel11.Name = "guna2HtmlLabel11";
-            this.guna2HtmlLabel11.Size = new System.Drawing.Size(99, 32);
-            this.guna2HtmlLabel11.TabIndex = 1;
-            this.guna2HtmlLabel11.Text = "Producto";
+            this.btn_descargarFactura.BorderRadius = 15;
+            this.btn_descargarFactura.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btn_descargarFactura.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btn_descargarFactura.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btn_descargarFactura.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btn_descargarFactura.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(147)))), ((int)(((byte)(19)))));
+            this.btn_descargarFactura.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_descargarFactura.ForeColor = System.Drawing.Color.Black;
+            this.btn_descargarFactura.Location = new System.Drawing.Point(203, 384);
+            this.btn_descargarFactura.Name = "btn_descargarFactura";
+            this.btn_descargarFactura.Size = new System.Drawing.Size(136, 45);
+            this.btn_descargarFactura.TabIndex = 9;
+            this.btn_descargarFactura.Text = "Descargar";
             // 
-            // guna2HtmlLabel12
+            // btn_vistaPrevia
             // 
-            this.guna2HtmlLabel12.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel12.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel12.ForeColor = System.Drawing.Color.Black;
-            this.guna2HtmlLabel12.Location = new System.Drawing.Point(52, 264);
-            this.guna2HtmlLabel12.Name = "guna2HtmlLabel12";
-            this.guna2HtmlLabel12.Size = new System.Drawing.Size(97, 32);
-            this.guna2HtmlLabel12.TabIndex = 2;
-            this.guna2HtmlLabel12.Text = "Cantidad";
-            // 
-            // txt_cantidadProducto
-            // 
-            this.txt_cantidadProducto.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txt_cantidadProducto.DefaultText = "";
-            this.txt_cantidadProducto.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.txt_cantidadProducto.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.txt_cantidadProducto.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txt_cantidadProducto.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txt_cantidadProducto.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txt_cantidadProducto.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.txt_cantidadProducto.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txt_cantidadProducto.Location = new System.Drawing.Point(52, 308);
-            this.txt_cantidadProducto.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.txt_cantidadProducto.Name = "txt_cantidadProducto";
-            this.txt_cantidadProducto.PlaceholderText = "";
-            this.txt_cantidadProducto.SelectedText = "";
-            this.txt_cantidadProducto.Size = new System.Drawing.Size(274, 29);
-            this.txt_cantidadProducto.TabIndex = 4;
-            // 
-            // txt_producto
-            // 
-            this.txt_producto.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txt_producto.DefaultText = "";
-            this.txt_producto.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.txt_producto.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.txt_producto.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txt_producto.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txt_producto.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txt_producto.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.txt_producto.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txt_producto.Location = new System.Drawing.Point(52, 197);
-            this.txt_producto.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.txt_producto.Name = "txt_producto";
-            this.txt_producto.PlaceholderText = "";
-            this.txt_producto.ReadOnly = true;
-            this.txt_producto.SelectedText = "";
-            this.txt_producto.Size = new System.Drawing.Size(274, 27);
-            this.txt_producto.TabIndex = 5;
+            this.btn_vistaPrevia.BorderRadius = 15;
+            this.btn_vistaPrevia.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btn_vistaPrevia.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btn_vistaPrevia.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btn_vistaPrevia.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btn_vistaPrevia.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(90)))), ((int)(((byte)(190)))));
+            this.btn_vistaPrevia.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_vistaPrevia.ForeColor = System.Drawing.Color.Black;
+            this.btn_vistaPrevia.Location = new System.Drawing.Point(102, 462);
+            this.btn_vistaPrevia.Name = "btn_vistaPrevia";
+            this.btn_vistaPrevia.Size = new System.Drawing.Size(180, 45);
+            this.btn_vistaPrevia.TabIndex = 8;
+            this.btn_vistaPrevia.Text = "Vista Previa";
             // 
             // btn_guardarCantidad
             // 
@@ -314,37 +206,154 @@
             this.label1.Text = "Agregar Cantidad Producto";
             this.label1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
-            // btn_vistaPrevia
+            // txt_producto
             // 
-            this.btn_vistaPrevia.BorderRadius = 15;
-            this.btn_vistaPrevia.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btn_vistaPrevia.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btn_vistaPrevia.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btn_vistaPrevia.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btn_vistaPrevia.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(90)))), ((int)(((byte)(190)))));
-            this.btn_vistaPrevia.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_vistaPrevia.ForeColor = System.Drawing.Color.Black;
-            this.btn_vistaPrevia.Location = new System.Drawing.Point(102, 462);
-            this.btn_vistaPrevia.Name = "btn_vistaPrevia";
-            this.btn_vistaPrevia.Size = new System.Drawing.Size(180, 45);
-            this.btn_vistaPrevia.TabIndex = 8;
-            this.btn_vistaPrevia.Text = "Vista Previa";
+            this.txt_producto.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txt_producto.DefaultText = "";
+            this.txt_producto.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txt_producto.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txt_producto.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txt_producto.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txt_producto.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txt_producto.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txt_producto.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txt_producto.Location = new System.Drawing.Point(52, 197);
+            this.txt_producto.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txt_producto.Name = "txt_producto";
+            this.txt_producto.PlaceholderText = "";
+            this.txt_producto.ReadOnly = true;
+            this.txt_producto.SelectedText = "";
+            this.txt_producto.Size = new System.Drawing.Size(274, 27);
+            this.txt_producto.TabIndex = 5;
             // 
-            // btn_descargarFactura
+            // txt_cantidadProducto
             // 
-            this.btn_descargarFactura.BorderRadius = 15;
-            this.btn_descargarFactura.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btn_descargarFactura.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btn_descargarFactura.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btn_descargarFactura.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btn_descargarFactura.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(147)))), ((int)(((byte)(19)))));
-            this.btn_descargarFactura.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_descargarFactura.ForeColor = System.Drawing.Color.Black;
-            this.btn_descargarFactura.Location = new System.Drawing.Point(203, 384);
-            this.btn_descargarFactura.Name = "btn_descargarFactura";
-            this.btn_descargarFactura.Size = new System.Drawing.Size(136, 45);
-            this.btn_descargarFactura.TabIndex = 9;
-            this.btn_descargarFactura.Text = "Descargar";
+            this.txt_cantidadProducto.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txt_cantidadProducto.DefaultText = "";
+            this.txt_cantidadProducto.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txt_cantidadProducto.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txt_cantidadProducto.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txt_cantidadProducto.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txt_cantidadProducto.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txt_cantidadProducto.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txt_cantidadProducto.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txt_cantidadProducto.Location = new System.Drawing.Point(52, 308);
+            this.txt_cantidadProducto.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txt_cantidadProducto.Name = "txt_cantidadProducto";
+            this.txt_cantidadProducto.PlaceholderText = "";
+            this.txt_cantidadProducto.SelectedText = "";
+            this.txt_cantidadProducto.Size = new System.Drawing.Size(274, 29);
+            this.txt_cantidadProducto.TabIndex = 4;
+            // 
+            // guna2HtmlLabel12
+            // 
+            this.guna2HtmlLabel12.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel12.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel12.ForeColor = System.Drawing.Color.Black;
+            this.guna2HtmlLabel12.Location = new System.Drawing.Point(52, 264);
+            this.guna2HtmlLabel12.Name = "guna2HtmlLabel12";
+            this.guna2HtmlLabel12.Size = new System.Drawing.Size(97, 32);
+            this.guna2HtmlLabel12.TabIndex = 2;
+            this.guna2HtmlLabel12.Text = "Cantidad";
+            // 
+            // guna2HtmlLabel11
+            // 
+            this.guna2HtmlLabel11.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel11.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel11.ForeColor = System.Drawing.Color.Black;
+            this.guna2HtmlLabel11.Location = new System.Drawing.Point(52, 150);
+            this.guna2HtmlLabel11.Name = "guna2HtmlLabel11";
+            this.guna2HtmlLabel11.Size = new System.Drawing.Size(99, 32);
+            this.guna2HtmlLabel11.TabIndex = 1;
+            this.guna2HtmlLabel11.Text = "Producto";
+            // 
+            // guna2HtmlLabel9
+            // 
+            this.guna2HtmlLabel9.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel9.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel9.Location = new System.Drawing.Point(72, 273);
+            this.guna2HtmlLabel9.Name = "guna2HtmlLabel9";
+            this.guna2HtmlLabel9.Size = new System.Drawing.Size(109, 34);
+            this.guna2HtmlLabel9.TabIndex = 5;
+            this.guna2HtmlLabel9.Text = "Producto";
+            // 
+            // guna2HtmlLabel8
+            // 
+            this.guna2HtmlLabel8.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel8.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel8.Location = new System.Drawing.Point(72, 147);
+            this.guna2HtmlLabel8.Name = "guna2HtmlLabel8";
+            this.guna2HtmlLabel8.Size = new System.Drawing.Size(122, 34);
+            this.guna2HtmlLabel8.TabIndex = 4;
+            this.guna2HtmlLabel8.Text = "Proveedor";
+            // 
+            // guna2HtmlLabel7
+            // 
+            this.guna2HtmlLabel7.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel7.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel7.Location = new System.Drawing.Point(72, 25);
+            this.guna2HtmlLabel7.Name = "guna2HtmlLabel7";
+            this.guna2HtmlLabel7.Size = new System.Drawing.Size(82, 34);
+            this.guna2HtmlLabel7.TabIndex = 3;
+            this.guna2HtmlLabel7.Text = "Cliente";
+            // 
+            // listView_productos
+            // 
+            this.listView_productos.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.id,
+            this.poducto,
+            this.existencias});
+            this.listView_productos.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.listView_productos.HideSelection = false;
+            this.listView_productos.Location = new System.Drawing.Point(59, 315);
+            this.listView_productos.Name = "listView_productos";
+            this.listView_productos.Size = new System.Drawing.Size(313, 267);
+            this.listView_productos.TabIndex = 2;
+            this.listView_productos.UseCompatibleStateImageBehavior = false;
+            this.listView_productos.View = System.Windows.Forms.View.Details;
+            // 
+            // cmb_proveedor
+            // 
+            this.cmb_proveedor.BackColor = System.Drawing.Color.Transparent;
+            this.cmb_proveedor.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.cmb_proveedor.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmb_proveedor.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.cmb_proveedor.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.cmb_proveedor.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.cmb_proveedor.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
+            this.cmb_proveedor.ItemHeight = 30;
+            this.cmb_proveedor.Location = new System.Drawing.Point(72, 190);
+            this.cmb_proveedor.Name = "cmb_proveedor";
+            this.cmb_proveedor.Size = new System.Drawing.Size(300, 36);
+            this.cmb_proveedor.TabIndex = 1;
+            // 
+            // cmb_cliente
+            // 
+            this.cmb_cliente.BackColor = System.Drawing.Color.Transparent;
+            this.cmb_cliente.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.cmb_cliente.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmb_cliente.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.cmb_cliente.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.cmb_cliente.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.cmb_cliente.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
+            this.cmb_cliente.ItemHeight = 30;
+            this.cmb_cliente.Location = new System.Drawing.Point(72, 71);
+            this.cmb_cliente.Name = "cmb_cliente";
+            this.cmb_cliente.Size = new System.Drawing.Size(300, 36);
+            this.cmb_cliente.TabIndex = 0;
+            // 
+            // gpb_StockIQ
+            // 
+            this.gpb_StockIQ.BackColor = System.Drawing.Color.Transparent;
+            this.gpb_StockIQ.Image = ((System.Drawing.Image)(resources.GetObject("gpb_StockIQ.Image")));
+            this.gpb_StockIQ.ImageRotate = 0F;
+            this.gpb_StockIQ.Location = new System.Drawing.Point(-10, 31);
+            this.gpb_StockIQ.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.gpb_StockIQ.Name = "gpb_StockIQ";
+            this.gpb_StockIQ.Size = new System.Drawing.Size(317, 76);
+            this.gpb_StockIQ.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.gpb_StockIQ.TabIndex = 28;
+            this.gpb_StockIQ.TabStop = false;
             // 
             // guna2Panel1
             // 
@@ -363,44 +372,55 @@
             this.guna2Panel1.TabIndex = 45;
             this.guna2Panel1.Visible = false;
             // 
-            // cmb_clientes
+            // listView_cantidadProductos
             // 
-            this.cmb_clientes.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.cmb_clientes.DefaultText = "";
-            this.cmb_clientes.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.cmb_clientes.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.cmb_clientes.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.cmb_clientes.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.cmb_clientes.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.cmb_clientes.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.cmb_clientes.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.cmb_clientes.Location = new System.Drawing.Point(52, 149);
-            this.cmb_clientes.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.cmb_clientes.Name = "cmb_clientes";
-            this.cmb_clientes.PlaceholderText = "";
-            this.cmb_clientes.SelectedText = "";
-            this.cmb_clientes.Size = new System.Drawing.Size(246, 35);
-            this.cmb_clientes.TabIndex = 0;
+            this.listView_cantidadProductos.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.producto,
+            this.cantidad});
+            this.listView_cantidadProductos.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.listView_cantidadProductos.HideSelection = false;
+            this.listView_cantidadProductos.Location = new System.Drawing.Point(40, 347);
+            this.listView_cantidadProductos.Name = "listView_cantidadProductos";
+            this.listView_cantidadProductos.Size = new System.Drawing.Size(270, 148);
+            this.listView_cantidadProductos.TabIndex = 12;
+            this.listView_cantidadProductos.UseCompatibleStateImageBehavior = false;
+            this.listView_cantidadProductos.View = System.Windows.Forms.View.Details;
             // 
-            // guna2HtmlLabel3
+            // producto
             // 
-            this.guna2HtmlLabel3.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel3.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
-            this.guna2HtmlLabel3.Location = new System.Drawing.Point(52, 117);
-            this.guna2HtmlLabel3.Name = "guna2HtmlLabel3";
-            this.guna2HtmlLabel3.Size = new System.Drawing.Size(62, 27);
-            this.guna2HtmlLabel3.TabIndex = 1;
-            this.guna2HtmlLabel3.Text = "Cliente";
+            this.producto.Text = "Productos";
+            this.producto.Width = 120;
             // 
-            // label2
+            // cantidad
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold);
-            this.label2.Location = new System.Drawing.Point(92, 44);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(171, 38);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "Vista Previa";
+            this.cantidad.Text = "Cantidad";
+            this.cantidad.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.cantidad.Width = 120;
+            // 
+            // guna2Button1
+            // 
+            this.guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2Button1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(68)))), ((int)(((byte)(14)))));
+            this.guna2Button1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2Button1.ForeColor = System.Drawing.Color.Black;
+            this.guna2Button1.Location = new System.Drawing.Point(304, 0);
+            this.guna2Button1.Name = "guna2Button1";
+            this.guna2Button1.Size = new System.Drawing.Size(45, 45);
+            this.guna2Button1.TabIndex = 11;
+            this.guna2Button1.Text = "X";
+            // 
+            // guna2HtmlLabel13
+            // 
+            this.guna2HtmlLabel13.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel13.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
+            this.guna2HtmlLabel13.Location = new System.Drawing.Point(52, 307);
+            this.guna2HtmlLabel13.Name = "guna2HtmlLabel13";
+            this.guna2HtmlLabel13.Size = new System.Drawing.Size(177, 27);
+            this.guna2HtmlLabel13.TabIndex = 8;
+            this.guna2HtmlLabel13.Text = "Producto y Cantidad";
             // 
             // guna2HtmlLabel5
             // 
@@ -431,55 +451,44 @@
             this.cmb_proveedores.Size = new System.Drawing.Size(246, 35);
             this.cmb_proveedores.TabIndex = 3;
             // 
-            // guna2HtmlLabel13
+            // label2
             // 
-            this.guna2HtmlLabel13.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel13.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
-            this.guna2HtmlLabel13.Location = new System.Drawing.Point(52, 307);
-            this.guna2HtmlLabel13.Name = "guna2HtmlLabel13";
-            this.guna2HtmlLabel13.Size = new System.Drawing.Size(177, 27);
-            this.guna2HtmlLabel13.TabIndex = 8;
-            this.guna2HtmlLabel13.Text = "Producto y Cantidad";
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold);
+            this.label2.Location = new System.Drawing.Point(92, 44);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(171, 38);
+            this.label2.TabIndex = 2;
+            this.label2.Text = "Vista Previa";
             // 
-            // guna2Button1
+            // guna2HtmlLabel3
             // 
-            this.guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(68)))), ((int)(((byte)(14)))));
-            this.guna2Button1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button1.ForeColor = System.Drawing.Color.Black;
-            this.guna2Button1.Location = new System.Drawing.Point(304, 0);
-            this.guna2Button1.Name = "guna2Button1";
-            this.guna2Button1.Size = new System.Drawing.Size(45, 45);
-            this.guna2Button1.TabIndex = 11;
-            this.guna2Button1.Text = "X";
+            this.guna2HtmlLabel3.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel3.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
+            this.guna2HtmlLabel3.Location = new System.Drawing.Point(52, 117);
+            this.guna2HtmlLabel3.Name = "guna2HtmlLabel3";
+            this.guna2HtmlLabel3.Size = new System.Drawing.Size(62, 27);
+            this.guna2HtmlLabel3.TabIndex = 1;
+            this.guna2HtmlLabel3.Text = "Cliente";
             // 
-            // listView_cantidadProductos
+            // cmb_clientes
             // 
-            this.listView_cantidadProductos.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
-            this.producto,
-            this.cantidad});
-            this.listView_cantidadProductos.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.listView_cantidadProductos.HideSelection = false;
-            this.listView_cantidadProductos.Location = new System.Drawing.Point(40, 347);
-            this.listView_cantidadProductos.Name = "listView_cantidadProductos";
-            this.listView_cantidadProductos.Size = new System.Drawing.Size(270, 148);
-            this.listView_cantidadProductos.TabIndex = 12;
-            this.listView_cantidadProductos.UseCompatibleStateImageBehavior = false;
-            this.listView_cantidadProductos.View = System.Windows.Forms.View.Details;
-            // 
-            // producto
-            // 
-            this.producto.Text = "Productos";
-            this.producto.Width = 120;
-            // 
-            // cantidad
-            // 
-            this.cantidad.Text = "Cantidad";
-            this.cantidad.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.cantidad.Width = 120;
+            this.cmb_clientes.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.cmb_clientes.DefaultText = "";
+            this.cmb_clientes.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.cmb_clientes.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.cmb_clientes.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.cmb_clientes.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.cmb_clientes.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.cmb_clientes.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.cmb_clientes.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.cmb_clientes.Location = new System.Drawing.Point(52, 149);
+            this.cmb_clientes.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.cmb_clientes.Name = "cmb_clientes";
+            this.cmb_clientes.PlaceholderText = "";
+            this.cmb_clientes.SelectedText = "";
+            this.cmb_clientes.Size = new System.Drawing.Size(246, 35);
+            this.cmb_clientes.TabIndex = 0;
             // 
             // lbl_hacerPedido
             // 
@@ -663,6 +672,23 @@
             this.guna2HtmlLabel1.TabIndex = 50;
             this.guna2HtmlLabel1.Text = "Trabajos mecánicos";
             // 
+            // id
+            // 
+            this.id.Text = "ID";
+            this.id.Width = 50;
+            // 
+            // poducto
+            // 
+            this.poducto.Text = "Producto";
+            this.poducto.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.poducto.Width = 110;
+            // 
+            // existencias
+            // 
+            this.existencias.Text = "Existencias";
+            this.existencias.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.existencias.Width = 110;
+            // 
             // CrearFactura
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -694,9 +720,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.btn_configuracion)).EndInit();
             this.panel_factura.ResumeLayout(false);
             this.panel_factura.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.gpb_StockIQ)).EndInit();
             this.panel_cantidadProducto.ResumeLayout(false);
             this.panel_cantidadProducto.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.gpb_StockIQ)).EndInit();
             this.guna2Panel1.ResumeLayout(false);
             this.guna2Panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).EndInit();
@@ -755,5 +781,8 @@
         private Guna.UI2.WinForms.Guna2HtmlLabel clientes;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel2;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel1;
+        private System.Windows.Forms.ColumnHeader id;
+        private System.Windows.Forms.ColumnHeader poducto;
+        private System.Windows.Forms.ColumnHeader existencias;
     }
 }
