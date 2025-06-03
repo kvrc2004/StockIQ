@@ -43,5 +43,68 @@ namespace Proyecto_Stock_IQ
             proveedores.Show();
             this.Hide(); // Oculta la ventana de configuración
         }
+
+        private void guna2HtmlLabel2_Click(object sender, EventArgs e)
+        {
+            FormInventario inventario = new FormInventario();
+            inventario.Show();
+            this.Hide(); // Oculta la ventana actual
+        }
+
+        private void guna2PictureBox3_Click(object sender, EventArgs e)
+        {
+            FormInventario inventario = new FormInventario();
+            inventario.Show();
+            this.Hide(); // Oculta la ventana actual
+        }
+
+        private void guna2PictureBox6_Click(object sender, EventArgs e)
+        {
+            CrearFactura crearFactura = new CrearFactura();
+            crearFactura.Show();
+            this.Hide(); // Oculta la ventana actual
+        }
+
+        private void lbl_crearFractura_Click(object sender, EventArgs e)
+        {
+            CrearFactura crearFactura = new CrearFactura();
+            crearFactura.Show();
+            this.Hide(); // Oculta la ventana actual
+        }
+
+        private void guna2PictureBox1_Click(object sender, EventArgs e)
+        {
+            HacerPedido hacerPedido = new HacerPedido();
+            hacerPedido.Show();
+            this.Hide(); // Oculta la ventana actual
+        }
+
+        private void lbl_hacerPedido_Click(object sender, EventArgs e)
+        {
+            HacerPedido hacerPedido = new HacerPedido();
+            hacerPedido.Show();
+            this.Hide(); // Oculta la ventana actual
+        }
+
+        private void guna2HtmlLabel4_Click(object sender, EventArgs e)
+        {
+            HomePage homePage = new HomePage();
+            homePage.Show();
+            this.Hide(); // Oculta la ventana de configuración
+        }
+
+        private void guna2HtmlLabel3_Click(object sender, EventArgs e)
+        {
+            Clientes clientes = new Clientes();
+            clientes.Show();
+            this.Hide(); // Oculta la ventana de configuración
+        }
+
+        private void guna2HtmlLabel6_Click(object sender, EventArgs e)
+        {
+            Proveedores proveedores = new Proveedores();
+            proveedores.Show();
+            this.Hide(); // Oculta la ventana de configuración
+        }
     }
 }
