@@ -738,12 +738,13 @@
             // 
             // guna2HtmlLabel4
             // 
+            this.guna2HtmlLabel4.AutoSize = false;
             this.guna2HtmlLabel4.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(229)))), ((int)(((byte)(223)))));
             this.guna2HtmlLabel4.Location = new System.Drawing.Point(70, 118);
             this.guna2HtmlLabel4.Name = "guna2HtmlLabel4";
-            this.guna2HtmlLabel4.Size = new System.Drawing.Size(44, 24);
+            this.guna2HtmlLabel4.Size = new System.Drawing.Size(389, 35);
             this.guna2HtmlLabel4.TabIndex = 79;
             this.guna2HtmlLabel4.Text = "Inicio";
             this.guna2HtmlLabel4.Click += new System.EventHandler(this.guna2HtmlLabel4_Click);
@@ -834,7 +835,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(16)))), ((int)(((byte)(26)))));
-            this.ClientSize = new System.Drawing.Size(1493, 835);
+            this.ClientSize = new System.Drawing.Size(1061, 541);
             this.Controls.Add(this.panel_editarproveedor);
             this.Controls.Add(this.panel_agregarproveedor);
             this.Controls.Add(this.guna2Panel1);
@@ -874,7 +875,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
