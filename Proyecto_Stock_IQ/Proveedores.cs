@@ -12,10 +12,34 @@ namespace Proyecto_Stock_IQ
 {
     public partial class Proveedores : Form
     {
-        
-        public Proveedores()
+        private List<Proveedor> listaProveedores = new List<Proveedor>();
+
+        public class Proveedor
+        {
+            public string NombreContacto { get; set; }
+            public string Correo { get; set; }
+            public string Telefono { get; set; }
+            public string Empresa { get; set; }
+
+            public Proveedor(string nombreContacto, string correo, string telefono, string empresa)
+            {
+                NombreContacto = nombreContacto;
+                Correo = correo;
+                Telefono = telefono;
+                Empresa = empresa;
+            }
+        }
+            public Proveedores()
         {
             InitializeComponent();
+            CargarProveedoresPorDefecto();
+        }
+
+        private void CargarProveedoresPorDefecto()
+        {
+            listaProveedores.Add(new Proveedor("Laura Rios", "autocar@empresa1.com", "321654987", "Autocar S.A"));
+            listaProveedores.Add(new Proveedor("Javier Torres", "javier@empresa2.com", "987123654", "MotoParts"));
+            listaProveedores.Add(new Proveedor("Sofía Ramírez", "sofia@empresa3.com", "456789123", "MotoPower"));
         }
 
         private void btn_agregarproveedor_Click(object sender, EventArgs e)
@@ -68,6 +92,11 @@ namespace Proyecto_Stock_IQ
             Clientes clientes = new Clientes();
             clientes.Show();
             this.Hide(); // Oculta la ventana actual
+        }
+
+        private void btn_eliminar_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
