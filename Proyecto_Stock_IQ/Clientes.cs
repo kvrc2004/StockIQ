@@ -36,7 +36,10 @@ namespace Proyecto_Stock_IQ
         {
             InitializeComponent();
             CargarClientesPorDefecto();
-        }
+			CargarClientes();
+			//foreach (var cliente in listaClientes);// linea que muestra el listado de clientes 
+
+		}
 
         private void CargarClientesPorDefecto()
         {

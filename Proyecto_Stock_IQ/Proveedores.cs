@@ -33,7 +33,8 @@ namespace Proyecto_Stock_IQ
         {
             InitializeComponent();
             CargarProveedoresPorDefecto();
-        }
+			CargarProveedores();
+		}
 
         private void CargarProveedoresPorDefecto()
         {
