@@ -145,6 +145,7 @@
             this.guna2HtmlLabel6.Size = new System.Drawing.Size(654, 46);
             this.guna2HtmlLabel6.TabIndex = 37;
             this.guna2HtmlLabel6.Text = "Proveedores";
+            this.guna2HtmlLabel6.Click += new System.EventHandler(this.guna2HtmlLabel6_Click);
             // 
             // btn_configuracion
             // 
@@ -158,6 +159,7 @@
             this.btn_configuracion.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.btn_configuracion.TabIndex = 35;
             this.btn_configuracion.TabStop = false;
+            this.btn_configuracion.Click += new System.EventHandler(this.btn_configuracion_Click);
             // 
             // guna2PictureBox3
             // 
@@ -210,6 +212,7 @@
             this.configuracion.Size = new System.Drawing.Size(554, 61);
             this.configuracion.TabIndex = 33;
             this.configuracion.Text = "Configuración";
+            this.configuracion.Click += new System.EventHandler(this.configuracion_Click);
             // 
             // guna2HtmlLabel3
             // 
@@ -781,6 +784,7 @@
             this.lbl_hacerPedido.Size = new System.Drawing.Size(139, 25);
             this.lbl_hacerPedido.TabIndex = 70;
             this.lbl_hacerPedido.Text = "Hacer Pedido";
+            this.lbl_hacerPedido.Click += new System.EventHandler(this.lbl_hacerPedido_Click);
             // 
             // guna2PictureBox6
             // 
@@ -795,6 +799,7 @@
             this.guna2PictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.guna2PictureBox6.TabIndex = 69;
             this.guna2PictureBox6.TabStop = false;
+            this.guna2PictureBox6.Click += new System.EventHandler(this.guna2PictureBox6_Click);
             // 
             // lbl_crearFractura
             // 
@@ -808,6 +813,7 @@
             this.lbl_crearFractura.Size = new System.Drawing.Size(124, 20);
             this.lbl_crearFractura.TabIndex = 68;
             this.lbl_crearFractura.Text = "Crear factura";
+            this.lbl_crearFractura.Click += new System.EventHandler(this.lbl_crearFractura_Click);
             // 
             // guna2PictureBox8
             // 
@@ -822,6 +828,7 @@
             this.guna2PictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.guna2PictureBox8.TabIndex = 67;
             this.guna2PictureBox8.TabStop = false;
+            this.guna2PictureBox8.Click += new System.EventHandler(this.guna2PictureBox8_Click);
             // 
             // Clientes
             // 
@@ -853,6 +860,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Clientes";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Clientes_FormClosing);
+            this.Load += new System.EventHandler(this.Clientes_Load);
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btn_configuracion)).EndInit();
