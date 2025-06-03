@@ -18,8 +18,7 @@ namespace Proyecto_Stock_IQ
         public static class Globales
         {
             // CAMBIEN LA RUTA DEL ARCHIVO A LA QUE CORRESPONDA EN EL PROYECTO
-            public static string ArchivoUsuarios = "C:\\Users\\Kevin Romero\\Desktop\\StockIQ\\Datos\\Usuarios.txt";
-            public static string ArchivoClientes = "C:\\Users\\Kevin Romero\\Desktop\\StockIQ\\Datos\\Clientes.txt";
+            public static string ArchivoUsuarios = "C:\\Users\\Luz\\source\\repos\\StockIQ\\Datos\\Usuarios.txt";
         }
         
         public IniciarSesion() 

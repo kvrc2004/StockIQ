@@ -136,3 +136,6 @@ C:\Users\Usuario\Documents\GitHub\StockIQ\Proyecto_Stock_IQ\obj\Debug\Proyecto_S
 C:\Users\Usuario\Documents\GitHub\StockIQ\Proyecto_Stock_IQ\obj\Debug\Proyecto_Stock_IQ.Configuracion.resources
 C:\Users\Usuario\Documents\GitHub\StockIQ\Proyecto_Stock_IQ\obj\Debug\Proyecto_Stock_IQ.CrearFactura.resources
 C:\Users\Usuario\Documents\GitHub\StockIQ\Proyecto_Stock_IQ\obj\Debug\Proyecto_Stock_IQ.Proveedores.resources
+C:\Users\Luz\source\repos\StockIQ\Proyecto_Stock_IQ\obj\Debug\Proyecto_Stock_IQ.CrearFactura.resources
+C:\Users\Luz\source\repos\StockIQ\Proyecto_Stock_IQ\obj\Debug\Proyecto_Stock_IQ.FormInventario.resources
+C:\Users\Luz\source\repos\StockIQ\Proyecto_Stock_IQ\obj\Debug\Proyecto_Stock_IQ.HacerPedido.resources

@@ -54,12 +54,32 @@ namespace Proyecto_Stock_IQ
 
         private void btn_editarproveedor_Click(object sender, EventArgs e)
         {
-            panel_editarproveedor.Visible = true;
-            panel_editarproveedor.BringToFront();
-            int margenInferior = 20;
-            int x = (this.Width - panel_editarproveedor.Width) / 2;
-            int y = (this.Height - panel_editarproveedor.Height) / 2 - margenInferior;
-            panel_editarproveedor.Location = new Point(x, y);
+            if (listView_Proveedores.SelectedItems.Count == 0)
+            {
+                MessageBox.Show("Selecciona un proveedor para editar");
+                return;
+            }
+
+            string empresaSeleccionada = listView_Proveedores.SelectedItems[0].SubItems[0].Text;
+            Proveedor proveedor = listaProveedores.Find(p => p.Empresa == empresaSeleccionada);
+
+            if (proveedor != null)
+            {
+                txt_EmpresaE.Text = proveedor.Empresa;
+                txt_NombreE.Text = proveedor.NombreContacto;
+                txt_CorreoE.Text = proveedor.Correo;
+                txt_TelefonoE.Text = proveedor.Telefono;
+
+                panel_editarproveedor.Visible = true;
+                panel_editarproveedor.BringToFront();
+                int x = (this.Width - panel_editarproveedor.Width) / 2;
+                int y = (this.Height - panel_editarproveedor.Height) / 2 - 20;
+                panel_editarproveedor.Location = new Point(x, y);
+            }
+            else
+            {
+                MessageBox.Show("No se encontró el proveedor");
+            }
         }
 
         private void btn_cerraragregar_Click(object sender, EventArgs e)
