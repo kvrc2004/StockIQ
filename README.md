@@ -16,7 +16,7 @@ Este proyecto es un sistema de inventario diseñado para talleres mecánicos, fa
 - **Entorno de desarrollo:** [VS]
 
 ## Uso
-- Iniciar sesión con credenciales de administrador o usuario.
+- Iniciar sesión con credenciales de usuario.
 - Agregar nuevos repuestos y herramientas al inventario.
 - Consultar disponibilidad de artículos y generar reportes.
 - Modificar y actualizar el stock según sea necesario.
