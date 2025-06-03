@@ -16,5 +16,5 @@ namespace Proyecto_Stock_IQ
         {
             InitializeComponent();
         }
-    }
+	}
 }
