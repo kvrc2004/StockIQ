@@ -322,6 +322,11 @@ namespace Proyecto_Stock_IQ
             configuracion.Show();
             this.Hide(); // Oculta la ventana actual
         }
+
+        private void Clientes_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
 
