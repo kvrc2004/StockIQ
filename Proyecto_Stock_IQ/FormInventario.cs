@@ -34,9 +34,11 @@ namespace Proyecto_Stock_IQ
             }
         }
 
-        public FormInventario()
+        bool abrirPanelAgregarProducto;
+        public FormInventario(bool mostrarPanelAgregarProducto = false)
         {
             InitializeComponent();
+            abrirPanelAgregarProducto = mostrarPanelAgregarProducto;
             TemasApp.AplicarTema(this);
             CargarProductosPorDefecto();
             CargarProductos();
@@ -381,5 +383,27 @@ namespace Proyecto_Stock_IQ
 
 
 		}
-	}
+        private void FormInventario_Load(object sender, EventArgs e)
+        {
+            if (abrirPanelAgregarProducto)
+            {
+                MostrarPanelAgregarProducto();
+            }
+            else
+            {
+                panel_agregarProducto.Visible = false;
+            }
+        }
+        public void MostrarPanelAgregarProducto()
+        {
+            panel_agregarProducto.Visible = true;
+            panel_agregarProducto.BringToFront();
+
+            int margenInferior = 20;
+            int x = (this.Width - panel_agregarProducto.Width) / 2;
+            int y = (this.Height - panel_agregarProducto.Height) / 2 - margenInferior;
+            panel_agregarProducto.Location = new Point(x, y);
+        }
+
+    }
 }

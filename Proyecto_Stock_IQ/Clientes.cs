@@ -32,9 +32,12 @@ namespace Proyecto_Stock_IQ
             }
         }
 
-        public Clientes()
+        bool abrirPanelAgregar;
+
+        public Clientes(bool mostrarPanelAgregar = false)
         {
             InitializeComponent();
+            abrirPanelAgregar = mostrarPanelAgregar;
             TemasApp.AplicarTema(this);
             CargarClientesPorDefecto();
 			CargarClientes();
@@ -329,8 +332,28 @@ namespace Proyecto_Stock_IQ
 
         private void Clientes_Load(object sender, EventArgs e)
         {
+            if (abrirPanelAgregar)
+            {
+                MostrarPanelAgregar();
+            }
+            else
+            {
+                panel_agregarcliente.Visible = false;
+            }
+        }
+
+        public void MostrarPanelAgregar()
+        {
+            panel_agregarcliente.Visible = true;
+            panel_agregarcliente.BringToFront();
+
+            int margenInferior = 20;
+            int x = (this.Width - panel_agregarcliente.Width) / 2;
+            int y = (this.Height - panel_agregarcliente.Height) / 2 - margenInferior;
+            panel_agregarcliente.Location = new Point(x, y);
 
         }
+
     }
 }
 

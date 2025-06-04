@@ -117,6 +117,7 @@
             this.gtxt_Password.Location = new System.Drawing.Point(31, 247);
             this.gtxt_Password.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.gtxt_Password.Name = "gtxt_Password";
+            this.gtxt_Password.PasswordChar = '*';
             this.gtxt_Password.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(194)))), ((int)(((byte)(174)))), ((int)(((byte)(147)))));
             this.gtxt_Password.PlaceholderText = "Contraseña";
             this.gtxt_Password.SelectedText = "";

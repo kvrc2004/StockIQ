@@ -68,22 +68,16 @@ namespace Proyecto_Stock_IQ
 
         private void btn_agregarItem_Click(object sender, EventArgs e)
         {
-            panel_agregarProducto.Visible = true;
-            panel_agregarProducto.BringToFront();
-            int margenInferior = 20;
-            int x = (this.Width - panel_agregarProducto.Width) / 2;
-            int y = (this.Height - panel_agregarProducto.Height) / 2 - margenInferior;
-            panel_agregarProducto.Location = new Point(x, y);
+            FormInventario frm = new FormInventario(true); // true = mostrar panel al cargar
+            frm.Show();
+            this.Hide(); // Oculta la ventana actual
         }
 
         private void btn_agregarCliente_Click(object sender, EventArgs e)
         {
-            panel_agregarcliente.Visible = true;
-            panel_agregarcliente.BringToFront();
-            int margenInferior = 20;
-            int x = (this.Width - panel_agregarcliente.Width) / 2;
-            int y = (this.Height - panel_agregarcliente.Height) / 2 - margenInferior;
-            panel_agregarcliente.Location = new Point(x, y);
+            Clientes frm = new Clientes(true); // Activar panel desde constructor
+            frm.Show();
+            this.Hide(); // Oculta la ventana actual
         }
 
         private void guna2PictureBox4_Click(object sender, EventArgs e)
@@ -225,26 +219,5 @@ namespace Proyecto_Stock_IQ
             listView_totalOrdenes.Items.Add(item);
         }
 
-        private void btn_cerraragregar_Click(object sender, EventArgs e)
-        {
-            panel_agregarcliente.Visible = false;
-            panel_agregarcliente.SendToBack();
-        }
-
-        private void btn_cerrarAgregarItem_Click(object sender, EventArgs e)
-        {
-            panel_agregarProducto.Visible = false;
-            panel_agregarProducto.SendToBack();
-        }
-
-        private void btn_guardarCliente_Click(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void btn_guardarProducto_Click(object sender, EventArgs e)
-        {
-            
-        }
     }
 }

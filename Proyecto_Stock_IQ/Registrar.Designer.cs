@@ -32,11 +32,11 @@
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             this.glbl_IniciarSesion = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.gtxt_Password = new Guna.UI2.WinForms.Guna2TextBox();
-            this.lbl_Registrar = new System.Windows.Forms.Label();
             this.gpb_StockIQ = new Guna.UI2.WinForms.Guna2PictureBox();
             this.gbtn_Ingresar = new Guna.UI2.WinForms.Guna2Button();
             this.gtxt_Documento = new Guna.UI2.WinForms.Guna2TextBox();
             this.gtxt_Nombre = new Guna.UI2.WinForms.Guna2TextBox();
+            this.lbl_Registrar = new System.Windows.Forms.Label();
             this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2Panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.gpb_StockIQ)).BeginInit();
@@ -93,22 +93,12 @@
             this.gtxt_Password.Location = new System.Drawing.Point(31, 268);
             this.gtxt_Password.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.gtxt_Password.Name = "gtxt_Password";
+            this.gtxt_Password.PasswordChar = '*';
             this.gtxt_Password.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(194)))), ((int)(((byte)(174)))), ((int)(((byte)(147)))));
             this.gtxt_Password.PlaceholderText = "Contraseña";
             this.gtxt_Password.SelectedText = "";
             this.gtxt_Password.Size = new System.Drawing.Size(327, 48);
             this.gtxt_Password.TabIndex = 9;
-            // 
-            // lbl_Registrar
-            // 
-            this.lbl_Registrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_Registrar.ForeColor = System.Drawing.Color.Black;
-            this.lbl_Registrar.Location = new System.Drawing.Point(115, 100);
-            this.lbl_Registrar.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.lbl_Registrar.Name = "lbl_Registrar";
-            this.lbl_Registrar.Size = new System.Drawing.Size(243, 158);
-            this.lbl_Registrar.TabIndex = 8;
-            this.lbl_Registrar.Text = "Registrarse";
             // 
             // gpb_StockIQ
             // 
@@ -199,6 +189,17 @@
             this.gtxt_Nombre.Size = new System.Drawing.Size(327, 48);
             this.gtxt_Nombre.TabIndex = 3;
             this.gtxt_Nombre.TextChanged += new System.EventHandler(this.gtxt_Nombre_TextChanged);
+            // 
+            // lbl_Registrar
+            // 
+            this.lbl_Registrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_Registrar.ForeColor = System.Drawing.Color.Black;
+            this.lbl_Registrar.Location = new System.Drawing.Point(115, 100);
+            this.lbl_Registrar.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbl_Registrar.Name = "lbl_Registrar";
+            this.lbl_Registrar.Size = new System.Drawing.Size(243, 158);
+            this.lbl_Registrar.TabIndex = 8;
+            this.lbl_Registrar.Text = "Registrarse";
             // 
             // guna2PictureBox1
             // 

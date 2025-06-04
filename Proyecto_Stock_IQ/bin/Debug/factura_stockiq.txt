@@ -1,0 +1,7 @@
+FACTURA GENERADA POR STOCKIQ
+Fecha: 4/06/2025 9:35:30 a. m.
+-------------------------------------------------
+Producto: 1/4 de aceite motul 5100
+Cantidad: 20
+Categoría: 1. Repuestos de motor
+-------------------------------------------------
