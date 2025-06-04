@@ -16,44 +16,44 @@ namespace Proyecto_Stock_IQ
 {
     public partial class FormInventario : Form
     {
-        public static List<Proveedor> listaProvedores = new List<Proveedor>();
-		private IEnumerable<object> listaProveedores;
+        public static List<ProductoInventario> listaProductos = new List<ProductoInventario>();
 
-		public class Proveedor
+        public class ProductoInventario
         {
-			public string Id { get; set; }
-			public string Producto { get; set; }
-			public string Existencia { get; set; }
-			public string Categoria { get; set; }
+            public string Id { get; set; }
+            public string Producto { get; set; }
+            public string Existencia { get; set; }
+            public string Categoria { get; set; }
 
-			public Proveedor(string id, string producto, string existencia, string categoria)
-			{
-				Id = id;
-				Producto = producto;
-				Existencia = existencia;
-				Categoria = categoria;
-			}
-		}
-        public FormInventario()
-        {
-            InitializeComponent();
-			CargarProductosPorDefecto();
-			CargarProveedores();
-
-		}
-		private void CargarProductosPorDefecto()
-		{
-            if (listaProvedores.Count == 0)
+            public ProductoInventario(string id, string producto, string existencia, string categoria)
             {
-                listaProvedores.Add(new Proveedor("100", "Pastillas Frenos apache 160", "50", "Frenos"));
-                listaProvedores.Add(new Proveedor("200", "1/4 de aceite motul 5100", "25", "Aceite"));
-                listaProvedores.Add(new Proveedor("300", "Juego de llaves hexagonales", "10", "Herramientas"));
-                listaProvedores.Add(new Proveedor("400", "llanta delantera kenda 90/10", "8", "llantas"));
+                Id = id;
+                Producto = producto;
+                Existencia = existencia;
+                Categoria = categoria;
             }
         }
 
+        public FormInventario()
+        {
+            InitializeComponent();
+            TemasApp.AplicarTema(this);
+            CargarProductosPorDefecto();
+            CargarProductos();
+        }
 
-		private void lbl_inicio_Click(object sender, EventArgs e)
+        private void CargarProductosPorDefecto()
+        {
+            if (listaProductos.Count == 0)
+            {
+                listaProductos.Add(new ProductoInventario("100", "Pastillas Frenos apache 160", "50", "Frenos"));
+                listaProductos.Add(new ProductoInventario("200", "1/4 de aceite motul 5100", "25", "Aceite"));
+                listaProductos.Add(new ProductoInventario("300", "Juego de llaves hexagonales", "10", "Herramientas"));
+                listaProductos.Add(new ProductoInventario("400", "llanta delantera kenda 90/10", "8", "Llantas"));
+            }
+        }
+
+        private void lbl_inicio_Click(object sender, EventArgs e)
         {
             HomePage homePage = new HomePage();
             homePage.Show();
@@ -144,27 +144,23 @@ namespace Proyecto_Stock_IQ
 
 		private void btn_agregarProducto_Click(object sender, EventArgs e)
 		{
-			
-
 				panel_agregarProducto.Visible = true;
 				panel_agregarProducto.BringToFront();
 				int margenInferior = 20;
 				int x = (this.Width - panel_agregarProducto.Width) / 2;
 				int y = (this.Height - panel_agregarProducto.Height) / 2 - margenInferior;
 				panel_agregarProducto.Location = new Point(x, y);
-			
-
 		}
-		private void CargarProveedores()
+		private void CargarProductos()
 		{
 			listView_inventario.Items.Clear();
 
-			foreach (var proveedor in listaProvedores)
+			foreach (var producto in listaProductos)
 			{
-				ListViewItem item = new ListViewItem(proveedor.Id);
-				item.SubItems.Add(proveedor.Producto);
-				item.SubItems.Add(proveedor.Existencia);
-				item.SubItems.Add(proveedor.Categoria);
+				ListViewItem item = new ListViewItem(producto.Id);
+				item.SubItems.Add(producto.Producto);
+				item.SubItems.Add(producto.Existencia);
+				item.SubItems.Add(producto.Categoria);
 
 				listView_inventario.Items.Add(item);
 			}
@@ -184,14 +180,14 @@ namespace Proyecto_Stock_IQ
 				return;
 			}
 
-			if (listaProvedores.Exists(p => p.Producto == nuevoProducto))
+			if (listaProductos.Exists(p => p.Producto == nuevoProducto))
 			{
 				MessageBox.Show("Ese  producto  ya está registrado.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
 				return;
 			}
 
-			var nuevoProveedor = new Proveedor(nuevoId, nuevoProducto, nuevoExistencia, nuevaCategoria);
-			listaProvedores.Add(nuevoProveedor);
+			var nuevoItem = new ProductoInventario(nuevoId, nuevoProducto, nuevoExistencia, nuevaCategoria);
+			listaProductos.Add(nuevoItem);
 
 			MessageBox.Show("Producto guardado correctamente.", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
@@ -202,13 +198,7 @@ namespace Proyecto_Stock_IQ
 			panel_agregarProducto.Visible = true;
 			panel_agregarProducto.SendToBack();
 
-			CargarProveedores();
-
-            if (listaProvedores.Exists(p => p.Id == nuevoId))
-            {
-                MessageBox.Show("Este ID de producto ya está registrado.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                return;
-            }
+			CargarProductos();
         }
 
 		private void btn_cerraragregar_Click(object sender, EventArgs e)
@@ -245,20 +235,20 @@ namespace Proyecto_Stock_IQ
 
                 // Obtener producto seleccionado
                 string productoSeleccionado = listView_inventario.SelectedItems[0].SubItems[1].Text;
-                Proveedor proveedor = listaProvedores.Find(p => p.Producto == productoSeleccionado);
+                ProductoInventario producto = listaProductos.Find(p => p.Producto == productoSeleccionado);
 
-                if (proveedor != null)
+                if (producto != null)
                 {
                     // Precargar datos
-                    txt_editarID.Text = proveedor.Id;
-                    txt_editarProducto.Text = proveedor.Producto;
-                    txt_editarExistencias.Text = proveedor.Existencia;
+                    txt_editarID.Text = producto.Id;
+                    txt_editarProducto.Text = producto.Producto;
+                    txt_editarExistencias.Text = producto.Existencia;
 
                     // Asegurar que la categoría esté en la lista
-                    if (!cmb_editarCategoria.Items.Contains(proveedor.Categoria))
-                        cmb_editarCategoria.Items.Add(proveedor.Categoria);
+                    if (!cmb_editarCategoria.Items.Contains(producto.Categoria))
+                        cmb_editarCategoria.Items.Add(producto.Categoria);
 
-                    cmb_editarCategoria.Text = proveedor.Categoria;
+                    cmb_editarCategoria.Text = producto.Categoria;
 
                     // Mostrar panel centrado
                     panel_editarProducto.Visible = true;
@@ -290,16 +280,16 @@ namespace Proyecto_Stock_IQ
                 }
 
                 string idOriginal = listView_inventario.SelectedItems[0].SubItems[0].Text;
-                Proveedor proveedor = listaProvedores.Find(p => p.Id == idOriginal);
+                ProductoInventario producto = listaProductos.Find(p => p.Id == idOriginal);
 
-                if (proveedor != null)
+                if (producto != null)
                 {
-                    proveedor.Id = nuevoId;
-                    proveedor.Producto = nuevoProducto;
-                    proveedor.Existencia = nuevoExistencia;
-                    proveedor.Categoria = nuevaCategoria;
+                    producto.Id = nuevoId;
+                    producto.Producto = nuevoProducto;
+                    producto.Existencia = nuevoExistencia;
+                    producto.Categoria = nuevaCategoria;
 
-                    CargarProveedores();
+                    CargarProductos();
                     MessageBox.Show("Producto actualizado correctamente.", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     panel_editarProducto.Visible = false;
                 }
@@ -331,16 +321,16 @@ namespace Proyecto_Stock_IQ
             }
 
             string idOriginal = listView_inventario.SelectedItems[0].SubItems[0].Text;
-            Proveedor proveedor = listaProvedores.Find(p => p.Id == idOriginal);
+            ProductoInventario producto = listaProductos.Find(p => p.Id == idOriginal);
 
-            if (proveedor != null)
+            if (producto != null)
             {
-                proveedor.Id = nuevoId;
-                proveedor.Producto = nuevoProducto;
-                proveedor.Existencia = nuevoExistencia;
-                proveedor.Categoria = nuevaCategoria;
+                producto.Id = nuevoId;
+                producto.Producto = nuevoProducto;
+                producto.Existencia = nuevoExistencia;
+                producto.Categoria = nuevaCategoria;
 
-                CargarProveedores();
+                CargarProductos();
                 MessageBox.Show("Producto actualizado correctamente.", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 panel_editarProducto.Visible = false;
             }
@@ -349,7 +339,7 @@ namespace Proyecto_Stock_IQ
                 MessageBox.Show("No se encontró el producto original.");
             }
 
-            if (listaProvedores.Exists(p => p.Id == nuevoId))
+            if (listaProductos.Exists(p => p.Id == nuevoId))
             {
                 MessageBox.Show("Este ID de producto ya está registrado.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
@@ -365,7 +355,7 @@ namespace Proyecto_Stock_IQ
 			}
 
 			string productoSeleccionado = listView_inventario.SelectedItems[0].SubItems[1].Text;
-			var productoAEliminar = listaProvedores.Find(p => p.Producto == productoSeleccionado);
+			var productoAEliminar = listaProductos.Find(p => p.Producto == productoSeleccionado);
 
 			if (productoAEliminar != null)
 
@@ -376,10 +366,10 @@ namespace Proyecto_Stock_IQ
 
 				if (confirmResult == DialogResult.Yes)
 				{
-					listaProvedores.Remove(productoAEliminar);
+					listaProductos.Remove(productoAEliminar);
 
 
-					CargarProveedores();
+					CargarProductos();
 
 					MessageBox.Show("Producto eliminado correctamente", "Eliminado", MessageBoxButtons.OK, MessageBoxIcon.Information);
 				}

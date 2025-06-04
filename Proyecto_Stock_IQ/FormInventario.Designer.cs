@@ -827,7 +827,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(16)))), ((int)(((byte)(26)))));
-            this.ClientSize = new System.Drawing.Size(1443, 669);
+            this.ClientSize = new System.Drawing.Size(1188, 669);
             this.Controls.Add(this.panel_editarProducto);
             this.Controls.Add(this.panel_agregarProducto);
             this.Controls.Add(this.guna2Panel1);

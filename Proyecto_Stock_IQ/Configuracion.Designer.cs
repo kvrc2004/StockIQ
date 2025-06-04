@@ -40,16 +40,16 @@
             this.guna2HtmlLabel3 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.gpb_StockIQ = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
+            this.panel_configuracion = new Guna.UI2.WinForms.Guna2Panel();
+            this.label2 = new System.Windows.Forms.Label();
             this.guna2HtmlLabel7 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.label3 = new System.Windows.Forms.Label();
             this.btn_guardarConfig = new Guna.UI2.WinForms.Guna2Button();
-            this.label2 = new System.Windows.Forms.Label();
-            this.guna2ComboBox1 = new Guna.UI2.WinForms.Guna2ComboBox();
+            this.cmb_tema = new Guna.UI2.WinForms.Guna2ComboBox();
             this.label1 = new System.Windows.Forms.Label();
             this.lbl_Registrar = new System.Windows.Forms.Label();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
-            this.guna2CheckBox1 = new Guna.UI2.WinForms.Guna2CheckBox();
+            this.chk_notificaciones = new Guna.UI2.WinForms.Guna2CheckBox();
             this.lbl_hacerPedido = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.lbl_crearFractura = new Guna.UI2.WinForms.Guna2HtmlLabel();
@@ -60,7 +60,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gpb_StockIQ)).BeginInit();
-            this.guna2Panel1.SuspendLayout();
+            this.panel_configuracion.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox6)).BeginInit();
             this.SuspendLayout();
@@ -221,23 +221,34 @@
             this.gpb_StockIQ.TabIndex = 27;
             this.gpb_StockIQ.TabStop = false;
             // 
-            // guna2Panel1
+            // panel_configuracion
             // 
-            this.guna2Panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(229)))), ((int)(((byte)(223)))));
-            this.guna2Panel1.Controls.Add(this.guna2HtmlLabel7);
-            this.guna2Panel1.Controls.Add(this.label3);
-            this.guna2Panel1.Controls.Add(this.btn_guardarConfig);
-            this.guna2Panel1.Controls.Add(this.label2);
-            this.guna2Panel1.Controls.Add(this.guna2ComboBox1);
-            this.guna2Panel1.Controls.Add(this.label1);
-            this.guna2Panel1.Controls.Add(this.lbl_Registrar);
-            this.guna2Panel1.Controls.Add(this.linkLabel1);
-            this.guna2Panel1.Controls.Add(this.guna2CheckBox1);
-            this.guna2Panel1.Location = new System.Drawing.Point(316, 31);
-            this.guna2Panel1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.guna2Panel1.Name = "guna2Panel1";
-            this.guna2Panel1.Size = new System.Drawing.Size(853, 620);
-            this.guna2Panel1.TabIndex = 40;
+            this.panel_configuracion.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(229)))), ((int)(((byte)(223)))));
+            this.panel_configuracion.Controls.Add(this.label2);
+            this.panel_configuracion.Controls.Add(this.guna2HtmlLabel7);
+            this.panel_configuracion.Controls.Add(this.label3);
+            this.panel_configuracion.Controls.Add(this.btn_guardarConfig);
+            this.panel_configuracion.Controls.Add(this.cmb_tema);
+            this.panel_configuracion.Controls.Add(this.label1);
+            this.panel_configuracion.Controls.Add(this.lbl_Registrar);
+            this.panel_configuracion.Controls.Add(this.linkLabel1);
+            this.panel_configuracion.Controls.Add(this.chk_notificaciones);
+            this.panel_configuracion.Location = new System.Drawing.Point(316, 31);
+            this.panel_configuracion.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.panel_configuracion.Name = "panel_configuracion";
+            this.panel_configuracion.Size = new System.Drawing.Size(853, 620);
+            this.panel_configuracion.TabIndex = 40;
+            // 
+            // label2
+            // 
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.Black;
+            this.label2.Location = new System.Drawing.Point(96, 366);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(366, 51);
+            this.label2.TabIndex = 12;
+            this.label2.Text = "Notificaciones";
             // 
             // guna2HtmlLabel7
             // 
@@ -278,42 +289,33 @@
             this.btn_guardarConfig.Size = new System.Drawing.Size(523, 68);
             this.btn_guardarConfig.TabIndex = 14;
             this.btn_guardarConfig.Text = "Guardar configuración";
+            this.btn_guardarConfig.Click += new System.EventHandler(this.btn_guardarConfig_Click);
             // 
-            // label2
+            // cmb_tema
             // 
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.Black;
-            this.label2.Location = new System.Drawing.Point(96, 361);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(273, 59);
-            this.label2.TabIndex = 12;
-            this.label2.Text = "Notificaciones";
-            // 
-            // guna2ComboBox1
-            // 
-            this.guna2ComboBox1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2ComboBox1.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.guna2ComboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.guna2ComboBox1.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2ComboBox1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2ComboBox1.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.guna2ComboBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
-            this.guna2ComboBox1.ItemHeight = 30;
-            this.guna2ComboBox1.Items.AddRange(new object[] {
-            "Modo Claro",
-            "Modo Oscuro"});
-            this.guna2ComboBox1.Location = new System.Drawing.Point(101, 290);
-            this.guna2ComboBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.guna2ComboBox1.Name = "guna2ComboBox1";
-            this.guna2ComboBox1.Size = new System.Drawing.Size(452, 36);
-            this.guna2ComboBox1.TabIndex = 11;
+            this.cmb_tema.BackColor = System.Drawing.Color.Transparent;
+            this.cmb_tema.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.cmb_tema.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmb_tema.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.cmb_tema.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.cmb_tema.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.cmb_tema.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
+            this.cmb_tema.ItemHeight = 30;
+            this.cmb_tema.Items.AddRange(new object[] {
+            "Modo Oscuro",
+            "Modo Claro"});
+            this.cmb_tema.Location = new System.Drawing.Point(101, 283);
+            this.cmb_tema.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.cmb_tema.Name = "cmb_tema";
+            this.cmb_tema.Size = new System.Drawing.Size(452, 36);
+            this.cmb_tema.StartIndex = 0;
+            this.cmb_tema.TabIndex = 11;
             // 
             // label1
             // 
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Black;
-            this.label1.Location = new System.Drawing.Point(96, 224);
+            this.label1.Location = new System.Drawing.Point(96, 235);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(273, 198);
@@ -340,23 +342,26 @@
             this.linkLabel1.Size = new System.Drawing.Size(0, 20);
             this.linkLabel1.TabIndex = 8;
             // 
-            // guna2CheckBox1
+            // chk_notificaciones
             // 
-            this.guna2CheckBox1.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2CheckBox1.CheckedState.BorderRadius = 0;
-            this.guna2CheckBox1.CheckedState.BorderThickness = 0;
-            this.guna2CheckBox1.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2CheckBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2CheckBox1.Location = new System.Drawing.Point(101, 376);
-            this.guna2CheckBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.guna2CheckBox1.Name = "guna2CheckBox1";
-            this.guna2CheckBox1.Size = new System.Drawing.Size(459, 139);
-            this.guna2CheckBox1.TabIndex = 13;
-            this.guna2CheckBox1.Text = "Activar notificaciones";
-            this.guna2CheckBox1.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
-            this.guna2CheckBox1.UncheckedState.BorderRadius = 0;
-            this.guna2CheckBox1.UncheckedState.BorderThickness = 0;
-            this.guna2CheckBox1.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.chk_notificaciones.BackColor = System.Drawing.Color.Transparent;
+            this.chk_notificaciones.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.chk_notificaciones.CheckedState.BorderRadius = 0;
+            this.chk_notificaciones.CheckedState.BorderThickness = 0;
+            this.chk_notificaciones.CheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.chk_notificaciones.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F);
+            this.chk_notificaciones.Location = new System.Drawing.Point(100, 393);
+            this.chk_notificaciones.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.chk_notificaciones.Name = "chk_notificaciones";
+            this.chk_notificaciones.Size = new System.Drawing.Size(459, 101);
+            this.chk_notificaciones.TabIndex = 13;
+            this.chk_notificaciones.Text = "Activar notificaciones";
+            this.chk_notificaciones.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.chk_notificaciones.UncheckedState.BorderRadius = 0;
+            this.chk_notificaciones.UncheckedState.BorderThickness = 0;
+            this.chk_notificaciones.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.chk_notificaciones.UseVisualStyleBackColor = false;
+            this.chk_notificaciones.CheckedChanged += new System.EventHandler(this.chk_notificaciones_CheckedChanged);
             // 
             // lbl_hacerPedido
             // 
@@ -422,7 +427,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(16)))), ((int)(((byte)(26)))));
             this.ClientSize = new System.Drawing.Size(1200, 692);
-            this.Controls.Add(this.guna2Panel1);
+            this.Controls.Add(this.panel_configuracion);
             this.Controls.Add(this.lbl_hacerPedido);
             this.Controls.Add(this.guna2PictureBox1);
             this.Controls.Add(this.lbl_crearFractura);
@@ -444,14 +449,15 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Configuracion";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Configuracion_FormClosing);
+            this.Load += new System.EventHandler(this.Configuracion_Load);
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btn_configuracion)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gpb_StockIQ)).EndInit();
-            this.guna2Panel1.ResumeLayout(false);
-            this.guna2Panel1.PerformLayout();
+            this.panel_configuracion.ResumeLayout(false);
+            this.panel_configuracion.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox6)).EndInit();
             this.ResumeLayout(false);
@@ -471,13 +477,13 @@
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel3;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel2;
         private Guna.UI2.WinForms.Guna2PictureBox gpb_StockIQ;
-        private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
+        private Guna.UI2.WinForms.Guna2Panel panel_configuracion;
         private System.Windows.Forms.LinkLabel linkLabel1;
         private System.Windows.Forms.Label lbl_Registrar;
-        private Guna.UI2.WinForms.Guna2ComboBox guna2ComboBox1;
+        private Guna.UI2.WinForms.Guna2ComboBox cmb_tema;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private Guna.UI2.WinForms.Guna2CheckBox guna2CheckBox1;
+        private Guna.UI2.WinForms.Guna2CheckBox chk_notificaciones;
         private System.Windows.Forms.Label label3;
         private Guna.UI2.WinForms.Guna2Button btn_guardarConfig;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel7;
