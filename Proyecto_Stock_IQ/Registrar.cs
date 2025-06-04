@@ -98,7 +98,6 @@ namespace Proyecto_Stock_IQ
         }
         private void registrar_Cierre_Ventana(object sender, FormClosingEventArgs e)
         {
-            Application.Exit(); //Cierra toda la ventana
         }
 
         private void gtxt_Nombre_TextChanged(object sender, EventArgs e)
