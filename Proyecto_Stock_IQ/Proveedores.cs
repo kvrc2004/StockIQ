@@ -32,6 +32,7 @@ namespace Proyecto_Stock_IQ
             public Proveedores()
         {
             InitializeComponent();
+            TemasApp.AplicarTema(this);
             CargarProveedoresPorDefecto();
 			CargarProveedores();
 		}

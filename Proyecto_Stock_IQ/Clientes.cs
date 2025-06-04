@@ -35,6 +35,7 @@ namespace Proyecto_Stock_IQ
         public Clientes()
         {
             InitializeComponent();
+            TemasApp.AplicarTema(this);
             CargarClientesPorDefecto();
 			CargarClientes();
 			//foreach (var cliente in listaClientes);// linea que muestra el listado de clientes 

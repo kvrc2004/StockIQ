@@ -37,7 +37,8 @@ namespace Proyecto_Stock_IQ
         public FormInventario()
         {
             InitializeComponent();
-			CargarProductosPorDefecto();
+            TemasApp.AplicarTema(this);
+            CargarProductosPorDefecto();
 			CargarProveedores();
 
 		}

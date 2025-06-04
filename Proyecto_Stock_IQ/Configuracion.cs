@@ -12,10 +12,21 @@ namespace Proyecto_Stock_IQ
 {
     public partial class Configuracion : Form
     {
-        
+        private Timer timerNotificaciones = new Timer();
+        private Random random = new Random();
+        private List<string> mensajes = new List<string>
+        {
+        "📦 Su pedido ya llegó",
+        "⚠️ Producto con bajo stock",
+        "🛠️ Se ha agregado un nuevo producto",
+        "🔄 Inventario actualizado",
+        "📊 Consulta tus estadísticas de ventas"
+        };
+
         public Configuracion()
         {
             InitializeComponent();
+            TemasApp.AplicarTema(this);
         }
 
         private void Configuracion_FormClosing(object sender, FormClosingEventArgs e)
@@ -105,6 +116,48 @@ namespace Proyecto_Stock_IQ
             Proveedores proveedores = new Proveedores();
             proveedores.Show();
             this.Hide(); // Oculta la ventana de configuración
+        }
+
+        private void ActivarNotificaciones()
+        {
+            timerNotificaciones.Interval = 8000; // cada 8 segundos
+            timerNotificaciones.Tick += (s, e) =>
+            {
+                int index = random.Next(mensajes.Count);
+                string mensaje = mensajes[index];
+
+                NotifyIcon notify = new NotifyIcon
+                {
+                    Visible = true,
+                    Icon = SystemIcons.Information,
+                    BalloonTipTitle = "Notificación StockIQ",
+                    BalloonTipText = mensaje
+                };
+                notify.ShowBalloonTip(3000);
+            };
+
+            timerNotificaciones.Start();
+        }
+
+
+        private void btn_guardarConfig_Click(object sender, EventArgs e)
+        {
+            if (cmb_tema.SelectedItem != null)
+            {
+                TemasApp.TemaActual = cmb_tema.SelectedItem.ToString();
+                TemasApp.AplicarTema(this); // Aplicar a Configuración
+            }
+
+            if (chk_notificaciones.Checked)
+                ActivarNotificaciones();
+        }
+
+        private void chk_notificaciones_CheckedChanged(object sender, EventArgs e)
+        {
+            if (!chk_notificaciones.Checked && timerNotificaciones.Enabled)
+            {
+                timerNotificaciones.Stop();
+            }
         }
     }
 }

@@ -23,7 +23,7 @@ namespace Proyecto_Stock_IQ
         {
             InitializeComponent();
             CargarProductosBajoStock();
-
+            TemasApp.AplicarTema(this);
         }
         private void guna2PictureBox1_Click(object sender, EventArgs e)
         {

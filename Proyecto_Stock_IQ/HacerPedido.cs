@@ -15,6 +15,7 @@ namespace Proyecto_Stock_IQ
         public HacerPedido()
         {
             InitializeComponent();
+            TemasApp.AplicarTema(this);
         }
 
         private void HacerPedido_FormClosing(object sender, FormClosingEventArgs e)

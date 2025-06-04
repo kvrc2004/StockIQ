@@ -16,6 +16,7 @@ namespace Proyecto_Stock_IQ
         public CrearFactura()
         {
             InitializeComponent();
+            TemasApp.AplicarTema(this);
         }
 
         private void CrearFactura_FormClosing(object sender, FormClosingEventArgs e)
