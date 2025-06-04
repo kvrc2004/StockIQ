@@ -12,8 +12,7 @@ namespace Proyecto_Stock_IQ
 {
     public partial class Proveedores : Form
     {
-        private List<Proveedor> listaProveedores = new List<Proveedor>();
-
+        public static List<Proveedor> listaProveedores = new List<Proveedor>();
         public class Proveedor
         {
             public string NombreContacto { get; set; }
@@ -28,8 +27,14 @@ namespace Proyecto_Stock_IQ
                 Telefono = telefono;
                 Empresa = empresa;
             }
+
+            public override string ToString()
+            {
+                return Empresa; // Para que los ComboBox muestren el nombre de la empresa
+            }
         }
-            public Proveedores()
+
+        public Proveedores()
         {
             InitializeComponent();
             TemasApp.AplicarTema(this);

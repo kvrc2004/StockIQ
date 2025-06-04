@@ -120,7 +120,7 @@ namespace Proyecto_Stock_IQ
 
         private void ActivarNotificaciones()
         {
-            timerNotificaciones.Interval = 8000; // cada 8 segundos
+            timerNotificaciones.Interval = 10000; // cada 10 segundos
             timerNotificaciones.Tick += (s, e) =>
             {
                 int index = random.Next(mensajes.Count);
@@ -133,7 +133,7 @@ namespace Proyecto_Stock_IQ
                     BalloonTipTitle = "Notificación StockIQ",
                     BalloonTipText = mensaje
                 };
-                notify.ShowBalloonTip(3000);
+                notify.ShowBalloonTip(10000);
             };
 
             timerNotificaciones.Start();
@@ -145,7 +145,7 @@ namespace Proyecto_Stock_IQ
             if (cmb_tema.SelectedItem != null)
             {
                 TemasApp.TemaActual = cmb_tema.SelectedItem.ToString();
-                TemasApp.AplicarTema(this); // Aplicar a Configuración
+                TemasApp.AplicarTema(this);
             }
 
             if (chk_notificaciones.Checked)
@@ -158,6 +158,11 @@ namespace Proyecto_Stock_IQ
             {
                 timerNotificaciones.Stop();
             }
+        }
+
+        private void Configuracion_Load(object sender, EventArgs e)
+        {
+            cmb_tema.SelectedItem = TemasApp.TemaActual;
         }
     }
 }

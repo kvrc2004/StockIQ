@@ -15,7 +15,13 @@ namespace Proyecto_Stock_IQ
         public HacerPedido()
         {
             InitializeComponent();
+            CargarProveedoresEnComboBox();
             TemasApp.AplicarTema(this);
+        }
+
+        public static class ContadorOrdenes
+        {
+            public static int TotalOrdenes = 0;
         }
 
         private void HacerPedido_FormClosing(object sender, FormClosingEventArgs e)
@@ -110,18 +116,71 @@ namespace Proyecto_Stock_IQ
         private void HacerPedido_Load(object sender, EventArgs e)
         {
 
-            listView_crearPedido.Items.Clear();
+            listView_productos.Items.Clear();
 
-            foreach (var item in FormInventario.listaProvedores)
+            foreach (var item in FormInventario.listaProductos)
             {
                 ListViewItem fila = new ListViewItem(item.Id);
                 fila.SubItems.Add(item.Producto);
                 fila.SubItems.Add(item.Existencia);
                 fila.SubItems.Add(item.Categoria);
-                listView_crearPedido.Items.Add(fila);
+                listView_productos.Items.Add(fila);
+            }
+        }
+
+        private void CargarProveedoresEnComboBox()
+        {
+            cmb_proveedor.Items.Clear();
+            foreach (var proveedor in Proyecto_Stock_IQ.Proveedores.listaProveedores)
+            {
+                cmb_proveedor.Items.Add(proveedor);
+            }
+        }
+
+        private void btn_guardarCantidad_Click(object sender, EventArgs e)
+        {
+            if (listView_productos.SelectedItems.Count == 0)
+            {
+                MessageBox.Show("Por favor selecciona un producto de la lista.");
+                return;
             }
 
+            if (string.IsNullOrWhiteSpace(txt_cantidad.Text) || !int.TryParse(txt_cantidad.Text, out int cantidad))
+            {
+                MessageBox.Show("Ingresa una cantidad válida.");
+                return;
+            }
 
+            if (cmb_proveedor.SelectedItem == null)
+            {
+                MessageBox.Show("Selecciona un proveedor.");
+                return;
+            }
+
+            // Obtener el ID del producto seleccionado
+            string idSeleccionado = listView_productos.SelectedItems[0].SubItems[0].Text;
+
+            // Buscar el producto en la lista global
+            var producto = FormInventario.listaProductos.Find(p => p.Id == idSeleccionado);
+
+            if (producto != null)
+            {
+                // Sumar la cantidad nueva a las existencias actuales
+                int existenciasActuales = int.Parse(producto.Existencia);
+                int nuevaCantidad = existenciasActuales + cantidad;
+                producto.Existencia = nuevaCantidad.ToString();
+
+                MessageBox.Show($"Pedido registrado. Ahora hay {nuevaCantidad} unidades de '{producto.Producto}'.", "Éxito");
+            }
+            else
+            {
+                MessageBox.Show("No se encontró el producto en el inventario.");
+            }
+
+            txt_cantidad.Clear();
+            cmb_proveedor.SelectedIndex = -1;
+
+            ContadorOrdenes.TotalOrdenes++;
         }
     }
 }

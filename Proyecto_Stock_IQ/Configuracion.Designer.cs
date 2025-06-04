@@ -41,10 +41,10 @@
             this.guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.gpb_StockIQ = new Guna.UI2.WinForms.Guna2PictureBox();
             this.panel_configuracion = new Guna.UI2.WinForms.Guna2Panel();
+            this.label2 = new System.Windows.Forms.Label();
             this.guna2HtmlLabel7 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.label3 = new System.Windows.Forms.Label();
             this.btn_guardarConfig = new Guna.UI2.WinForms.Guna2Button();
-            this.label2 = new System.Windows.Forms.Label();
             this.cmb_tema = new Guna.UI2.WinForms.Guna2ComboBox();
             this.label1 = new System.Windows.Forms.Label();
             this.lbl_Registrar = new System.Windows.Forms.Label();
@@ -239,6 +239,17 @@
             this.panel_configuracion.Size = new System.Drawing.Size(853, 620);
             this.panel_configuracion.TabIndex = 40;
             // 
+            // label2
+            // 
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.Black;
+            this.label2.Location = new System.Drawing.Point(96, 366);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(366, 51);
+            this.label2.TabIndex = 12;
+            this.label2.Text = "Notificaciones";
+            // 
             // guna2HtmlLabel7
             // 
             this.guna2HtmlLabel7.AutoSize = false;
@@ -280,17 +291,6 @@
             this.btn_guardarConfig.Text = "Guardar configuración";
             this.btn_guardarConfig.Click += new System.EventHandler(this.btn_guardarConfig_Click);
             // 
-            // label2
-            // 
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.Black;
-            this.label2.Location = new System.Drawing.Point(96, 366);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(366, 51);
-            this.label2.TabIndex = 12;
-            this.label2.Text = "Notificaciones";
-            // 
             // cmb_tema
             // 
             this.cmb_tema.BackColor = System.Drawing.Color.Transparent;
@@ -302,9 +302,8 @@
             this.cmb_tema.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
             this.cmb_tema.ItemHeight = 30;
             this.cmb_tema.Items.AddRange(new object[] {
-            "Elige un tema",
-            "Modo Claro",
-            "Modo Oscuro"});
+            "Modo Oscuro",
+            "Modo Claro"});
             this.cmb_tema.Location = new System.Drawing.Point(101, 283);
             this.cmb_tema.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.cmb_tema.Name = "cmb_tema";
@@ -450,6 +449,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Configuracion";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Configuracion_FormClosing);
+            this.Load += new System.EventHandler(this.Configuracion_Load);
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btn_configuracion)).EndInit();

@@ -10,39 +10,39 @@ namespace Proyecto_Stock_IQ
 {
     public static class TemasApp
     {
-            public static string TemaActual = "Claro";
+        public static string TemaActual = "Oscuro"; // modo oscuro como predeterminado
 
-            public static void AplicarTema(Form form)
+        public static void AplicarTema(Form form)
+        {
+            Color fondo, texto, boton;
+
+            if (TemaActual == "Oscuro")
             {
-                Color fondo, texto, boton;
+                fondo = Color.FromArgb(26, 16, 26);      //(fondo actual)
+                texto = Color.FromArgb(234, 229, 223);   // Letras claras
+                boton = Color.FromArgb(255, 140, 0);     // Naranja intenso
+            }
+            else // Claro
+            {
+                fondo = Color.FromArgb(204, 169, 221);      // Morado clarito
+                texto = Color.FromArgb(30, 30, 30);         // Letras oscuras
+                boton = Color.FromArgb(240, 160, 40);       // Naranja suave
+            }
 
-                if (TemaActual == "Oscuro")
+            // Aplicar fondo general
+            form.BackColor = fondo;
+
+            foreach (Control control in form.Controls)
+            {
+                if (control is Label || control is CheckBox || control is ComboBox || control is TextBox)
+                    control.ForeColor = texto;
+
+                if (control is Button)
                 {
-                    fondo = Color.FromArgb(30, 30, 30);
-                    texto = Color.White;
-                    boton = Color.FromArgb(255, 140, 0);
-                }
-                else // Claro
-                {
-                    fondo = Color.FromArgb(240, 235, 225);
-                    texto = Color.Black;
-                    boton = Color.FromArgb(240, 160, 40);
-                }
-
-                // Aplicar colores genéricos
-                form.BackColor = fondo;
-
-                foreach (Control control in form.Controls)
-                {
-                    if (control is Label || control is CheckBox || control is ComboBox || control is TextBox)
-                        control.ForeColor = texto;
-
-                    if (control is Button)
-                    {
-                        control.BackColor = boton;
-                        control.ForeColor = texto;
-                    }
+                    control.BackColor = boton;
+                    control.ForeColor = texto;
                 }
             }
+        }
     }
 }

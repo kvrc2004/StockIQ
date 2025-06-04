@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static Proyecto_Stock_IQ.FormInventario;
+using static Proyecto_Stock_IQ.HacerPedido;
 
 namespace Proyecto_Stock_IQ
 {
@@ -23,7 +25,10 @@ namespace Proyecto_Stock_IQ
         {
             InitializeComponent();
             CargarProductosBajoStock();
+            MostrarProductoMasUsado();
+            MostrarTotalProductos();
             TemasApp.AplicarTema(this);
+            MostrarTotalOrdenes();
         }
         private void guna2PictureBox1_Click(object sender, EventArgs e)
         {
@@ -63,7 +68,12 @@ namespace Proyecto_Stock_IQ
 
         private void btn_agregarItem_Click(object sender, EventArgs e)
         {
-
+            panel_agregarProducto.Visible = true;
+            panel_agregarProducto.BringToFront();
+            int margenInferior = 20;
+            int x = (this.Width - panel_agregarProducto.Width) / 2;
+            int y = (this.Height - panel_agregarProducto.Height) / 2 - margenInferior;
+            panel_agregarProducto.Location = new Point(x, y);
         }
 
         private void btn_agregarCliente_Click(object sender, EventArgs e)
@@ -168,7 +178,7 @@ namespace Proyecto_Stock_IQ
             listView_orden.Items.Clear();
 
             // Ordenar por existencia (de menor a mayor)
-            var productosOrdenados = FormInventario.listaProvedores
+            var productosOrdenados = FormInventario.listaProductos
                 .OrderBy(p => Convert.ToInt32(p.Existencia)) // Asegúrate que Existencia es numérica
                 .ToList();
 
@@ -180,5 +190,61 @@ namespace Proyecto_Stock_IQ
             }
         }
 
+        private void MostrarProductoMasUsado()
+        {
+            listView_masUsado.Items.Clear();
+
+            var productosOrdenados = FormInventario.listaProductos
+                .OrderByDescending(p => int.Parse(p.Existencia)) // ordenar por existencias numéricas
+                .ToList();
+
+            var masUsado = productosOrdenados.FirstOrDefault();
+            if (masUsado != null)
+            {
+                ListViewItem item = new ListViewItem(masUsado.Producto);
+                item.SubItems.Add(masUsado.Existencia);
+                listView_masUsado.Items.Add(item);
+            }
+        }
+
+        private void MostrarTotalProductos()
+        {
+            listView_totalItems.Items.Clear();
+
+            int total = FormInventario.listaProductos.Count;
+
+            ListViewItem item = new ListViewItem(total.ToString());
+            listView_totalItems.Items.Add(item);
+        }
+
+        public void MostrarTotalOrdenes()
+        {
+            listView_totalOrdenes.Items.Clear();
+
+            ListViewItem item = new ListViewItem(ContadorOrdenes.TotalOrdenes.ToString());
+            listView_totalOrdenes.Items.Add(item);
+        }
+
+        private void btn_cerraragregar_Click(object sender, EventArgs e)
+        {
+            panel_agregarcliente.Visible = false;
+            panel_agregarcliente.SendToBack();
+        }
+
+        private void btn_cerrarAgregarItem_Click(object sender, EventArgs e)
+        {
+            panel_agregarProducto.Visible = false;
+            panel_agregarProducto.SendToBack();
+        }
+
+        private void btn_guardarCliente_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void btn_guardarProducto_Click(object sender, EventArgs e)
+        {
+            
+        }
     }
 }
