@@ -100,5 +100,20 @@ namespace Proyecto_Stock_IQ
             hacerPedido.Show();
             this.Hide(); // Oculta la ventana actual
         }
+
+        private void CrearFactura_Load(object sender, EventArgs e)
+        {
+            listView_productos.Items.Clear();
+
+            foreach (var item in FormInventario.listaProvedores)
+            {
+                ListViewItem fila = new ListViewItem(item.Id);
+                fila.SubItems.Add(item.Producto);
+                fila.SubItems.Add(item.Existencia);
+                fila.SubItems.Add(item.Categoria);
+                listView_productos.Items.Add(fila);
+            }
+
+        }
     }
 }

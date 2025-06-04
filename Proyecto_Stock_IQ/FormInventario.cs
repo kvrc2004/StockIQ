@@ -16,7 +16,7 @@ namespace Proyecto_Stock_IQ
 {
     public partial class FormInventario : Form
     {
-        private List<Proveedor> listaProvedores = new List<Proveedor>();
+        public static List<Proveedor> listaProvedores = new List<Proveedor>();
 		private IEnumerable<object> listaProveedores;
 
 		public class Proveedor
@@ -37,18 +37,20 @@ namespace Proyecto_Stock_IQ
         public FormInventario()
         {
             InitializeComponent();
-			CargarProveedoresPorDefecto();
+			CargarProductosPorDefecto();
 			CargarProveedores();
 
 		}
-		private void CargarProveedoresPorDefecto()
+		private void CargarProductosPorDefecto()
 		{
-			listaProvedores.Add(new Proveedor("100", "Pastillas Frenos apache 160", "50", "Frenos"));
-			listaProvedores.Add(new Proveedor("200", "1/4 de aceite motul 5100", "25", "Aceite"));
-			listaProvedores.Add(new Proveedor("300", "Juego de llaves hexagonales", "10", "Herramientas"));
-			listaProvedores.Add(new Proveedor("400", "llanta delantera kenda 90/10", "8", "llantas"));
-			
-		}
+            if (listaProvedores.Count == 0)
+            {
+                listaProvedores.Add(new Proveedor("100", "Pastillas Frenos apache 160", "50", "Frenos"));
+                listaProvedores.Add(new Proveedor("200", "1/4 de aceite motul 5100", "25", "Aceite"));
+                listaProvedores.Add(new Proveedor("300", "Juego de llaves hexagonales", "10", "Herramientas"));
+                listaProvedores.Add(new Proveedor("400", "llanta delantera kenda 90/10", "8", "llantas"));
+            }
+        }
 
 
 		private void lbl_inicio_Click(object sender, EventArgs e)
@@ -201,7 +203,13 @@ namespace Proyecto_Stock_IQ
 			panel_agregarProducto.SendToBack();
 
 			CargarProveedores();
-		}
+
+            if (listaProvedores.Exists(p => p.Id == nuevoId))
+            {
+                MessageBox.Show("Este ID de producto ya está registrado.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+        }
 
 		private void btn_cerraragregar_Click(object sender, EventArgs e)
 		{
@@ -227,89 +235,126 @@ namespace Proyecto_Stock_IQ
 
 		private void btn_editarProducto_Click(object sender, EventArgs e)
 		{
-			if (listView_inventario.SelectedItems.Count == 0)
-			{
-				MessageBox.Show("Selecciona un Producto de la lista");
-				return;
-			}
-			string productoSeleccionado = listView_inventario.SelectedItems[0].SubItems[1].Text;
-			Proveedor proveedor = listaProvedores.Find(p => p.Producto == productoSeleccionado);
+            if (!panel_editarProducto.Visible)
+            {
+                if (listView_inventario.SelectedItems.Count == 0)
+                {
+                    MessageBox.Show("Selecciona un producto de la lista.");
+                    return;
+                }
 
-			if (proveedor != null)
+                // Obtener producto seleccionado
+                string productoSeleccionado = listView_inventario.SelectedItems[0].SubItems[1].Text;
+                Proveedor proveedor = listaProvedores.Find(p => p.Producto == productoSeleccionado);
 
-			{
-				// Pre-cargar datos en campos de edición
-				txt_editarID.Text = proveedor.Id;
-				txt_editarProducto.Text = proveedor.Producto;
-				txt_editarExistencias.Text = proveedor.Existencia;
-				//cmb_editarCategoria.Text = proveedor.Categoria;
-				//cmb_editarCategoria.Text. = proveedor.Categoria;
-				cmb_editarCategoria.Items.Clear();
-				foreach (ListViewItem item in listView_inventario.Items)
-				{
-					string valor = item.SubItems[3].Text;
-					cmb_editarCategoria.Items.Add(valor);
-				}
+                if (proveedor != null)
+                {
+                    // Precargar datos
+                    txt_editarID.Text = proveedor.Id;
+                    txt_editarProducto.Text = proveedor.Producto;
+                    txt_editarExistencias.Text = proveedor.Existencia;
 
-				
+                    // Asegurar que la categoría esté en la lista
+                    if (!cmb_editarCategoria.Items.Contains(proveedor.Categoria))
+                        cmb_editarCategoria.Items.Add(proveedor.Categoria);
 
+                    cmb_editarCategoria.Text = proveedor.Categoria;
 
-				panel_editarProducto.Visible = true;
-				panel_editarProducto.BringToFront();
-				int margenInferior = 20;
-				int x = (this.Width - panel_editarProducto.Width) / 2;
-				int y = (this.Height - panel_editarProducto.Height) / 2 - margenInferior;
-				panel_editarProducto.Location = new Point(x, y);
-			}
-			else
-			{
-				MessageBox.Show("No se encontró el producto");
-			}
-		}
+                    // Mostrar panel centrado
+                    panel_editarProducto.Visible = true;
+                    panel_editarProducto.BringToFront();
+                    int margenInferior = 20;
+                    int x = (this.Width - panel_editarProducto.Width) / 2;
+                    int y = (this.Height - panel_editarProducto.Height) / 2 - margenInferior;
+                    panel_editarProducto.Location = new Point(x, y);
+                }
+                else
+                {
+                    MessageBox.Show("No se encontró el producto.");
+                }
+            }
+            else
+            {
+                // Si el panel está visible y ya se llenaron los campos, vamos a guardar los cambios
+
+                string nuevoId = txt_editarID.Text.Trim();
+                string nuevoProducto = txt_editarProducto.Text.Trim();
+                string nuevoExistencia = txt_editarExistencias.Text.Trim();
+                string nuevaCategoria = cmb_editarCategoria.Text.Trim();
+
+                if (string.IsNullOrWhiteSpace(nuevoId) || string.IsNullOrWhiteSpace(nuevoProducto) ||
+                    string.IsNullOrWhiteSpace(nuevoExistencia) || string.IsNullOrWhiteSpace(nuevaCategoria))
+                {
+                    MessageBox.Show("Por favor, completa todos los campos.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
+                }
+
+                string idOriginal = listView_inventario.SelectedItems[0].SubItems[0].Text;
+                Proveedor proveedor = listaProvedores.Find(p => p.Id == idOriginal);
+
+                if (proveedor != null)
+                {
+                    proveedor.Id = nuevoId;
+                    proveedor.Producto = nuevoProducto;
+                    proveedor.Existencia = nuevoExistencia;
+                    proveedor.Categoria = nuevaCategoria;
+
+                    CargarProveedores();
+                    MessageBox.Show("Producto actualizado correctamente.", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    panel_editarProducto.Visible = false;
+                }
+                else
+                {
+                    MessageBox.Show("No se encontró el producto original.");
+                }
+            }
+        }
 
 		private void btn_actualizarProducto_Click(object sender, EventArgs e)// el ultimo paso para guardar 
 		{
-			if (listView_inventario.SelectedItems.Count == 0)
-			{
-				MessageBox.Show("Selecciona un Producto de la lista");
-				return;
-			}
-			string nuevoId = txt_idProducto.Text.Trim();
-			string nuevoProducto = txt_agregarProducto.Text.Trim();
-			string nuevoExistencia = txt_existenciasProducto.Text.Trim();
-			string nuevaCategoria = cmb_categoria.Text.Trim();
+            if (listView_inventario.SelectedItems.Count == 0)
+            {
+                MessageBox.Show("Selecciona un producto de la lista.");
+                return;
+            }
 
-			if (string.IsNullOrWhiteSpace(nuevoId) || string.IsNullOrWhiteSpace(nuevoProducto) ||
-				string.IsNullOrWhiteSpace(nuevoExistencia) || string.IsNullOrWhiteSpace(nuevaCategoria))
-			{
-				MessageBox.Show("Por favor, completa todos los campos.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-				return;
-			}
+            string nuevoId = txt_editarID.Text.Trim();
+            string nuevoProducto = txt_editarProducto.Text.Trim();
+            string nuevoExistencia = txt_editarExistencias.Text.Trim();
+            string nuevaCategoria = cmb_editarCategoria.Text.Trim();
 
-			string proveedorOriginal =listView_inventario.SelectedItems[0].SubItems[0].Text;
+            if (string.IsNullOrWhiteSpace(nuevoId) || string.IsNullOrWhiteSpace(nuevoProducto) ||
+                string.IsNullOrWhiteSpace(nuevoExistencia) || string.IsNullOrWhiteSpace(nuevaCategoria))
+            {
+                MessageBox.Show("Por favor, completa todos los campos.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
 
-			Proveedor proveedor = listaProvedores.Find(p => p.Producto == nuevoProducto);
+            string idOriginal = listView_inventario.SelectedItems[0].SubItems[0].Text;
+            Proveedor proveedor = listaProvedores.Find(p => p.Id == idOriginal);
 
-			if (proveedor != null)
-			{
-				proveedor.Id = nuevoId;
-				proveedor.Producto = nuevoProducto;
-				proveedor.Existencia = nuevoExistencia;
-				proveedor.Categoria = nuevaCategoria;
+            if (proveedor != null)
+            {
+                proveedor.Id = nuevoId;
+                proveedor.Producto = nuevoProducto;
+                proveedor.Existencia = nuevoExistencia;
+                proveedor.Categoria = nuevaCategoria;
 
-				CargarProveedores();
-				MessageBox.Show("Producto guardado correctamente.", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
-				panel_agregarProducto.Visible = false;
+                CargarProveedores();
+                MessageBox.Show("Producto actualizado correctamente.", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                panel_editarProducto.Visible = false;
+            }
+            else
+            {
+                MessageBox.Show("No se encontró el producto original.");
+            }
 
-			}
-			else
-			{
-				MessageBox.Show("No se encontro el producto");
-			}
-			
-
-			
-		}
+            if (listaProvedores.Exists(p => p.Id == nuevoId))
+            {
+                MessageBox.Show("Este ID de producto ya está registrado.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+        }
 
 		private void btn_eliminarProducto_Click(object sender, EventArgs e)
 		{
@@ -336,12 +381,12 @@ namespace Proyecto_Stock_IQ
 
 					CargarProveedores();
 
-					MessageBox.Show("Cliente eliminado correctamente", "Eliminado", MessageBoxButtons.OK, MessageBoxIcon.Information);
+					MessageBox.Show("Producto eliminado correctamente", "Eliminado", MessageBoxButtons.OK, MessageBoxIcon.Information);
 				}
 			}
 			else
 			{
-				MessageBox.Show("No se encontró el cliente");
+				MessageBox.Show("No se encontró el producto");
 			}
 
 
