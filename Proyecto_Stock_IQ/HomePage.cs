@@ -22,7 +22,8 @@ namespace Proyecto_Stock_IQ
         public HomePage() //constructor por defecto
         {
             InitializeComponent();
-            
+            CargarProductosBajoStock();
+
         }
         private void guna2PictureBox1_Click(object sender, EventArgs e)
         {
@@ -31,12 +32,12 @@ namespace Proyecto_Stock_IQ
 
         private void HomePage_Load(object sender, EventArgs e)
         {
-
+            
         }
 
         private void listView_stock_SelectedIndexChanged(object sender, EventArgs e)
         {
-            listView_stock.BackColor = Color.FromArgb(246, 241, 236);
+            listView_orden.BackColor = Color.FromArgb(246, 241, 236);
         }
 
         private void btn_configuracion_Click(object sender, EventArgs e)
@@ -161,5 +162,23 @@ namespace Proyecto_Stock_IQ
             configuracion.Show();
             this.Hide(); // Oculta la ventana actual
         }
+
+        private void CargarProductosBajoStock()
+        {
+            listView_orden.Items.Clear();
+
+            // Ordenar por existencia (de menor a mayor)
+            var productosOrdenados = FormInventario.listaProvedores
+                .OrderBy(p => Convert.ToInt32(p.Existencia)) // Asegúrate que Existencia es numérica
+                .ToList();
+
+            foreach (var producto in productosOrdenados)
+            {
+                ListViewItem item = new ListViewItem(producto.Producto);
+                item.SubItems.Add(producto.Existencia);
+                listView_orden.Items.Add(item);
+            }
+        }
+
     }
 }

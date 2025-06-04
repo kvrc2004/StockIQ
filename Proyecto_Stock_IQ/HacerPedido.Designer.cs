@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(HacerPedido));
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
+            this.txt_agregarProducto = new Guna.UI2.WinForms.Guna2TextBox();
             this.btn_guardarCantidad = new Guna.UI2.WinForms.Guna2Button();
             this.guna2HtmlLabel3 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.cmb_categoria = new Guna.UI2.WinForms.Guna2ComboBox();
@@ -56,7 +57,6 @@
             this.guna2HtmlLabel6 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.clientes = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.txt_agregarProducto = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2Panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox6)).BeginInit();
@@ -71,19 +71,39 @@
             // guna2Panel1
             // 
             this.guna2Panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(229)))), ((int)(((byte)(223)))));
+            this.guna2Panel1.Controls.Add(this.cmb_categoria);
+            this.guna2Panel1.Controls.Add(this.cmb_proveedor);
             this.guna2Panel1.Controls.Add(this.txt_agregarProducto);
             this.guna2Panel1.Controls.Add(this.btn_guardarCantidad);
             this.guna2Panel1.Controls.Add(this.guna2HtmlLabel3);
-            this.guna2Panel1.Controls.Add(this.cmb_categoria);
             this.guna2Panel1.Controls.Add(this.guna2HtmlLabel8);
             this.guna2Panel1.Controls.Add(this.guna2HtmlLabel7);
-            this.guna2Panel1.Controls.Add(this.cmb_proveedor);
             this.guna2Panel1.Controls.Add(this.listView_crearPedido);
             this.guna2Panel1.Location = new System.Drawing.Point(306, 30);
             this.guna2Panel1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.guna2Panel1.Name = "guna2Panel1";
             this.guna2Panel1.Size = new System.Drawing.Size(854, 622);
             this.guna2Panel1.TabIndex = 67;
+            // 
+            // txt_agregarProducto
+            // 
+            this.txt_agregarProducto.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txt_agregarProducto.DefaultText = "";
+            this.txt_agregarProducto.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txt_agregarProducto.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txt_agregarProducto.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txt_agregarProducto.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txt_agregarProducto.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txt_agregarProducto.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txt_agregarProducto.ForeColor = System.Drawing.Color.Black;
+            this.txt_agregarProducto.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txt_agregarProducto.Location = new System.Drawing.Point(47, 84);
+            this.txt_agregarProducto.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
+            this.txt_agregarProducto.Name = "txt_agregarProducto";
+            this.txt_agregarProducto.PlaceholderText = "";
+            this.txt_agregarProducto.SelectedText = "";
+            this.txt_agregarProducto.Size = new System.Drawing.Size(300, 37);
+            this.txt_agregarProducto.TabIndex = 49;
             // 
             // btn_guardarCantidad
             // 
@@ -93,7 +113,7 @@
             this.btn_guardarCantidad.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btn_guardarCantidad.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.btn_guardarCantidad.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(180)))), ((int)(((byte)(21)))));
-            this.btn_guardarCantidad.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_guardarCantidad.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_guardarCantidad.ForeColor = System.Drawing.Color.Black;
             this.btn_guardarCantidad.Location = new System.Drawing.Point(231, 501);
             this.btn_guardarCantidad.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -104,12 +124,13 @@
             // 
             // guna2HtmlLabel3
             // 
+            this.guna2HtmlLabel3.AutoSize = false;
             this.guna2HtmlLabel3.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel3.Location = new System.Drawing.Point(47, 298);
             this.guna2HtmlLabel3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.guna2HtmlLabel3.Name = "guna2HtmlLabel3";
-            this.guna2HtmlLabel3.Size = new System.Drawing.Size(113, 34);
+            this.guna2HtmlLabel3.Size = new System.Drawing.Size(300, 69);
             this.guna2HtmlLabel3.TabIndex = 10;
             this.guna2HtmlLabel3.Text = "Categoría";
             // 
@@ -144,23 +165,25 @@
             // 
             // guna2HtmlLabel8
             // 
+            this.guna2HtmlLabel8.AutoSize = false;
             this.guna2HtmlLabel8.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel8.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel8.Location = new System.Drawing.Point(47, 164);
             this.guna2HtmlLabel8.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.guna2HtmlLabel8.Name = "guna2HtmlLabel8";
-            this.guna2HtmlLabel8.Size = new System.Drawing.Size(122, 34);
+            this.guna2HtmlLabel8.Size = new System.Drawing.Size(300, 64);
             this.guna2HtmlLabel8.TabIndex = 8;
             this.guna2HtmlLabel8.Text = "Proveedor";
             // 
             // guna2HtmlLabel7
             // 
+            this.guna2HtmlLabel7.AutoSize = false;
             this.guna2HtmlLabel7.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel7.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel7.Location = new System.Drawing.Point(47, 41);
             this.guna2HtmlLabel7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.guna2HtmlLabel7.Name = "guna2HtmlLabel7";
-            this.guna2HtmlLabel7.Size = new System.Drawing.Size(105, 34);
+            this.guna2HtmlLabel7.Size = new System.Drawing.Size(300, 59);
             this.guna2HtmlLabel7.TabIndex = 7;
             this.guna2HtmlLabel7.Text = "Cantidad";
             // 
@@ -433,26 +456,6 @@
             this.guna2HtmlLabel2.Text = "Inventario de repuestos";
             this.guna2HtmlLabel2.Click += new System.EventHandler(this.guna2HtmlLabel2_Click);
             // 
-            // txt_agregarProducto
-            // 
-            this.txt_agregarProducto.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txt_agregarProducto.DefaultText = "";
-            this.txt_agregarProducto.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.txt_agregarProducto.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.txt_agregarProducto.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txt_agregarProducto.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txt_agregarProducto.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txt_agregarProducto.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.txt_agregarProducto.ForeColor = System.Drawing.Color.Black;
-            this.txt_agregarProducto.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txt_agregarProducto.Location = new System.Drawing.Point(47, 84);
-            this.txt_agregarProducto.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
-            this.txt_agregarProducto.Name = "txt_agregarProducto";
-            this.txt_agregarProducto.PlaceholderText = "";
-            this.txt_agregarProducto.SelectedText = "";
-            this.txt_agregarProducto.Size = new System.Drawing.Size(300, 37);
-            this.txt_agregarProducto.TabIndex = 49;
-            // 
             // HacerPedido
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -478,8 +481,8 @@
             this.Name = "HacerPedido";
             this.Text = "HacerPedido";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.HacerPedido_FormClosing);
+            this.Load += new System.EventHandler(this.HacerPedido_Load);
             this.guna2Panel1.ResumeLayout(false);
-            this.guna2Panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox5)).EndInit();
