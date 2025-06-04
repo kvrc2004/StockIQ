@@ -98,7 +98,7 @@
             this.guna2Panel1.Controls.Add(this.btn_agregarProducto);
             this.guna2Panel1.Controls.Add(this.listView_inventario);
             this.guna2Panel1.Location = new System.Drawing.Point(280, 23);
-            this.guna2Panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2Panel1.Margin = new System.Windows.Forms.Padding(4);
             this.guna2Panel1.Name = "guna2Panel1";
             this.guna2Panel1.Size = new System.Drawing.Size(759, 498);
             this.guna2Panel1.TabIndex = 49;
@@ -565,7 +565,7 @@
             this.gpb_StockIQ.Image = ((System.Drawing.Image)(resources.GetObject("gpb_StockIQ.Image")));
             this.gpb_StockIQ.ImageRotate = 0F;
             this.gpb_StockIQ.Location = new System.Drawing.Point(-9, 23);
-            this.gpb_StockIQ.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.gpb_StockIQ.Margin = new System.Windows.Forms.Padding(4);
             this.gpb_StockIQ.Name = "gpb_StockIQ";
             this.gpb_StockIQ.Size = new System.Drawing.Size(283, 62);
             this.gpb_StockIQ.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -850,6 +850,7 @@
             this.Controls.Add(this.lbl_inventario);
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "FormInventario";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FormInventario";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FormInventario_FormClosing);
             this.Load += new System.EventHandler(this.FormInventario_Load);

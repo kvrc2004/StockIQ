@@ -7,20 +7,12 @@
       "RelativeMoniker": "D:0:0:{97A46BDD-BFE1-4BD0-BD2D-EFEB8217BFD9}|Proyecto_Stock_IQ\\Proyecto_Stock_IQ.csproj|solutionrelative:proyecto_stock_iq\\clientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{97A46BDD-BFE1-4BD0-BD2D-EFEB8217BFD9}|Proyecto_Stock_IQ\\Proyecto_Stock_IQ.csproj|C:\\Users\\Luz\\source\\repos\\StockIQ\\proyecto_stock_iq\\clientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{97A46BDD-BFE1-4BD0-BD2D-EFEB8217BFD9}|Proyecto_Stock_IQ\\Proyecto_Stock_IQ.csproj|solutionrelative:proyecto_stock_iq\\clientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{97A46BDD-BFE1-4BD0-BD2D-EFEB8217BFD9}|Proyecto_Stock_IQ\\Proyecto_Stock_IQ.csproj|c:\\users\\luz\\source\\repos\\stockiq\\proyecto_stock_iq\\hacerpedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{97A46BDD-BFE1-4BD0-BD2D-EFEB8217BFD9}|Proyecto_Stock_IQ\\Proyecto_Stock_IQ.csproj|solutionrelative:proyecto_stock_iq\\hacerpedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{97A46BDD-BFE1-4BD0-BD2D-EFEB8217BFD9}|Proyecto_Stock_IQ\\Proyecto_Stock_IQ.csproj|C:\\Users\\Luz\\source\\repos\\StockIQ\\proyecto_stock_iq\\homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{97A46BDD-BFE1-4BD0-BD2D-EFEB8217BFD9}|Proyecto_Stock_IQ\\Proyecto_Stock_IQ.csproj|solutionrelative:proyecto_stock_iq\\homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{97A46BDD-BFE1-4BD0-BD2D-EFEB8217BFD9}|Proyecto_Stock_IQ\\Proyecto_Stock_IQ.csproj|c:\\users\\luz\\source\\repos\\stockiq\\proyecto_stock_iq\\homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{97A46BDD-BFE1-4BD0-BD2D-EFEB8217BFD9}|Proyecto_Stock_IQ\\Proyecto_Stock_IQ.csproj|solutionrelative:proyecto_stock_iq\\homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{97A46BDD-BFE1-4BD0-BD2D-EFEB8217BFD9}|Proyecto_Stock_IQ\\Proyecto_Stock_IQ.csproj|C:\\Users\\Luz\\source\\repos\\StockIQ\\proyecto_stock_iq\\forminventario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{97A46BDD-BFE1-4BD0-BD2D-EFEB8217BFD9}|Proyecto_Stock_IQ\\Proyecto_Stock_IQ.csproj|solutionrelative:proyecto_stock_iq\\forminventario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{97A46BDD-BFE1-4BD0-BD2D-EFEB8217BFD9}|Proyecto_Stock_IQ\\Proyecto_Stock_IQ.csproj|C:\\Users\\Luz\\source\\repos\\StockIQ\\proyecto_stock_iq\\crearfactura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{97A46BDD-BFE1-4BD0-BD2D-EFEB8217BFD9}|Proyecto_Stock_IQ\\Proyecto_Stock_IQ.csproj|solutionrelative:proyecto_stock_iq\\crearfactura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{97A46BDD-BFE1-4BD0-BD2D-EFEB8217BFD9}|Proyecto_Stock_IQ\\Proyecto_Stock_IQ.csproj|C:\\Users\\Luz\\source\\repos\\StockIQ\\proyecto_stock_iq\\crearfactura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -31,16 +23,24 @@
       "RelativeMoniker": "D:0:0:{97A46BDD-BFE1-4BD0-BD2D-EFEB8217BFD9}|Proyecto_Stock_IQ\\Proyecto_Stock_IQ.csproj|solutionrelative:proyecto_stock_iq\\forminventario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{97A46BDD-BFE1-4BD0-BD2D-EFEB8217BFD9}|Proyecto_Stock_IQ\\Proyecto_Stock_IQ.csproj|C:\\Users\\Luz\\source\\repos\\StockIQ\\proyecto_stock_iq\\crearfactura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{97A46BDD-BFE1-4BD0-BD2D-EFEB8217BFD9}|Proyecto_Stock_IQ\\Proyecto_Stock_IQ.csproj|solutionrelative:proyecto_stock_iq\\crearfactura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{97A46BDD-BFE1-4BD0-BD2D-EFEB8217BFD9}|Proyecto_Stock_IQ\\Proyecto_Stock_IQ.csproj|C:\\Users\\Luz\\source\\repos\\StockIQ\\proyecto_stock_iq\\forminventario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97A46BDD-BFE1-4BD0-BD2D-EFEB8217BFD9}|Proyecto_Stock_IQ\\Proyecto_Stock_IQ.csproj|solutionrelative:proyecto_stock_iq\\forminventario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97A46BDD-BFE1-4BD0-BD2D-EFEB8217BFD9}|Proyecto_Stock_IQ\\Proyecto_Stock_IQ.csproj|C:\\Users\\Luz\\source\\repos\\StockIQ\\proyecto_stock_iq\\clientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97A46BDD-BFE1-4BD0-BD2D-EFEB8217BFD9}|Proyecto_Stock_IQ\\Proyecto_Stock_IQ.csproj|solutionrelative:proyecto_stock_iq\\clientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97A46BDD-BFE1-4BD0-BD2D-EFEB8217BFD9}|Proyecto_Stock_IQ\\Proyecto_Stock_IQ.csproj|C:\\Users\\Luz\\source\\repos\\StockIQ\\proyecto_stock_iq\\homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97A46BDD-BFE1-4BD0-BD2D-EFEB8217BFD9}|Proyecto_Stock_IQ\\Proyecto_Stock_IQ.csproj|solutionrelative:proyecto_stock_iq\\homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97A46BDD-BFE1-4BD0-BD2D-EFEB8217BFD9}|Proyecto_Stock_IQ\\Proyecto_Stock_IQ.csproj|C:\\Users\\Luz\\source\\repos\\StockIQ\\proyecto_stock_iq\\homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{97A46BDD-BFE1-4BD0-BD2D-EFEB8217BFD9}|Proyecto_Stock_IQ\\Proyecto_Stock_IQ.csproj|solutionrelative:proyecto_stock_iq\\homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{97A46BDD-BFE1-4BD0-BD2D-EFEB8217BFD9}|Proyecto_Stock_IQ\\Proyecto_Stock_IQ.csproj|C:\\Users\\Luz\\source\\repos\\StockIQ\\proyecto_stock_iq\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{97A46BDD-BFE1-4BD0-BD2D-EFEB8217BFD9}|Proyecto_Stock_IQ\\Proyecto_Stock_IQ.csproj|solutionrelative:proyecto_stock_iq\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{97A46BDD-BFE1-4BD0-BD2D-EFEB8217BFD9}|Proyecto_Stock_IQ\\Proyecto_Stock_IQ.csproj|C:\\Users\\Luz\\source\\repos\\StockIQ\\proyecto_stock_iq\\hacerpedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{97A46BDD-BFE1-4BD0-BD2D-EFEB8217BFD9}|Proyecto_Stock_IQ\\Proyecto_Stock_IQ.csproj|solutionrelative:proyecto_stock_iq\\hacerpedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{97A46BDD-BFE1-4BD0-BD2D-EFEB8217BFD9}|Proyecto_Stock_IQ\\Proyecto_Stock_IQ.csproj|C:\\Users\\Luz\\source\\repos\\StockIQ\\proyecto_stock_iq\\configuracion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -70,33 +70,76 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "HomePage.cs",
+              "DocumentIndex": 4,
+              "Title": "FormInventario.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Luz\\source\\repos\\StockIQ\\Proyecto_Stock_IQ\\FormInventario.cs",
+              "RelativeDocumentMoniker": "Proyecto_Stock_IQ\\FormInventario.cs",
+              "ToolTip": "C:\\Users\\Luz\\source\\repos\\StockIQ\\Proyecto_Stock_IQ\\FormInventario.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Proyecto_Stock_IQ\\FormInventario.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T01:24:58.693Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CrearFactura.cs",
+              "DocumentMoniker": "C:\\Users\\Luz\\source\\repos\\StockIQ\\Proyecto_Stock_IQ\\CrearFactura.cs",
+              "RelativeDocumentMoniker": "Proyecto_Stock_IQ\\CrearFactura.cs",
+              "ToolTip": "C:\\Users\\Luz\\source\\repos\\StockIQ\\Proyecto_Stock_IQ\\CrearFactura.cs",
+              "RelativeToolTip": "Proyecto_Stock_IQ\\CrearFactura.cs",
+              "ViewState": "AgIAAKoAAAAAAAAAAAAqwNcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T04:48:51.852Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FormInventario.cs",
+              "DocumentMoniker": "C:\\Users\\Luz\\source\\repos\\StockIQ\\Proyecto_Stock_IQ\\FormInventario.cs",
+              "RelativeDocumentMoniker": "Proyecto_Stock_IQ\\FormInventario.cs",
+              "ToolTip": "C:\\Users\\Luz\\source\\repos\\StockIQ\\Proyecto_Stock_IQ\\FormInventario.cs",
+              "RelativeToolTip": "Proyecto_Stock_IQ\\FormInventario.cs",
+              "ViewState": "AgIAAHABAAAAAAAAAADwv4MBAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T04:42:46.106Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "HomePage.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Luz\\source\\repos\\StockIQ\\Proyecto_Stock_IQ\\HomePage.cs",
               "RelativeDocumentMoniker": "Proyecto_Stock_IQ\\HomePage.cs",
-              "ToolTip": "C:\\Users\\Luz\\source\\repos\\StockIQ\\Proyecto_Stock_IQ\\HomePage.cs",
-              "RelativeToolTip": "Proyecto_Stock_IQ\\HomePage.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAADwvxYAAAAJAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Luz\\source\\repos\\StockIQ\\Proyecto_Stock_IQ\\HomePage.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Proyecto_Stock_IQ\\HomePage.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-29T15:26:32.972Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-29T15:26:24.957Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CrearFactura.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Luz\\source\\repos\\StockIQ\\Proyecto_Stock_IQ\\CrearFactura.cs",
+              "RelativeDocumentMoniker": "Proyecto_Stock_IQ\\CrearFactura.cs",
+              "ToolTip": "C:\\Users\\Luz\\source\\repos\\StockIQ\\Proyecto_Stock_IQ\\CrearFactura.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Proyecto_Stock_IQ\\CrearFactura.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T16:54:59.073Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Clientes.cs",
-              "DocumentMoniker": "C:\\Users\\Luz\\source\\repos\\StockIQ\\Proyecto_Stock_IQ\\Clientes.cs",
-              "RelativeDocumentMoniker": "Proyecto_Stock_IQ\\Clientes.cs",
-              "ToolTip": "C:\\Users\\Luz\\source\\repos\\StockIQ\\Proyecto_Stock_IQ\\Clientes.cs",
-              "RelativeToolTip": "Proyecto_Stock_IQ\\Clientes.cs",
-              "ViewState": "AgIAAE8BAAAAAAAAAAAuwGcBAAAAAAAAAAAAAA==",
+              "Title": "HacerPedido.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Luz\\source\\repos\\StockIQ\\Proyecto_Stock_IQ\\HacerPedido.cs",
+              "RelativeDocumentMoniker": "Proyecto_Stock_IQ\\HacerPedido.cs",
+              "ToolTip": "C:\\Users\\Luz\\source\\repos\\StockIQ\\Proyecto_Stock_IQ\\HacerPedido.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Proyecto_Stock_IQ\\HacerPedido.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-29T16:57:41.804Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-03T01:25:10.574Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
@@ -113,49 +156,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "FormInventario.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Luz\\source\\repos\\StockIQ\\Proyecto_Stock_IQ\\FormInventario.cs",
-              "RelativeDocumentMoniker": "Proyecto_Stock_IQ\\FormInventario.cs",
-              "ToolTip": "C:\\Users\\Luz\\source\\repos\\StockIQ\\Proyecto_Stock_IQ\\FormInventario.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Proyecto_Stock_IQ\\FormInventario.cs [Dise\u00F1o]",
+              "Title": "Clientes.cs",
+              "DocumentMoniker": "C:\\Users\\Luz\\source\\repos\\StockIQ\\Proyecto_Stock_IQ\\Clientes.cs",
+              "RelativeDocumentMoniker": "Proyecto_Stock_IQ\\Clientes.cs",
+              "ToolTip": "C:\\Users\\Luz\\source\\repos\\StockIQ\\Proyecto_Stock_IQ\\Clientes.cs",
+              "RelativeToolTip": "Proyecto_Stock_IQ\\Clientes.cs",
+              "ViewState": "AgIAAE8BAAAAAAAAAAAuwGcBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-03T01:24:58.693Z"
+              "WhenOpened": "2025-05-29T16:57:41.804Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CrearFactura.cs",
-              "DocumentMoniker": "C:\\Users\\Luz\\source\\repos\\StockIQ\\Proyecto_Stock_IQ\\CrearFactura.cs",
-              "RelativeDocumentMoniker": "Proyecto_Stock_IQ\\CrearFactura.cs",
-              "ToolTip": "C:\\Users\\Luz\\source\\repos\\StockIQ\\Proyecto_Stock_IQ\\CrearFactura.cs",
-              "RelativeToolTip": "Proyecto_Stock_IQ\\CrearFactura.cs",
-              "ViewState": "AgIAAKoAAAAAAAAAAAAqwNcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-03T04:48:51.852Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "FormInventario.cs",
-              "DocumentMoniker": "C:\\Users\\Luz\\source\\repos\\StockIQ\\Proyecto_Stock_IQ\\FormInventario.cs",
-              "RelativeDocumentMoniker": "Proyecto_Stock_IQ\\FormInventario.cs",
-              "ToolTip": "C:\\Users\\Luz\\source\\repos\\StockIQ\\Proyecto_Stock_IQ\\FormInventario.cs",
-              "RelativeToolTip": "Proyecto_Stock_IQ\\FormInventario.cs",
-              "ViewState": "AgIAAIUBAAAAAAAAAAAAwJYBAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-03T04:42:46.106Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "HomePage.cs [Dise\u00F1o]",
+              "DocumentIndex": 7,
+              "Title": "HomePage.cs",
               "DocumentMoniker": "C:\\Users\\Luz\\source\\repos\\StockIQ\\Proyecto_Stock_IQ\\HomePage.cs",
               "RelativeDocumentMoniker": "Proyecto_Stock_IQ\\HomePage.cs",
-              "ToolTip": "C:\\Users\\Luz\\source\\repos\\StockIQ\\Proyecto_Stock_IQ\\HomePage.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Proyecto_Stock_IQ\\HomePage.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\Luz\\source\\repos\\StockIQ\\Proyecto_Stock_IQ\\HomePage.cs",
+              "RelativeToolTip": "Proyecto_Stock_IQ\\HomePage.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAADwvxYAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-29T15:26:24.957Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2025-05-29T15:26:32.972Z"
             },
             {
               "$type": "Document",
@@ -183,7 +204,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Cliente.cs",
               "DocumentMoniker": "C:\\Users\\Luz\\source\\repos\\StockIQ\\Proyecto_Stock_IQ\\Cliente.cs",
               "RelativeDocumentMoniker": "Proyecto_Stock_IQ\\Cliente.cs",
@@ -195,17 +216,6 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "CrearFactura.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Luz\\source\\repos\\StockIQ\\Proyecto_Stock_IQ\\CrearFactura.cs",
-              "RelativeDocumentMoniker": "Proyecto_Stock_IQ\\CrearFactura.cs",
-              "ToolTip": "C:\\Users\\Luz\\source\\repos\\StockIQ\\Proyecto_Stock_IQ\\CrearFactura.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Proyecto_Stock_IQ\\CrearFactura.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-29T16:54:59.073Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 10,
               "Title": "Configuracion.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Luz\\source\\repos\\StockIQ\\Proyecto_Stock_IQ\\Configuracion.cs",
@@ -214,17 +224,6 @@
               "RelativeToolTip": "..\\..\\..\\..\\Daniela\\source\\repos\\StockIQ\\Proyecto_Stock_IQ\\Configuracion.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-29T16:54:57.274Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "HacerPedido.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Luz\\source\\repos\\StockIQ\\Proyecto_Stock_IQ\\HacerPedido.cs",
-              "RelativeDocumentMoniker": "Proyecto_Stock_IQ\\HacerPedido.cs",
-              "ToolTip": "C:\\Users\\Daniela\\source\\repos\\StockIQ\\Proyecto_Stock_IQ\\HacerPedido.cs [Dise\u00F1o]",
-              "RelativeToolTip": "..\\..\\..\\..\\Daniela\\source\\repos\\StockIQ\\Proyecto_Stock_IQ\\HacerPedido.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-03T01:25:10.574Z"
             },
             {
               "$type": "Document",
