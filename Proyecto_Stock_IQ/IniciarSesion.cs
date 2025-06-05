@@ -13,12 +13,13 @@ using static Proyecto_Stock_IQ.Registrar;
 
 namespace Proyecto_Stock_IQ
 {
+    
     public partial class IniciarSesion: Form
     {
         public static class Globales
         {
             // CAMBIEN LA RUTA DEL ARCHIVO A LA QUE CORRESPONDA EN EL PROYECTO
-            public static string ArchivoUsuarios = "C:\\Users\\Luz\\source\\repos\\StockIQ\\Datos\\Usuarios.txt";
+            public static string ArchivoUsuarios = "C:\\Users\\Daniela\\source\\repos\\StockIQ\\Datos\\Usuarios.txt";
         }
         
         public IniciarSesion() 
@@ -74,8 +75,8 @@ namespace Proyecto_Stock_IQ
         private void glbl_Registrar_Click(object sender, EventArgs e) //Cambia a la ventana de Registrar
         {
             Registrar registrar = new Registrar();
-            registrar.ShowDialog(); // Se usa ShowDialog para que no se pueda acceder a la ventana anterior sin cerrar la actual, y asi se guarden los datos en la listas
-         
+            registrar.Show();// Se usa ShowDialog para que no se pueda acceder a la ventana anterior sin cerrar la actual, y asi se guarden los datos en la listas
+            this.Hide();
         }
         private void iniciarSesion_Cierre_Ventana(object sender, FormClosingEventArgs e)
         {

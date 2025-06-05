@@ -1,2 +1,8 @@
 admin,1010,1010,admin
 Kevin,1020103762,2020,Usuario
+admin,1010,1010,admin
+buggy,1033,2007,Usuario
+admin,1010,1010,admin
+zeus,0807,1492,Usuario
+admin,1010,1010,admin
+Andrea,1492,1492,Usuario

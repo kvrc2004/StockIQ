@@ -115,7 +115,6 @@ namespace Proyecto_Stock_IQ
 
         private void HacerPedido_Load(object sender, EventArgs e)
         {
-
             listView_productos.Items.Clear();
 
             foreach (var item in FormInventario.listaProductos)
