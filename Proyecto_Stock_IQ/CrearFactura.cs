@@ -32,7 +32,6 @@ namespace Proyecto_Stock_IQ
         public CrearFactura()
         {
             InitializeComponent();
-            CargarProveedoresEnComboBox();
             TemasApp.AplicarTema(this);
         }
 
@@ -137,14 +136,6 @@ namespace Proyecto_Stock_IQ
                 listView_productos.Items.Add(fila);
             }
         }
-        private void CargarProveedoresEnComboBox()
-        {
-            cmb_proveedor.Items.Clear();
-            foreach (var proveedor in Proyecto_Stock_IQ.Proveedores.listaProveedores)
-            {
-                cmb_proveedor.Items.Add(proveedor);
-            }
-        }
 
         private void listView_productos_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -168,7 +159,7 @@ namespace Proyecto_Stock_IQ
 
             string nombreProducto = listView_productos.SelectedItems[0].SubItems[1].Text;
             string cantidad = txt_cantidadProducto.Text.Trim();
-            string categoria = cmb_categoria.Text.Trim();
+            string categoria = listView_productos.SelectedItems[0].SubItems[3].Text;
 
             if (string.IsNullOrWhiteSpace(cantidad) || string.IsNullOrWhiteSpace(categoria))
             {
@@ -181,7 +172,6 @@ namespace Proyecto_Stock_IQ
 
             // Limpiar campos
             txt_cantidadProducto.Clear();
-            cmb_categoria.SelectedIndex = -1;
         }
 
         private void btn_descargarFactura_Click(object sender, EventArgs e)

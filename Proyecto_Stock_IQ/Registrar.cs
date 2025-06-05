@@ -38,13 +38,6 @@ namespace Proyecto_Stock_IQ
             usuarios.Add(new Usuario("admin", "1010", "1010", "admin"));
         }
 
-        private void glbl_IniciarSesion_Click(object sender, EventArgs e) // ENVIA AL USUARIO A VENTANA DE INICIO DE SESION
-        {
-            IniciarSesion ingresar = new IniciarSesion();
-            ingresar.Show();
-            this.Hide();
-        }
-
         private void gbtn_Ingresar_Click(object sender, EventArgs e)
         {
             if (string.IsNullOrWhiteSpace(gtxt_Nombre.Text) || string.IsNullOrWhiteSpace(gtxt_Documento.Text) || string.IsNullOrWhiteSpace(gtxt_Password.Text))
@@ -89,6 +82,10 @@ namespace Proyecto_Stock_IQ
                 gtxt_Nombre.Clear(); //Limpia el campo de nombre
                 gtxt_Documento.Clear(); //Limpia el campo de documento
                 gtxt_Password.Clear(); //Limpia el campo de contraseña
+
+                HomePage homePage = new HomePage(); 
+                homePage.Show();
+                this.Hide();
             }
             catch (Exception ex)
             {
@@ -98,6 +95,7 @@ namespace Proyecto_Stock_IQ
         }
         private void registrar_Cierre_Ventana(object sender, FormClosingEventArgs e)
         {
+           
         }
 
         private void gtxt_Nombre_TextChanged(object sender, EventArgs e)
